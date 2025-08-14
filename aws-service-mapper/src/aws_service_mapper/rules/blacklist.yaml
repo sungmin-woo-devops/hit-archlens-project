@@ -1,0 +1,12 @@
+blacklist_tokens:
+  - marketplace
+  - partners
+  - repost
+  - sample
+  - icon
+  - pricing
+  - docs
+  - documentation
+  - faq
+  - support
+  - learn more

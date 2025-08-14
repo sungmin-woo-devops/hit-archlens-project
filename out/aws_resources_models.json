@@ -1,0 +1,3146 @@
+[
+  {
+    "service_code": "accessanalyzer",
+    "service_full_name": "Access Analyzer",
+    "main_resource_example": "AccessPreviewFinding",
+    "secondary_examples": "AccessPreviewSummary;AnalyzedResourceSummary",
+    "from_operation": "ListAccessPreviewFindings",
+    "id_fields_seen": "existingFindingId"
+  },
+  {
+    "service_code": "account",
+    "service_full_name": "AWS Account",
+    "main_resource_example": "Region",
+    "secondary_examples": "",
+    "from_operation": "ListRegions",
+    "id_fields_seen": "RegionName"
+  },
+  {
+    "service_code": "acm",
+    "service_full_name": "AWS Certificate Manager",
+    "main_resource_example": "CertificateSummary",
+    "secondary_examples": "DomainValidation;DomainValidation",
+    "from_operation": "ListCertificates",
+    "id_fields_seen": "CertificateArn;DomainName"
+  },
+  {
+    "service_code": "acm-pca",
+    "service_full_name": "AWS Certificate Manager Private Certificate Authority",
+    "main_resource_example": "Action",
+    "secondary_examples": "CertificateAuthority;AccessDescription",
+    "from_operation": "ListPermissions",
+    "id_fields_seen": "ActionName"
+  },
+  {
+    "service_code": "aiops",
+    "service_full_name": "AWS AI Ops",
+    "main_resource_example": "CrossAccountConfiguration",
+    "secondary_examples": "ListInvestigationGroupsModel",
+    "from_operation": "GetInvestigationGroup",
+    "id_fields_seen": "sourceRoleArn"
+  },
+  {
+    "service_code": "amp",
+    "service_full_name": "Amazon Prometheus Service",
+    "main_resource_example": "ScraperSummary",
+    "secondary_examples": "WorkspaceSummary;securityGroup",
+    "from_operation": "ListScrapers",
+    "id_fields_seen": "roleArn;scraperId"
+  },
+  {
+    "service_code": "amplify",
+    "service_full_name": "AWS Amplify",
+    "main_resource_example": "Branch",
+    "secondary_examples": "Webhook;DomainAssociation",
+    "from_operation": "ListBranches",
+    "id_fields_seen": "activeJobId;backendEnvironmentArn;branchArn;branchName;computeRoleArn;displayName;pullRequestEnvironmentName"
+  },
+  {
+    "service_code": "amplifybackend",
+    "service_full_name": "AmplifyBackend",
+    "main_resource_example": "BackendJobRespObj",
+    "secondary_examples": "S3BucketInfo;AdditionalConstraint",
+    "from_operation": "ListBackendJobs",
+    "id_fields_seen": "AppId;BackendEnvironmentName;JobId"
+  },
+  {
+    "service_code": "amplifyuibuilder",
+    "service_full_name": "AWS Amplify UI Builder",
+    "main_resource_example": "CodegenJobSummary",
+    "secondary_examples": "ComponentSummary;FormSummary",
+    "from_operation": "ListCodegenJobs",
+    "id_fields_seen": "appId;environmentName"
+  },
+  {
+    "service_code": "apigateway",
+    "service_full_name": "Amazon API Gateway",
+    "main_resource_example": "Domain",
+    "secondary_examples": "Stage;DomainNameAccessAssociation",
+    "from_operation": "GetDomainNames",
+    "id_fields_seen": "certificateArn;certificateName;distributionDomainName;distributionHostedZoneId;domainName;domainNameArn;domainNameId;ownershipVerificationCertificateArn;regionalCertificateArn;regionalCertificateName;regionalDomainName;regionalHostedZoneId"
+  },
+  {
+    "service_code": "apigatewayv2",
+    "service_full_name": "AmazonApiGatewayV2",
+    "main_resource_example": "DomainNameConfiguration",
+    "secondary_examples": "DomainNameConfiguration;DomainNameConfiguration",
+    "from_operation": "CreateDomainName",
+    "id_fields_seen": "ApiGatewayDomainName;CertificateArn;CertificateName;HostedZoneId;OwnershipVerificationCertificateArn"
+  },
+  {
+    "service_code": "appconfig",
+    "service_full_name": "Amazon AppConfig",
+    "main_resource_example": "ExtensionSummary",
+    "secondary_examples": "ActionInvocation;ActionInvocation",
+    "from_operation": "ListExtensions",
+    "id_fields_seen": "Arn;Id;Name"
+  },
+  {
+    "service_code": "appfabric",
+    "service_full_name": "AppFabric",
+    "main_resource_example": "UserAccessResultItem",
+    "secondary_examples": "AppAuthorizationSummary;IngestionSummary",
+    "from_operation": "BatchGetUserAccessTasks",
+    "id_fields_seen": "taskId;tenantDisplayName;tenantId;userFirstName;userFullName;userId;userLastName"
+  },
+  {
+    "service_code": "appflow",
+    "service_full_name": "Amazon Appflow",
+    "main_resource_example": "ConnectorProfile",
+    "secondary_examples": "FlowDefinition;ConnectorDetail",
+    "from_operation": "DescribeConnectorProfiles",
+    "id_fields_seen": "connectorProfileArn;connectorProfileName;credentialsArn"
+  },
+  {
+    "service_code": "appintegrations",
+    "service_full_name": "Amazon AppIntegrations Service",
+    "main_resource_example": "ApplicationSummary",
+    "secondary_examples": "EventIntegrationAssociation;ApplicationAssociationSummary",
+    "from_operation": "ListApplications",
+    "id_fields_seen": "Arn;Id;Name"
+  },
+  {
+    "service_code": "application-autoscaling",
+    "service_full_name": "Application Auto Scaling",
+    "main_resource_example": "ScheduledAction",
+    "secondary_examples": "Alarm;MetricDimension",
+    "from_operation": "DescribeScheduledActions",
+    "id_fields_seen": "ResourceId;ScheduledActionName"
+  },
+  {
+    "service_code": "application-insights",
+    "service_full_name": "Amazon CloudWatch Application Insights",
+    "main_resource_example": "ApplicationInfo",
+    "secondary_examples": "Observation;ConfigurationEvent",
+    "from_operation": "ListApplications",
+    "id_fields_seen": "AccountId;OpsItemSNSTopicArn;ResourceGroupName;SNSNotificationArn"
+  },
+  {
+    "service_code": "application-signals",
+    "service_full_name": "Amazon CloudWatch Application Signals",
+    "main_resource_example": "MetricReference",
+    "secondary_examples": "MetricReference;MetricReference",
+    "from_operation": "ListServiceDependencies",
+    "id_fields_seen": "AccountId;MetricName"
+  },
+  {
+    "service_code": "applicationcostprofiler",
+    "service_full_name": "AWS Application Cost Profiler",
+    "main_resource_example": "ReportDefinition",
+    "secondary_examples": "",
+    "from_operation": "ListReportDefinitions",
+    "id_fields_seen": "reportId"
+  },
+  {
+    "service_code": "appmesh",
+    "service_full_name": "AWS App Mesh",
+    "main_resource_example": "GatewayRouteRef",
+    "secondary_examples": "MeshRef;RouteRef",
+    "from_operation": "ListGatewayRoutes",
+    "id_fields_seen": "gatewayRouteName;meshName;virtualGatewayName"
+  },
+  {
+    "service_code": "apprunner",
+    "service_full_name": "AWS App Runner",
+    "main_resource_example": "ServiceSummary",
+    "secondary_examples": "VpcDNSTarget;VpcDNSTarget",
+    "from_operation": "ListServices",
+    "id_fields_seen": "ServiceArn;ServiceId;ServiceName"
+  },
+  {
+    "service_code": "appstream",
+    "service_full_name": "Amazon AppStream",
+    "main_resource_example": "User",
+    "secondary_examples": "AppBlock;AppBlockBuilder",
+    "from_operation": "DescribeUsers",
+    "id_fields_seen": "Arn;FirstName;LastName;UserName"
+  },
+  {
+    "service_code": "appsync",
+    "service_full_name": "AWS AppSync",
+    "main_resource_example": "DomainNameConfig",
+    "secondary_examples": "FunctionConfiguration;Api",
+    "from_operation": "ListDomainNames",
+    "id_fields_seen": "appsyncDomainName;certificateArn;domainName;domainNameArn;hostedZoneId"
+  },
+  {
+    "service_code": "apptest",
+    "service_full_name": "AWS Mainframe Modernization Application Testing",
+    "main_resource_example": "TestCaseSummary",
+    "secondary_examples": "TestConfigurationSummary;TestRunStepSummary",
+    "from_operation": "ListTestCases",
+    "id_fields_seen": "testCaseArn;testCaseId"
+  },
+  {
+    "service_code": "arc-region-switch",
+    "service_full_name": "ARC - Region switch",
+    "main_resource_example": "AbbreviatedExecution",
+    "secondary_examples": "EksCluster;EksCluster",
+    "from_operation": "ListPlanExecutions",
+    "id_fields_seen": "executionId;planArn"
+  },
+  {
+    "service_code": "arc-zonal-shift",
+    "service_full_name": "AWS ARC - Zonal Shift",
+    "main_resource_example": "ZonalShiftInResource",
+    "secondary_examples": "ZonalShiftSummary;availabilityZone",
+    "from_operation": "ListManagedResources",
+    "id_fields_seen": "zonalShiftId"
+  },
+  {
+    "service_code": "artifact",
+    "service_full_name": "AWS Artifact",
+    "main_resource_example": "CustomerAgreementSummary",
+    "secondary_examples": "ReportSummary;acceptanceTerm",
+    "from_operation": "ListCustomerAgreements",
+    "id_fields_seen": "agreementArn;awsAccountId;organizationArn"
+  },
+  {
+    "service_code": "athena",
+    "service_full_name": "Amazon Athena",
+    "main_resource_example": "WorkGroupSummary",
+    "secondary_examples": "NamedQuery;ApplicationDPUSize",
+    "from_operation": "ListWorkGroups",
+    "id_fields_seen": "IdentityCenterApplicationArn;Name"
+  },
+  {
+    "service_code": "auditmanager",
+    "service_full_name": "AWS Audit Manager",
+    "main_resource_example": "Delegation",
+    "secondary_examples": "Delegation;Delegation",
+    "from_operation": "ListAssessments",
+    "id_fields_seen": "assessmentId;assessmentName;controlSetId;roleArn"
+  },
+  {
+    "service_code": "autoscaling",
+    "service_full_name": "Auto Scaling",
+    "main_resource_example": "AutoScalingInstanceDetail",
+    "secondary_examples": "Instance;Instance",
+    "from_operation": "DescribeAutoScalingInstances",
+    "id_fields_seen": "AutoScalingGroupName;InstanceId;LaunchConfigurationName"
+  },
+  {
+    "service_code": "autoscaling-plans",
+    "service_full_name": "AWS Auto Scaling Plans",
+    "main_resource_example": "ScalingPlanResource",
+    "secondary_examples": "MetricDimension;MetricDimension",
+    "from_operation": "DescribeScalingPlanResources",
+    "id_fields_seen": "ResourceId;ScalingPlanName"
+  },
+  {
+    "service_code": "b2bi",
+    "service_full_name": "AWS B2B Data Interchange",
+    "main_resource_example": "ProfileSummary",
+    "secondary_examples": "CapabilitySummary;PartnershipSummary",
+    "from_operation": "ListProfiles",
+    "id_fields_seen": "businessName;logGroupName;profileId"
+  },
+  {
+    "service_code": "backup",
+    "service_full_name": "AWS Backup",
+    "main_resource_example": "BackupJob",
+    "secondary_examples": "BackupPlansListMember;BackupPlansListMember",
+    "from_operation": "ListBackupJobs",
+    "id_fields_seen": "AccountId;BackupJobId;BackupVaultArn;BackupVaultName;IamRoleArn;ParentJobId;RecoveryPointArn;ResourceArn;ResourceName"
+  },
+  {
+    "service_code": "backup-gateway",
+    "service_full_name": "AWS Backup Gateway",
+    "main_resource_example": "Gateway",
+    "secondary_examples": "VirtualMachine;Hypervisor",
+    "from_operation": "ListGateways",
+    "id_fields_seen": "GatewayArn;GatewayDisplayName;HypervisorId"
+  },
+  {
+    "service_code": "backupsearch",
+    "service_full_name": "AWS Backup Search",
+    "main_resource_example": "SearchJobSummary",
+    "secondary_examples": "ExportJobSummary;SearchJobBackupsResult",
+    "from_operation": "ListSearchJobs",
+    "id_fields_seen": "Name;SearchJobArn"
+  },
+  {
+    "service_code": "batch",
+    "service_full_name": "AWS Batch",
+    "main_resource_example": "JobDetail",
+    "secondary_examples": "JobSummary;ServiceJobSummary",
+    "from_operation": "DescribeJobs",
+    "id_fields_seen": "jobArn;jobId;jobName"
+  },
+  {
+    "service_code": "bcm-data-exports",
+    "service_full_name": "AWS Billing and Cost Management Data Exports",
+    "main_resource_example": "ExportReference",
+    "secondary_examples": "Table;TablePropertyDescription",
+    "from_operation": "ListExports",
+    "id_fields_seen": "ExportArn;ExportName"
+  },
+  {
+    "service_code": "bcm-pricing-calculator",
+    "service_full_name": "AWS Billing and Cost Management Pricing Calculator",
+    "main_resource_example": "BillEstimateCommitmentSummary",
+    "secondary_examples": "BillEstimateInputCommitmentModificationSummary;BillEstimateInputUsageModificationSummary",
+    "from_operation": "ListBillEstimateCommitments",
+    "id_fields_seen": "offeringId;usageAccountId"
+  },
+  {
+    "service_code": "bedrock",
+    "service_full_name": "Amazon Bedrock",
+    "main_resource_example": "CustomModelSummary",
+    "secondary_examples": "FoundationModelSummary;InferenceProfileSummary",
+    "from_operation": "ListCustomModels",
+    "id_fields_seen": "baseModelArn;baseModelName;modelArn;modelName;ownerAccountId"
+  },
+  {
+    "service_code": "bedrock-agent",
+    "service_full_name": "Agents for Amazon Bedrock",
+    "main_resource_example": "ActionGroupSummary",
+    "secondary_examples": "AgentAliasSummary;AgentCollaboratorSummary",
+    "from_operation": "ListAgentActionGroups",
+    "id_fields_seen": "actionGroupId;actionGroupName"
+  },
+  {
+    "service_code": "bedrock-agent-runtime",
+    "service_full_name": "Agents for Amazon Bedrock Runtime",
+    "main_resource_example": "SessionSummary",
+    "secondary_examples": "FlowExecutionSummary;InvocationStepSummary",
+    "from_operation": "ListSessions",
+    "id_fields_seen": "sessionArn;sessionId"
+  },
+  {
+    "service_code": "bedrock-agentcore",
+    "service_full_name": "Amazon Bedrock AgentCore Data Plane Fronting Layer",
+    "main_resource_example": "ActorSummary",
+    "secondary_examples": "BrowserSessionSummary;CodeInterpreterSessionSummary",
+    "from_operation": "ListActors",
+    "id_fields_seen": "actorId"
+  },
+  {
+    "service_code": "bedrock-agentcore-control",
+    "service_full_name": "Amazon Bedrock Agent Core Control Plane Fronting Layer",
+    "main_resource_example": "Agent",
+    "secondary_examples": "Agent;BrowserSummary",
+    "from_operation": "ListAgentRuntimeVersions",
+    "id_fields_seen": "agentRuntimeArn;agentRuntimeId;agentRuntimeName"
+  },
+  {
+    "service_code": "bedrock-data-automation",
+    "service_full_name": "Data Automation for Amazon Bedrock",
+    "main_resource_example": "BlueprintSummary",
+    "secondary_examples": "DataAutomationProjectSummary;BlueprintItem",
+    "from_operation": "ListBlueprints",
+    "id_fields_seen": "blueprintArn;blueprintName"
+  },
+  {
+    "service_code": "bedrock-runtime",
+    "service_full_name": "Amazon Bedrock Runtime",
+    "main_resource_example": "AsyncInvokeSummary",
+    "secondary_examples": "GuardrailAutomatedReasoningRule;GuardrailAutomatedReasoningRule",
+    "from_operation": "ListAsyncInvokes",
+    "id_fields_seen": "invocationArn;modelArn"
+  },
+  {
+    "service_code": "billing",
+    "service_full_name": "AWS Billing",
+    "main_resource_example": "BillingViewListElement",
+    "secondary_examples": "sourceView;value",
+    "from_operation": "ListBillingViews",
+    "id_fields_seen": "ownerAccountId"
+  },
+  {
+    "service_code": "billingconductor",
+    "service_full_name": "AWSBillingConductor",
+    "main_resource_example": "AccountAssociationsListElement",
+    "secondary_examples": "BillingGroupListElement;CustomLineItemListElement",
+    "from_operation": "ListAccountAssociations",
+    "id_fields_seen": "AccountId;AccountName;BillingGroupArn"
+  },
+  {
+    "service_code": "braket",
+    "service_full_name": "Braket",
+    "main_resource_example": "DeviceSummary",
+    "secondary_examples": "JobSummary;InputFileConfig",
+    "from_operation": "SearchDevices",
+    "id_fields_seen": "deviceArn;deviceName;providerName"
+  },
+  {
+    "service_code": "budgets",
+    "service_full_name": "AWS Budgets",
+    "main_resource_example": "Action",
+    "secondary_examples": "Action;Budget",
+    "from_operation": "DescribeBudgetActionsForAccount",
+    "id_fields_seen": "ActionId;BudgetName;ExecutionRoleArn"
+  },
+  {
+    "service_code": "ce",
+    "service_full_name": "AWS Cost Explorer Service",
+    "main_resource_example": "AnomalySubscription",
+    "secondary_examples": "CostCategoryReference;Anomaly",
+    "from_operation": "GetAnomalySubscriptions",
+    "id_fields_seen": "AccountId;SubscriptionArn;SubscriptionName"
+  },
+  {
+    "service_code": "chatbot",
+    "service_full_name": "AWS Chatbot",
+    "main_resource_example": "SlackChannelConfiguration",
+    "secondary_examples": "TeamsChannelConfiguration;SlackUserIdentity",
+    "from_operation": "DescribeSlackChannelConfigurations",
+    "id_fields_seen": "ChatConfigurationArn;ConfigurationName;IamRoleArn;SlackChannelId;SlackChannelName;SlackTeamId;SlackTeamName"
+  },
+  {
+    "service_code": "chime",
+    "service_full_name": "Amazon Chime",
+    "main_resource_example": "User",
+    "secondary_examples": "Account;Bot",
+    "from_operation": "ListUsers",
+    "id_fields_seen": "AccountId;DisplayName;UserId"
+  },
+  {
+    "service_code": "chime-sdk-identity",
+    "service_full_name": "Amazon Chime SDK Identity",
+    "main_resource_example": "AppInstanceBotSummary",
+    "secondary_examples": "AppInstanceSummary;AppInstanceUserEndpointSummary",
+    "from_operation": "ListAppInstanceBots",
+    "id_fields_seen": "AppInstanceBotArn;Name"
+  },
+  {
+    "service_code": "chime-sdk-media-pipelines",
+    "service_full_name": "Amazon Chime SDK Media Pipelines",
+    "main_resource_example": "KinesisVideoStreamPoolSummary",
+    "secondary_examples": "MediaInsightsPipelineConfigurationSummary;MediaCapturePipelineSummary",
+    "from_operation": "ListMediaPipelineKinesisVideoStreamPools",
+    "id_fields_seen": "PoolArn;PoolId;PoolName"
+  },
+  {
+    "service_code": "chime-sdk-meetings",
+    "service_full_name": "Amazon Chime SDK Meetings",
+    "main_resource_example": "Attendee",
+    "secondary_examples": "Attendee;Attendee",
+    "from_operation": "ListAttendees",
+    "id_fields_seen": "AttendeeId;ExternalUserId"
+  },
+  {
+    "service_code": "chime-sdk-messaging",
+    "service_full_name": "Amazon Chime SDK Messaging",
+    "main_resource_example": "ChannelAssociatedWithFlowSummary",
+    "secondary_examples": "ChannelFlowSummary;ChannelSummary",
+    "from_operation": "ListChannelsAssociatedWithChannelFlow",
+    "id_fields_seen": "ChannelArn;Name"
+  },
+  {
+    "service_code": "chime-sdk-voice",
+    "service_full_name": "Amazon Chime SDK Voice",
+    "main_resource_example": "VoiceProfileDomainSummary",
+    "secondary_examples": "SipMediaApplication;VoiceConnector",
+    "from_operation": "ListVoiceProfileDomains",
+    "id_fields_seen": "Name;VoiceProfileDomainArn;VoiceProfileDomainId"
+  },
+  {
+    "service_code": "cleanrooms",
+    "service_full_name": "AWS Clean Rooms Service",
+    "main_resource_example": "CollaborationSummary",
+    "secondary_examples": "MemberSummary;MembershipSummary",
+    "from_operation": "ListCollaborations",
+    "id_fields_seen": "creatorAccountId;creatorDisplayName;membershipArn;membershipId"
+  },
+  {
+    "service_code": "cleanroomsml",
+    "service_full_name": "AWS Clean Rooms ML",
+    "main_resource_example": "AudienceGenerationJobSummary",
+    "secondary_examples": "CollaborationConfiguredModelAlgorithmAssociationSummary;CollaborationMLInputChannelSummary",
+    "from_operation": "ListAudienceGenerationJobs",
+    "id_fields_seen": "audienceGenerationJobArn;collaborationId;configuredAudienceModelArn"
+  },
+  {
+    "service_code": "cloud9",
+    "service_full_name": "AWS Cloud9",
+    "main_resource_example": "EnvironmentMember",
+    "secondary_examples": "Environment;environment",
+    "from_operation": "DescribeEnvironmentMemberships",
+    "id_fields_seen": "environmentId;userArn;userId"
+  },
+  {
+    "service_code": "cloudcontrol",
+    "service_full_name": "AWS Cloud Control API",
+    "main_resource_example": "HookProgressEvent",
+    "secondary_examples": "ProgressEvent;ResourceDescription",
+    "from_operation": "GetResourceRequestStatus",
+    "id_fields_seen": "HookTypeArn;HookTypeName;HookTypeVersionId"
+  },
+  {
+    "service_code": "clouddirectory",
+    "service_full_name": "Amazon CloudDirectory",
+    "main_resource_example": "Directory",
+    "secondary_examples": "SchemaFacet;SchemaFacet",
+    "from_operation": "ListDirectories",
+    "id_fields_seen": "DirectoryArn;Name"
+  },
+  {
+    "service_code": "cloudformation",
+    "service_full_name": "AWS CloudFormation",
+    "main_resource_example": "TypeSummary",
+    "secondary_examples": "TypeVersionSummary;ChangeSetHook",
+    "from_operation": "ListTypes",
+    "id_fields_seen": "DefaultVersionId;OriginalTypeName;PublisherId;PublisherName;TypeArn;TypeName"
+  },
+  {
+    "service_code": "cloudfront",
+    "service_full_name": "Amazon CloudFront",
+    "main_resource_example": "AnycastIpListSummary",
+    "secondary_examples": "ConnectionGroupSummary;DistributionTenantSummary",
+    "from_operation": "ListAnycastIpLists",
+    "id_fields_seen": "Arn;Id;Name"
+  },
+  {
+    "service_code": "cloudfront-keyvaluestore",
+    "service_full_name": "Amazon CloudFront KeyValueStore",
+    "main_resource_example": "ListKeysResponseListItem",
+    "secondary_examples": "",
+    "from_operation": "ListKeys",
+    "id_fields_seen": ""
+  },
+  {
+    "service_code": "cloudhsm",
+    "service_full_name": "Amazon CloudHSM",
+    "main_resource_example": "AZList",
+    "secondary_examples": "ClientList;HapgList",
+    "from_operation": "ListAvailableZones",
+    "id_fields_seen": "AZListName"
+  },
+  {
+    "service_code": "cloudhsmv2",
+    "service_full_name": "AWS CloudHSM V2",
+    "main_resource_example": "Backup",
+    "secondary_examples": "Cluster;Hsm",
+    "from_operation": "DescribeBackups",
+    "id_fields_seen": "BackupArn;BackupId;ClusterId"
+  },
+  {
+    "service_code": "cloudsearch",
+    "service_full_name": "Amazon CloudSearch",
+    "main_resource_example": "DomainStatu",
+    "secondary_examples": "Field;Field",
+    "from_operation": "DescribeDomains",
+    "id_fields_seen": "DomainId;DomainName"
+  },
+  {
+    "service_code": "cloudtrail",
+    "service_full_name": "AWS CloudTrail",
+    "main_resource_example": "Trail",
+    "secondary_examples": "Channel;EventDataStore",
+    "from_operation": "DescribeTrails",
+    "id_fields_seen": "CloudWatchLogsLogGroupArn;CloudWatchLogsRoleArn;KmsKeyId;Name;S3BucketName;SnsTopicName"
+  },
+  {
+    "service_code": "cloudwatch",
+    "service_full_name": "Amazon CloudWatch",
+    "main_resource_example": "MetricAlarm",
+    "secondary_examples": "MetricAlarm;MetricStreamEntry",
+    "from_operation": "DescribeAlarms",
+    "id_fields_seen": "AlarmArn;AlarmName;MetricName;ThresholdMetricId"
+  },
+  {
+    "service_code": "codeartifact",
+    "service_full_name": "CodeArtifact",
+    "main_resource_example": "UpstreamRepositoryInfo",
+    "secondary_examples": "PackageGroupSummary;PackageGroupSummary",
+    "from_operation": "DescribeRepository",
+    "id_fields_seen": "repositoryName"
+  },
+  {
+    "service_code": "codebuild",
+    "service_full_name": "AWS CodeBuild",
+    "main_resource_example": "CommandExecution",
+    "secondary_examples": "TestCase;Build",
+    "from_operation": "ListCommandExecutionsForSandbox",
+    "id_fields_seen": "sandboxArn;sandboxId"
+  },
+  {
+    "service_code": "codecatalyst",
+    "service_full_name": "Amazon CodeCatalyst",
+    "main_resource_example": "DevEnvironmentSessionSummary",
+    "secondary_examples": "DevEnvironmentSummary;EventLogEntry",
+    "from_operation": "ListDevEnvironmentSessions",
+    "id_fields_seen": "devEnvironmentId;projectName;spaceName"
+  },
+  {
+    "service_code": "codecommit",
+    "service_full_name": "AWS CodeCommit",
+    "main_resource_example": "PullRequestEvent",
+    "secondary_examples": "RepositoryNameIdPair;ApprovalRule",
+    "from_operation": "DescribePullRequestEvents",
+    "id_fields_seen": "actorArn;pullRequestId"
+  },
+  {
+    "service_code": "codeconnections",
+    "service_full_name": "AWS CodeConnections",
+    "main_resource_example": "Connection",
+    "secondary_examples": "RepositoryLinkInfo;SyncConfiguration",
+    "from_operation": "ListConnections",
+    "id_fields_seen": "ConnectionArn;ConnectionName;HostArn;OwnerAccountId"
+  },
+  {
+    "service_code": "codedeploy",
+    "service_full_name": "AWS CodeDeploy",
+    "main_resource_example": "DeploymentGroupInfo",
+    "secondary_examples": "InstanceInfo;ApplicationInfo",
+    "from_operation": "BatchGetDeploymentGroups",
+    "id_fields_seen": "applicationName;deploymentConfigName;deploymentGroupId;deploymentGroupName;serviceRoleArn"
+  },
+  {
+    "service_code": "codeguru-reviewer",
+    "service_full_name": "Amazon CodeGuru Reviewer",
+    "main_resource_example": "CodeReviewSummary",
+    "secondary_examples": "RepositoryAssociationSummary;AnalysisType",
+    "from_operation": "ListCodeReviews",
+    "id_fields_seen": "CodeReviewArn;Name;PullRequestId;RepositoryName"
+  },
+  {
+    "service_code": "codeguru-security",
+    "service_full_name": "Amazon CodeGuru Security",
+    "main_resource_example": "ScanSummary",
+    "secondary_examples": "Finding;Finding",
+    "from_operation": "ListScans",
+    "id_fields_seen": "runId;scanName;scanNameArn"
+  },
+  {
+    "service_code": "codeguruprofiler",
+    "service_full_name": "Amazon CodeGuru Profiler",
+    "main_resource_example": "FindingsReportSummary",
+    "secondary_examples": "profilingGroup;FindingsReportSummary",
+    "from_operation": "ListFindingsReports",
+    "id_fields_seen": "profilingGroupName"
+  },
+  {
+    "service_code": "codepipeline",
+    "service_full_name": "AWS CodePipeline",
+    "main_resource_example": "ActionExecutionDetail",
+    "secondary_examples": "RuleExecutionDetail;SourceRevision",
+    "from_operation": "ListActionExecutions",
+    "id_fields_seen": "actionExecutionId;actionName;pipelineExecutionId;stageName"
+  },
+  {
+    "service_code": "codestar-connections",
+    "service_full_name": "AWS CodeStar connections",
+    "main_resource_example": "Connection",
+    "secondary_examples": "RepositoryLinkInfo;SyncConfiguration",
+    "from_operation": "ListConnections",
+    "id_fields_seen": "ConnectionArn;ConnectionName;HostArn;OwnerAccountId"
+  },
+  {
+    "service_code": "codestar-notifications",
+    "service_full_name": "AWS CodeStar Notifications",
+    "main_resource_example": "EventTypeSummary",
+    "secondary_examples": "EventTypeSummary;NotificationRuleSummary",
+    "from_operation": "DescribeNotificationRule",
+    "id_fields_seen": "EventTypeId;EventTypeName;ServiceName"
+  },
+  {
+    "service_code": "cognito-identity",
+    "service_full_name": "Amazon Cognito Identity",
+    "main_resource_example": "CognitoIdentityProvider",
+    "secondary_examples": "IdentityPoolShortDescription;CognitoIdentityProvider",
+    "from_operation": "DescribeIdentityPool",
+    "id_fields_seen": "ClientId;ProviderName"
+  },
+  {
+    "service_code": "cognito-idp",
+    "service_full_name": "Amazon Cognito Identity Provider",
+    "main_resource_example": "UserImportJobType",
+    "secondary_examples": "GroupType;GroupType",
+    "from_operation": "ListUserImportJobs",
+    "id_fields_seen": "CloudWatchLogsRoleArn;JobId;JobName;UserPoolId"
+  },
+  {
+    "service_code": "cognito-sync",
+    "service_full_name": "Amazon Cognito Sync",
+    "main_resource_example": "Dataset",
+    "secondary_examples": "IdentityPoolUsage;MergedDataset",
+    "from_operation": "ListDatasets",
+    "id_fields_seen": "DatasetName;IdentityId"
+  },
+  {
+    "service_code": "comprehend",
+    "service_full_name": "Amazon Comprehend",
+    "main_resource_example": "TopicsDetectionJobProperty",
+    "secondary_examples": "DocumentClassificationJobProperty;DocumentClassifierProperty",
+    "from_operation": "ListTopicsDetectionJobs",
+    "id_fields_seen": "DataAccessRoleArn;JobArn;JobId;JobName;VolumeKmsKeyId"
+  },
+  {
+    "service_code": "comprehendmedical",
+    "service_full_name": "AWS Comprehend Medical",
+    "main_resource_example": "ComprehendMedicalAsyncJobProperty",
+    "secondary_examples": "ComprehendMedicalAsyncJobProperty;ComprehendMedicalAsyncJobProperty",
+    "from_operation": "ListEntitiesDetectionV2Jobs",
+    "id_fields_seen": "DataAccessRoleArn;JobId;JobName"
+  },
+  {
+    "service_code": "compute-optimizer",
+    "service_full_name": "AWS Compute Optimizer",
+    "main_resource_example": "InstanceRecommendation",
+    "secondary_examples": "AutoScalingGroupRecommendation;LambdaFunctionRecommendation",
+    "from_operation": "GetEC2InstanceRecommendations",
+    "id_fields_seen": "accountId;instanceArn;instanceName"
+  },
+  {
+    "service_code": "config",
+    "service_full_name": "AWS Config",
+    "main_resource_example": "ConfigRule",
+    "secondary_examples": "ConfigRuleEvaluationStatu;ConformancePackDetail",
+    "from_operation": "DescribeConfigRules",
+    "id_fields_seen": "ConfigRuleArn;ConfigRuleId;ConfigRuleName"
+  },
+  {
+    "service_code": "connect",
+    "service_full_name": "Amazon Connect Service",
+    "main_resource_example": "QueueSummary",
+    "secondary_examples": "RoutingProfileQueueConfigSummary;AgentStatusSummary",
+    "from_operation": "ListQueues",
+    "id_fields_seen": "Arn;Id;Name"
+  },
+  {
+    "service_code": "connect-contact-lens",
+    "service_full_name": "Amazon Connect Contact Lens",
+    "main_resource_example": "MatchedCategory",
+    "secondary_examples": "IssueDetected;RealtimeContactAnalysisSegment",
+    "from_operation": "ListRealtimeContactAnalysisSegments",
+    "id_fields_seen": "MatchedCategoryName"
+  },
+  {
+    "service_code": "connectcampaigns",
+    "service_full_name": "AmazonConnectCampaignService",
+    "main_resource_example": "CampaignSummary",
+    "secondary_examples": "FailedCampaignStateResponse;SuccessfulCampaignStateResponse",
+    "from_operation": "ListCampaigns",
+    "id_fields_seen": "connectInstanceId"
+  },
+  {
+    "service_code": "connectcampaignsv2",
+    "service_full_name": "AmazonConnectCampaignServiceV2",
+    "main_resource_example": "CampaignSummary",
+    "secondary_examples": "channelSubtype;localTimeZoneDetection",
+    "from_operation": "ListCampaigns",
+    "id_fields_seen": "connectCampaignFlowArn;connectInstanceId"
+  },
+  {
+    "service_code": "connectcases",
+    "service_full_name": "Amazon Connect Cases",
+    "main_resource_example": "DomainSummary",
+    "secondary_examples": "CaseRuleSummary;FieldSummary",
+    "from_operation": "ListDomains",
+    "id_fields_seen": "domainArn;domainId"
+  },
+  {
+    "service_code": "connectparticipant",
+    "service_full_name": "Amazon Connect Participant Service",
+    "main_resource_example": "AttachmentItem",
+    "secondary_examples": "Item;Action",
+    "from_operation": "GetTranscript",
+    "id_fields_seen": "AttachmentId;AttachmentName"
+  },
+  {
+    "service_code": "controlcatalog",
+    "service_full_name": "AWS Control Catalog",
+    "main_resource_example": "DomainSummary",
+    "secondary_examples": "CommonControlSummary;ControlSummary",
+    "from_operation": "ListDomains",
+    "id_fields_seen": "Arn;Name"
+  },
+  {
+    "service_code": "controltower",
+    "service_full_name": "AWS Control Tower",
+    "main_resource_example": "BaselineSummary",
+    "secondary_examples": "ControlOperationSummary;EnabledBaselineSummary",
+    "from_operation": "ListBaselines",
+    "id_fields_seen": ""
+  },
+  {
+    "service_code": "cost-optimization-hub",
+    "service_full_name": "Cost Optimization Hub",
+    "main_resource_example": "Recommendation",
+    "secondary_examples": "AccountEnrollmentStatu;MixedInstanceConfiguration",
+    "from_operation": "ListRecommendations",
+    "id_fields_seen": "accountId;recommendationId;resourceArn;resourceId"
+  },
+  {
+    "service_code": "cur",
+    "service_full_name": "AWS Cost and Usage Report Service",
+    "main_resource_example": "ReportDefinition",
+    "secondary_examples": "AdditionalArtifact;AdditionalSchemaElement",
+    "from_operation": "DescribeReportDefinitions",
+    "id_fields_seen": "BillingViewArn;ReportName"
+  },
+  {
+    "service_code": "customer-profiles",
+    "service_full_name": "Amazon Connect Customer Profiles",
+    "main_resource_example": "ListIntegrationItem",
+    "secondary_examples": "ListIntegrationItem;EventStreamSummary",
+    "from_operation": "ListAccountIntegrations",
+    "id_fields_seen": "DomainName;ObjectTypeName;RoleArn;WorkflowId"
+  },
+  {
+    "service_code": "databrew",
+    "service_full_name": "AWS Glue DataBrew",
+    "main_resource_example": "Dataset",
+    "secondary_examples": "Job;Project",
+    "from_operation": "ListDatasets",
+    "id_fields_seen": "AccountId;Name;ResourceArn"
+  },
+  {
+    "service_code": "dataexchange",
+    "service_full_name": "AWS Data Exchange",
+    "main_resource_example": "AssetEntry",
+    "secondary_examples": "DataSetEntry;DataGrantSummaryEntry",
+    "from_operation": "ListRevisionAssets",
+    "id_fields_seen": "Arn;DataSetId;Id;Name;RevisionId;SourceId"
+  },
+  {
+    "service_code": "datapipeline",
+    "service_full_name": "AWS Data Pipeline",
+    "main_resource_example": "PipelineDescription",
+    "secondary_examples": "id;warning",
+    "from_operation": "DescribePipelines",
+    "id_fields_seen": "pipelineId"
+  },
+  {
+    "service_code": "datasync",
+    "service_full_name": "AWS DataSync",
+    "main_resource_example": "AgentListEntry",
+    "secondary_examples": "TaskListEntry;Agent",
+    "from_operation": "ListAgents",
+    "id_fields_seen": "AgentArn;Name"
+  },
+  {
+    "service_code": "datazone",
+    "service_full_name": "Amazon DataZone",
+    "main_resource_example": "AccountInfo",
+    "secondary_examples": "DataSourceRunActivity;EnvironmentBlueprintConfigurationItem",
+    "from_operation": "ListAccountsInAccountPool",
+    "id_fields_seen": "awsAccountId;awsAccountName"
+  },
+  {
+    "service_code": "dax",
+    "service_full_name": "Amazon DynamoDB Accelerator (DAX)",
+    "main_resource_example": "Cluster",
+    "secondary_examples": "SubnetGroup;Event",
+    "from_operation": "DescribeClusters",
+    "id_fields_seen": "ClusterArn;ClusterName;IamRoleArn"
+  },
+  {
+    "service_code": "deadline",
+    "service_full_name": "AWSDeadlineCloud",
+    "main_resource_example": "FarmSummary",
+    "secondary_examples": "MonitorSummary;QueueSummary",
+    "from_operation": "ListFarms",
+    "id_fields_seen": "displayName;farmId;kmsKeyArn"
+  },
+  {
+    "service_code": "detective",
+    "service_full_name": "Amazon Detective",
+    "main_resource_example": "Administrator",
+    "secondary_examples": "InvestigationDetail;MemberDetail",
+    "from_operation": "ListOrganizationAdminAccounts",
+    "id_fields_seen": "AccountId;GraphArn"
+  },
+  {
+    "service_code": "devicefarm",
+    "service_full_name": "AWS Device Farm",
+    "main_resource_example": "Device",
+    "secondary_examples": "RemoteAccessSession;DeviceInstance",
+    "from_operation": "ListDevices",
+    "id_fields_seen": "fleetName;modelId"
+  },
+  {
+    "service_code": "devops-guru",
+    "service_full_name": "Amazon DevOps Guru",
+    "main_resource_example": "Event",
+    "secondary_examples": "EventResource;LogAnomalyClass",
+    "from_operation": "ListEvents",
+    "id_fields_seen": "Id;Name"
+  },
+  {
+    "service_code": "directconnect",
+    "service_full_name": "AWS Direct Connect",
+    "main_resource_example": "Connection",
+    "secondary_examples": "Connection;Connection",
+    "from_operation": "DescribeConnections",
+    "id_fields_seen": "awsLogicalDeviceId;connectionId;connectionName;lagId;partnerName;providerName"
+  },
+  {
+    "service_code": "discovery",
+    "service_full_name": "AWS Application Discovery Service",
+    "main_resource_example": "AgentInfo",
+    "secondary_examples": "ContinuousExportDescription;DeletionWarning",
+    "from_operation": "DescribeAgents",
+    "id_fields_seen": "agentId;connectorId;hostName"
+  },
+  {
+    "service_code": "dlm",
+    "service_full_name": "Amazon Data Lifecycle Manager",
+    "main_resource_example": "Action",
+    "secondary_examples": "AvailabilityZone;CrossRegionCopyRule",
+    "from_operation": "GetLifecyclePolicy",
+    "id_fields_seen": "Name"
+  },
+  {
+    "service_code": "dms",
+    "service_full_name": "AWS Database Migration Service",
+    "main_resource_example": "CollectorResponse",
+    "secondary_examples": "DataProviderDescriptor;DataProviderDescriptor",
+    "from_operation": "DescribeFleetAdvisorCollectors",
+    "id_fields_seen": "CollectorName;CollectorReferencedId;S3BucketName;ServiceAccessRoleArn"
+  },
+  {
+    "service_code": "docdb",
+    "service_full_name": "Amazon DocumentDB with MongoDB compatibility",
+    "main_resource_example": "GlobalCluster",
+    "secondary_examples": "DBSubnetGroup;DBCluster",
+    "from_operation": "DescribeGlobalClusters",
+    "id_fields_seen": "DatabaseName;GlobalClusterArn;GlobalClusterResourceId"
+  },
+  {
+    "service_code": "docdb-elastic",
+    "service_full_name": "Amazon DocumentDB Elastic Clusters",
+    "main_resource_example": "ClusterInList",
+    "secondary_examples": "ClusterSnapshotInList;ResourcePendingMaintenanceAction",
+    "from_operation": "ListClusters",
+    "id_fields_seen": "clusterArn;clusterName"
+  },
+  {
+    "service_code": "drs",
+    "service_full_name": "Elastic Disaster Recovery Service",
+    "main_resource_example": "ReplicationConfigurationTemplate",
+    "secondary_examples": "SourceServer;RecoveryInstance",
+    "from_operation": "DescribeReplicationConfigurationTemplates",
+    "id_fields_seen": "ebsEncryptionKeyArn;stagingAreaSubnetId"
+  },
+  {
+    "service_code": "ds",
+    "service_full_name": "AWS Directory Service",
+    "main_resource_example": "EventTopic",
+    "secondary_examples": "AssessmentSummary;CertificateInfo",
+    "from_operation": "DescribeEventTopics",
+    "id_fields_seen": "DirectoryId;TopicArn;TopicName"
+  },
+  {
+    "service_code": "ds-data",
+    "service_full_name": "AWS Directory Service Data",
+    "main_resource_example": "UserSummary",
+    "secondary_examples": "GroupSummary;GroupSummary",
+    "from_operation": "ListUsers",
+    "id_fields_seen": "GivenName;SAMAccountName"
+  },
+  {
+    "service_code": "dsql",
+    "service_full_name": "Amazon Aurora DSQL",
+    "main_resource_example": "cluster",
+    "secondary_examples": "cluster;ClusterSummary",
+    "from_operation": "CreateCluster",
+    "id_fields_seen": "clusterName"
+  },
+  {
+    "service_code": "dynamodb",
+    "service_full_name": "Amazon DynamoDB",
+    "main_resource_example": "BackupSummary",
+    "secondary_examples": "GlobalSecondaryIndexDescription;LocalSecondaryIndexDescription",
+    "from_operation": "ListBackups",
+    "id_fields_seen": "BackupArn;BackupName;TableArn;TableId;TableName"
+  },
+  {
+    "service_code": "dynamodbstreams",
+    "service_full_name": "Amazon DynamoDB Streams",
+    "main_resource_example": "Stream",
+    "secondary_examples": "KeySchemaElement;Shard",
+    "from_operation": "ListStreams",
+    "id_fields_seen": "StreamArn;TableName"
+  },
+  {
+    "service_code": "ebs",
+    "service_full_name": "Amazon Elastic Block Store",
+    "main_resource_example": "Block",
+    "secondary_examples": "ChangedBlock",
+    "from_operation": "ListSnapshotBlocks",
+    "id_fields_seen": ""
+  },
+  {
+    "service_code": "ec2",
+    "service_full_name": "Amazon Elastic Compute Cloud",
+    "main_resource_example": "Instance",
+    "secondary_examples": "AnalysisComponent;AnalysisComponent",
+    "from_operation": "DescribeInstances",
+    "id_fields_seen": "CapacityBlockId;CapacityReservationId;ImageId;InstanceId;KernelId;KeyName;OutpostArn;PrivateDnsName;PublicDnsName;RamdiskId;RootDeviceName;SpotInstanceRequestId;SubnetId;VpcId"
+  },
+  {
+    "service_code": "ecr",
+    "service_full_name": "Amazon Elastic Container Registry",
+    "main_resource_example": "Repository",
+    "secondary_examples": "EnhancedImageScanFinding;ImageDetail",
+    "from_operation": "DescribeRepositories",
+    "id_fields_seen": "registryId;repositoryArn;repositoryName"
+  },
+  {
+    "service_code": "ecr-public",
+    "service_full_name": "Amazon Elastic Container Registry Public",
+    "main_resource_example": "Repository",
+    "secondary_examples": "ImageDetail;Registry",
+    "from_operation": "DescribeRepositories",
+    "id_fields_seen": "registryId;repositoryArn;repositoryName"
+  },
+  {
+    "service_code": "ecs",
+    "service_full_name": "Amazon EC2 Container Service",
+    "main_resource_example": "ContainerInstance",
+    "secondary_examples": "ContainerInstance;Cluster",
+    "from_operation": "DescribeContainerInstances",
+    "id_fields_seen": "capacityProviderName;containerInstanceArn;ec2InstanceId"
+  },
+  {
+    "service_code": "efs",
+    "service_full_name": "Amazon Elastic File System",
+    "main_resource_example": "AccessPointDescription",
+    "secondary_examples": "FileSystemDescription;Destination",
+    "from_operation": "DescribeAccessPoints",
+    "id_fields_seen": "AccessPointArn;AccessPointId;FileSystemId;Name;OwnerId"
+  },
+  {
+    "service_code": "eks",
+    "service_full_name": "Amazon Elastic Kubernetes Service",
+    "main_resource_example": "PodIdentityAssociationSummary",
+    "secondary_examples": "cluster;instanceType",
+    "from_operation": "ListPodIdentityAssociations",
+    "id_fields_seen": "associationArn;associationId;clusterName;ownerArn"
+  },
+  {
+    "service_code": "elasticache",
+    "service_full_name": "Amazon ElastiCache",
+    "main_resource_example": "CacheCluster",
+    "secondary_examples": "Snapshot;User",
+    "from_operation": "DescribeCacheClusters",
+    "id_fields_seen": "CacheClusterId;CacheSubnetGroupName;PreferredOutpostArn;ReplicationGroupId"
+  },
+  {
+    "service_code": "elasticbeanstalk",
+    "service_full_name": "AWS Elastic Beanstalk",
+    "main_resource_example": "EnvironmentDescription",
+    "secondary_examples": "EventDescription;EnvironmentDescription",
+    "from_operation": "DescribeEnvironments",
+    "id_fields_seen": "ApplicationName;EnvironmentArn;EnvironmentId;EnvironmentName;PlatformArn;SolutionStackName;TemplateName"
+  },
+  {
+    "service_code": "elastictranscoder",
+    "service_full_name": "Amazon Elastic Transcoder",
+    "main_resource_example": "Pipeline",
+    "secondary_examples": "Preset;Job",
+    "from_operation": "ListPipelines",
+    "id_fields_seen": "Arn;AwsKmsKeyArn;Id;Name"
+  },
+  {
+    "service_code": "elb",
+    "service_full_name": "Elastic Load Balancing",
+    "main_resource_example": "LoadBalancerDescription",
+    "secondary_examples": "Instance;InstanceState",
+    "from_operation": "DescribeLoadBalancers",
+    "id_fields_seen": "CanonicalHostedZoneName;DNSName;LoadBalancerName;VPCId"
+  },
+  {
+    "service_code": "elbv2",
+    "service_full_name": "Elastic Load Balancing",
+    "main_resource_example": "LoadBalancer",
+    "secondary_examples": "LoadBalancer;TargetGroup",
+    "from_operation": "DescribeLoadBalancers",
+    "id_fields_seen": "CanonicalHostedZoneId;DNSName;LoadBalancerArn;LoadBalancerName;VpcId"
+  },
+  {
+    "service_code": "emr",
+    "service_full_name": "Amazon EMR",
+    "main_resource_example": "ClusterSummary",
+    "secondary_examples": "SessionMappingSummary;Instance",
+    "from_operation": "ListClusters",
+    "id_fields_seen": "ClusterArn;Id;Name;OutpostArn"
+  },
+  {
+    "service_code": "emr-containers",
+    "service_full_name": "Amazon EMR Containers",
+    "main_resource_example": "JobRun",
+    "secondary_examples": "VirtualCluster;Endpoint",
+    "from_operation": "ListJobRuns",
+    "id_fields_seen": "executionRoleArn;virtualClusterId"
+  },
+  {
+    "service_code": "emr-serverless",
+    "service_full_name": "EMR Serverless",
+    "main_resource_example": "JobRunAttemptSummary",
+    "secondary_examples": "JobRunSummary;entryPointArgument",
+    "from_operation": "ListJobRunAttempts",
+    "id_fields_seen": "applicationId"
+  },
+  {
+    "service_code": "entityresolution",
+    "service_full_name": "AWS EntityResolution",
+    "main_resource_example": "IdMappingWorkflowSummary",
+    "secondary_examples": "IdNamespaceSummary;MatchingWorkflowSummary",
+    "from_operation": "ListIdMappingWorkflows",
+    "id_fields_seen": "workflowArn;workflowName"
+  },
+  {
+    "service_code": "es",
+    "service_full_name": "Amazon Elasticsearch Service",
+    "main_resource_example": "ElasticsearchDomainStatu",
+    "secondary_examples": "ReservedElasticsearchInstance;DomainInfo",
+    "from_operation": "DescribeElasticsearchDomains",
+    "id_fields_seen": "DomainId;DomainName"
+  },
+  {
+    "service_code": "events",
+    "service_full_name": "Amazon EventBridge",
+    "main_resource_example": "ApiDestination",
+    "secondary_examples": "Archive;Connection",
+    "from_operation": "ListApiDestinations",
+    "id_fields_seen": "ApiDestinationArn;ConnectionArn;Name"
+  },
+  {
+    "service_code": "evidently",
+    "service_full_name": "Amazon CloudWatch Evidently",
+    "main_resource_example": "EvaluationResult",
+    "secondary_examples": "ExperimentReport;ExperimentResultsData",
+    "from_operation": "BatchEvaluateFeature",
+    "id_fields_seen": "entityId"
+  },
+  {
+    "service_code": "evs",
+    "service_full_name": "Amazon Elastic VMware Service",
+    "main_resource_example": "EnvironmentSummary",
+    "secondary_examples": "Host;Vlan",
+    "from_operation": "ListEnvironments",
+    "id_fields_seen": "environmentArn;environmentId;environmentName"
+  },
+  {
+    "service_code": "finspace",
+    "service_full_name": "FinSpace User Environment Management service",
+    "main_resource_example": "KxCluster",
+    "secondary_examples": "KxUser;Environment",
+    "from_operation": "ListKxClusters",
+    "id_fields_seen": "availabilityZoneId;clusterName"
+  },
+  {
+    "service_code": "finspace-data",
+    "service_full_name": "FinSpace Public API",
+    "main_resource_example": "User",
+    "secondary_examples": "UserByPermissionGroup;ChangesetSummary",
+    "from_operation": "ListUsers",
+    "id_fields_seen": "apiAccessPrincipalArn;firstName;lastName;userId"
+  },
+  {
+    "service_code": "firehose",
+    "service_full_name": "Amazon Kinesis Firehose",
+    "main_resource_example": "DeliveryStream",
+    "secondary_examples": "DestinationTableConfiguration;DatabaseSnapshotInfo",
+    "from_operation": "ListDeliveryStreams",
+    "id_fields_seen": "DeliveryStreamName"
+  },
+  {
+    "service_code": "fis",
+    "service_full_name": "AWS Fault Injection Simulator",
+    "main_resource_example": "ExperimentTargetAccountConfigurationSummary",
+    "secondary_examples": "TargetAccountConfigurationSummary;ExperimentSummary",
+    "from_operation": "ListExperimentTargetAccountConfigurations",
+    "id_fields_seen": "accountId;roleArn"
+  },
+  {
+    "service_code": "fms",
+    "service_full_name": "Firewall Management Service",
+    "main_resource_example": "AppsListDataSummary",
+    "secondary_examples": "ProtocolsListDataSummary;DiscoveredResource",
+    "from_operation": "ListAppsLists",
+    "id_fields_seen": "ListArn;ListId;ListName"
+  },
+  {
+    "service_code": "forecast",
+    "service_full_name": "Amazon Forecast Service",
+    "main_resource_example": "DatasetGroupSummary",
+    "secondary_examples": "DatasetImportJobSummary;DatasetSummary",
+    "from_operation": "ListDatasetGroups",
+    "id_fields_seen": "DatasetGroupArn;DatasetGroupName"
+  },
+  {
+    "service_code": "frauddetector",
+    "service_full_name": "Amazon Fraud Detector",
+    "main_resource_example": "BatchImport",
+    "secondary_examples": "BatchPrediction;EventPredictionSummary",
+    "from_operation": "GetBatchImportJobs",
+    "id_fields_seen": "eventTypeName;iamRoleArn;jobId"
+  },
+  {
+    "service_code": "freetier",
+    "service_full_name": "AWS Free Tier",
+    "main_resource_example": "ActivitySummary",
+    "secondary_examples": "",
+    "from_operation": "ListAccountActivities",
+    "id_fields_seen": "activityId"
+  },
+  {
+    "service_code": "fsx",
+    "service_full_name": "Amazon FSx",
+    "main_resource_example": "FileCache",
+    "secondary_examples": "FileSystem;Snapshot",
+    "from_operation": "DescribeFileCaches",
+    "id_fields_seen": "DNSName;FileCacheId;KmsKeyId;OwnerId;VpcId"
+  },
+  {
+    "service_code": "gamelift",
+    "service_full_name": "Amazon GameLift",
+    "main_resource_example": "GameServerInstance",
+    "secondary_examples": "Instance;Alia",
+    "from_operation": "DescribeGameServerInstances",
+    "id_fields_seen": "GameServerGroupArn;GameServerGroupName;InstanceId"
+  },
+  {
+    "service_code": "gameliftstreams",
+    "service_full_name": "Amazon GameLift Streams",
+    "main_resource_example": "StreamGroupSummary",
+    "secondary_examples": "StreamSessionSummary;StreamSessionSummary",
+    "from_operation": "ListStreamGroups",
+    "id_fields_seen": "Arn;Id"
+  },
+  {
+    "service_code": "geo-places",
+    "service_full_name": "Amazon Location Service Places V2",
+    "main_resource_example": "BusinessChain",
+    "secondary_examples": "BusinessChain;BusinessChain",
+    "from_operation": "GetPlace",
+    "id_fields_seen": "Id;Name"
+  },
+  {
+    "service_code": "geo-routes",
+    "service_full_name": "Amazon Location Service Routes V2",
+    "main_resource_example": "RouteTollRate",
+    "secondary_examples": "BoundingBox;CarAccess",
+    "from_operation": "CalculateRoutes",
+    "id_fields_seen": "Id;Name"
+  },
+  {
+    "service_code": "glacier",
+    "service_full_name": "Amazon Glacier",
+    "main_resource_example": "DescribeVaultOutput",
+    "secondary_examples": "GlacierJobDescription;ProvisionedCapacityDescription",
+    "from_operation": "ListVaults",
+    "id_fields_seen": "VaultName"
+  },
+  {
+    "service_code": "globalaccelerator",
+    "service_full_name": "AWS Global Accelerator",
+    "main_resource_example": "Accelerator",
+    "secondary_examples": "Attachment;CrossAccountResource",
+    "from_operation": "ListAccelerators",
+    "id_fields_seen": "AcceleratorArn;DnsName;DualStackDnsName;Name"
+  },
+  {
+    "service_code": "glue",
+    "service_full_name": "AWS Glue",
+    "main_resource_example": "Integration",
+    "secondary_examples": "BlueprintRun;Catalog",
+    "from_operation": "DescribeIntegrations",
+    "id_fields_seen": "IntegrationArn;IntegrationName;KmsKeyId;SourceArn;TargetArn"
+  },
+  {
+    "service_code": "grafana",
+    "service_full_name": "Amazon Managed Grafana",
+    "main_resource_example": "admin",
+    "secondary_examples": "allowedOrganization;dataSource",
+    "from_operation": "DescribeWorkspaceAuthentication",
+    "id_fields_seen": "adminName"
+  },
+  {
+    "service_code": "greengrass",
+    "service_full_name": "AWS Greengrass",
+    "main_resource_example": "DefinitionInformation",
+    "secondary_examples": "DefinitionInformation;DefinitionInformation",
+    "from_operation": "ListConnectorDefinitions",
+    "id_fields_seen": "Arn;Id;LatestVersionArn;Name"
+  },
+  {
+    "service_code": "greengrassv2",
+    "service_full_name": "AWS IoT Greengrass V2",
+    "main_resource_example": "Deployment",
+    "secondary_examples": "EffectiveDeployment;AssociatedClientDevice",
+    "from_operation": "ListDeployments",
+    "id_fields_seen": "deploymentId;deploymentName;parentTargetArn;revisionId;targetArn"
+  },
+  {
+    "service_code": "groundstation",
+    "service_full_name": "AWS Ground Station",
+    "main_resource_example": "ConfigListItem",
+    "secondary_examples": "ContactData;GroundStationData",
+    "from_operation": "ListConfigs",
+    "id_fields_seen": "configArn;configId"
+  },
+  {
+    "service_code": "guardduty",
+    "service_full_name": "Amazon GuardDuty",
+    "main_resource_example": "S3BucketDetail",
+    "secondary_examples": "VolumeDetail;Container",
+    "from_operation": "GetFindings",
+    "id_fields_seen": "Arn;Name"
+  },
+  {
+    "service_code": "health",
+    "service_full_name": "AWS Health APIs and Notifications",
+    "main_resource_example": "AffectedEntity",
+    "secondary_examples": "AffectedEntity;OrganizationAffectedEntitiesErrorItem",
+    "from_operation": "DescribeAffectedEntities",
+    "id_fields_seen": "awsAccountId;entityArn;eventArn"
+  },
+  {
+    "service_code": "healthlake",
+    "service_full_name": "Amazon HealthLake",
+    "main_resource_example": "DatastoreProperty",
+    "secondary_examples": "ExportJobProperty;ImportJobProperty",
+    "from_operation": "ListFHIRDatastores",
+    "id_fields_seen": "DatastoreArn;DatastoreId;DatastoreName"
+  },
+  {
+    "service_code": "iam",
+    "service_full_name": "AWS Identity and Access Management",
+    "main_resource_example": "InstanceProfile",
+    "secondary_examples": "InstanceProfile;Role",
+    "from_operation": "ListInstanceProfiles",
+    "id_fields_seen": "Arn;InstanceProfileId;InstanceProfileName"
+  },
+  {
+    "service_code": "identitystore",
+    "service_full_name": "AWS SSO Identity Store",
+    "main_resource_example": "User",
+    "secondary_examples": "Group;External",
+    "from_operation": "ListUsers",
+    "id_fields_seen": "DisplayName;IdentityStoreId;Name;NickName;UserId;UserName"
+  },
+  {
+    "service_code": "imagebuilder",
+    "service_full_name": "EC2 Image Builder",
+    "main_resource_example": "ImageScanFinding",
+    "secondary_examples": "LifecycleExecution;WorkflowStepExecution",
+    "from_operation": "ListImageScanFindings",
+    "id_fields_seen": "awsAccountId;imageBuildVersionArn;imagePipelineArn"
+  },
+  {
+    "service_code": "importexport",
+    "service_full_name": "AWS Import/Export",
+    "main_resource_example": "Job",
+    "secondary_examples": "",
+    "from_operation": "ListJobs",
+    "id_fields_seen": "JobId"
+  },
+  {
+    "service_code": "inspector",
+    "service_full_name": "Amazon Inspector",
+    "main_resource_example": "AssessmentRunAgent",
+    "secondary_examples": "NetworkInterface;SecurityGroup",
+    "from_operation": "ListAssessmentRunAgents",
+    "id_fields_seen": "agentId;assessmentRunArn"
+  },
+  {
+    "service_code": "inspector2",
+    "service_full_name": "Inspector2",
+    "main_resource_example": "CisScanConfiguration",
+    "secondary_examples": "CisCheckAggregation;CisScan",
+    "from_operation": "ListCisScanConfigurations",
+    "id_fields_seen": "ownerId;scanConfigurationArn;scanName"
+  },
+  {
+    "service_code": "internetmonitor",
+    "service_full_name": "Amazon CloudWatch Internet Monitor",
+    "main_resource_example": "HealthEvent",
+    "secondary_examples": "InternetEventSummary;Monitor",
+    "from_operation": "ListHealthEvents",
+    "id_fields_seen": "EventArn;EventId"
+  },
+  {
+    "service_code": "invoicing",
+    "service_full_name": "AWS Invoicing",
+    "main_resource_example": "InvoiceUnit",
+    "secondary_examples": "InvoiceProfile;InvoiceSummary",
+    "from_operation": "ListInvoiceUnits",
+    "id_fields_seen": "InvoiceUnitArn;Name"
+  },
+  {
+    "service_code": "iot",
+    "service_full_name": "AWS IoT",
+    "main_resource_example": "CommandSummary",
+    "secondary_examples": "DomainConfigurationSummary;StreamSummary",
+    "from_operation": "ListCommands",
+    "id_fields_seen": "commandArn;commandId;displayName"
+  },
+  {
+    "service_code": "iot-data",
+    "service_full_name": "AWS IoT Data Plane",
+    "main_resource_example": "result",
+    "secondary_examples": "RetainedMessageSummary",
+    "from_operation": "ListNamedShadowsForThing",
+    "id_fields_seen": "resultName"
+  },
+  {
+    "service_code": "iot-jobs-data",
+    "service_full_name": "AWS IoT Jobs Data Plane",
+    "main_resource_example": "JobExecutionSummary",
+    "secondary_examples": "JobExecutionSummary",
+    "from_operation": "GetPendingJobExecutions",
+    "id_fields_seen": "jobId"
+  },
+  {
+    "service_code": "iot-managed-integrations",
+    "service_full_name": "Managed integrations for AWS IoT Device Management",
+    "main_resource_example": "AccountAssociationItem",
+    "secondary_examples": "CredentialLockerSummary;ManagedThingSummary",
+    "from_operation": "ListAccountAssociations",
+    "id_fields_seen": "AccountAssociationId;Arn;ConnectorDestinationId;Name"
+  },
+  {
+    "service_code": "iotanalytics",
+    "service_full_name": "AWS IoT Analytics",
+    "main_resource_example": "ChannelSummary",
+    "secondary_examples": "DatasetAction;DatasetActionSummary",
+    "from_operation": "ListChannels",
+    "id_fields_seen": "channelName"
+  },
+  {
+    "service_code": "iotdeviceadvisor",
+    "service_full_name": "AWS IoT Core Device Advisor",
+    "main_resource_example": "SuiteDefinitionInformation",
+    "secondary_examples": "SuiteRunInformation;GroupResult",
+    "from_operation": "ListSuiteDefinitions",
+    "id_fields_seen": "suiteDefinitionId;suiteDefinitionName"
+  },
+  {
+    "service_code": "iotevents",
+    "service_full_name": "AWS IoT Events",
+    "main_resource_example": "AlarmModelVersionSummary",
+    "secondary_examples": "DetectorModelVersionSummary;InputSummary",
+    "from_operation": "ListAlarmModelVersions",
+    "id_fields_seen": "alarmModelArn;alarmModelName;roleArn"
+  },
+  {
+    "service_code": "iotevents-data",
+    "service_full_name": "AWS IoT Events Data",
+    "main_resource_example": "AlarmSummary",
+    "secondary_examples": "DetectorSummary;Timer",
+    "from_operation": "ListAlarms",
+    "id_fields_seen": "alarmModelName;stateName"
+  },
+  {
+    "service_code": "iotfleethub",
+    "service_full_name": "AWS IoT Fleet Hub",
+    "main_resource_example": "ApplicationSummary",
+    "secondary_examples": "",
+    "from_operation": "ListApplications",
+    "id_fields_seen": "applicationId;applicationName"
+  },
+  {
+    "service_code": "iotfleetwise",
+    "service_full_name": "AWS IoT FleetWise",
+    "main_resource_example": "SignalDecoder",
+    "secondary_examples": "VehicleSummary;CreateVehicleResponseItem",
+    "from_operation": "ListDecoderManifestSignals",
+    "id_fields_seen": "fullyQualifiedName;interfaceId"
+  },
+  {
+    "service_code": "iotsecuretunneling",
+    "service_full_name": "AWS IoT Secure Tunneling",
+    "main_resource_example": "TunnelSummary",
+    "secondary_examples": "service",
+    "from_operation": "ListTunnels",
+    "id_fields_seen": "tunnelArn;tunnelId"
+  },
+  {
+    "service_code": "iotsitewise",
+    "service_full_name": "AWS IoT SiteWise",
+    "main_resource_example": "ActionDefinition",
+    "secondary_examples": "ActionDefinition;ActionDefinition",
+    "from_operation": "DescribeAssetCompositeModel",
+    "id_fields_seen": "actionDefinitionId;actionName"
+  },
+  {
+    "service_code": "iotthingsgraph",
+    "service_full_name": "AWS IoT Things Graph",
+    "main_resource_example": "SystemInstanceSummary",
+    "secondary_examples": "Thing;FlowExecutionMessage",
+    "from_operation": "SearchSystemInstances",
+    "id_fields_seen": "greengrassGroupId;greengrassGroupName;greengrassGroupVersionId"
+  },
+  {
+    "service_code": "iottwinmaker",
+    "service_full_name": "AWS IoT TwinMaker",
+    "main_resource_example": "ComponentSummary",
+    "secondary_examples": "ComponentTypeSummary;EntitySummary",
+    "from_operation": "ListComponents",
+    "id_fields_seen": "componentName;componentTypeId"
+  },
+  {
+    "service_code": "iotwireless",
+    "service_full_name": "AWS IoT Wireless",
+    "main_resource_example": "DeviceProfile",
+    "secondary_examples": "FuotaTask;MulticastGroup",
+    "from_operation": "ListDeviceProfiles",
+    "id_fields_seen": "Arn;Id;Name"
+  },
+  {
+    "service_code": "ivs",
+    "service_full_name": "Amazon Interactive Video Service",
+    "main_resource_example": "StreamSummary",
+    "secondary_examples": "StreamKeySummary;StreamSessionSummary",
+    "from_operation": "ListStreams",
+    "id_fields_seen": "channelArn;streamId"
+  },
+  {
+    "service_code": "ivs-realtime",
+    "service_full_name": "Amazon Interactive Video Service RealTime",
+    "main_resource_example": "Event",
+    "secondary_examples": "IngestConfigurationSummary;ParticipantReplica",
+    "from_operation": "ListParticipantEvents",
+    "id_fields_seen": "destinationSessionId;destinationStageArn;participantId;remoteParticipantId"
+  },
+  {
+    "service_code": "ivschat",
+    "service_full_name": "Amazon Interactive Video Service Chat",
+    "main_resource_example": "loggingConfigurationIdentifier",
+    "secondary_examples": "loggingConfigurationIdentifier;loggingConfigurationIdentifier",
+    "from_operation": "ListRooms",
+    "id_fields_seen": "loggingConfigurationIdentifierName"
+  },
+  {
+    "service_code": "kafka",
+    "service_full_name": "Managed Streaming for Kafka",
+    "main_resource_example": "Cluster",
+    "secondary_examples": "ClusterInfo;ClusterOperationInfo",
+    "from_operation": "ListClustersV2",
+    "id_fields_seen": "ActiveOperationArn;ClusterArn;ClusterName"
+  },
+  {
+    "service_code": "kafkaconnect",
+    "service_full_name": "Managed Streaming for Kafka Connect",
+    "main_resource_example": "ConnectorSummary",
+    "secondary_examples": "ConnectorOperationSummary;CustomPluginSummary",
+    "from_operation": "ListConnectors",
+    "id_fields_seen": "connectorArn;connectorName;serviceExecutionRoleArn"
+  },
+  {
+    "service_code": "kendra",
+    "service_full_name": "AWSKendraFrontendService",
+    "main_resource_example": "DataSourceSummary",
+    "secondary_examples": "ExperiencesSummary;FaqSummary",
+    "from_operation": "ListDataSources",
+    "id_fields_seen": "Id;Name"
+  },
+  {
+    "service_code": "kendra-ranking",
+    "service_full_name": "Amazon Kendra Intelligent Ranking",
+    "main_resource_example": "RescoreExecutionPlanSummary",
+    "secondary_examples": "RescoreResultItem",
+    "from_operation": "ListRescoreExecutionPlans",
+    "id_fields_seen": "Id;Name"
+  },
+  {
+    "service_code": "keyspaces",
+    "service_full_name": "Amazon Keyspaces",
+    "main_resource_example": "TableSummary",
+    "secondary_examples": "KeyspaceSummary;directReferringTable",
+    "from_operation": "ListTables",
+    "id_fields_seen": "keyspaceName;resourceArn;tableName"
+  },
+  {
+    "service_code": "keyspacesstreams",
+    "service_full_name": "Amazon Keyspaces Streams",
+    "main_resource_example": "Stream",
+    "secondary_examples": "Shard;parentShard",
+    "from_operation": "ListStreams",
+    "id_fields_seen": "keyspaceName;streamArn;tableName"
+  },
+  {
+    "service_code": "kinesis",
+    "service_full_name": "Amazon Kinesis",
+    "main_resource_example": "Stream",
+    "secondary_examples": "StreamSummary;Consumer",
+    "from_operation": "ListStreams",
+    "id_fields_seen": "StreamName"
+  },
+  {
+    "service_code": "kinesis-video-archived-media",
+    "service_full_name": "Amazon Kinesis Video Streams Archived Media",
+    "main_resource_example": "Fragment",
+    "secondary_examples": "",
+    "from_operation": "ListFragments",
+    "id_fields_seen": ""
+  },
+  {
+    "service_code": "kinesis-video-signaling",
+    "service_full_name": "Amazon Kinesis Video Signaling Channels",
+    "main_resource_example": "Uri",
+    "secondary_examples": "",
+    "from_operation": "GetIceServerConfig",
+    "id_fields_seen": "UriName"
+  },
+  {
+    "service_code": "kinesisanalytics",
+    "service_full_name": "Amazon Kinesis Analytics",
+    "main_resource_example": "OutputDescription",
+    "secondary_examples": "ReferenceDataSourceDescription;InAppStream",
+    "from_operation": "DescribeApplication",
+    "id_fields_seen": "Name;OutputId"
+  },
+  {
+    "service_code": "kinesisanalyticsv2",
+    "service_full_name": "Amazon Kinesis Analytics",
+    "main_resource_example": "ApplicationSummary",
+    "secondary_examples": "OutputDescription;OutputDescription",
+    "from_operation": "ListApplications",
+    "id_fields_seen": "ApplicationName;ApplicationVersionId"
+  },
+  {
+    "service_code": "kinesisvideo",
+    "service_full_name": "Amazon Kinesis Video Streams",
+    "main_resource_example": "StreamInfo",
+    "secondary_examples": "ChannelInfo;ListEdgeAgentConfigurationsEdgeConfig",
+    "from_operation": "ListStreams",
+    "id_fields_seen": "DeviceName;KmsKeyId;StreamName"
+  },
+  {
+    "service_code": "kms",
+    "service_full_name": "AWS Key Management Service",
+    "main_resource_example": "AliasListEntry",
+    "secondary_examples": "CustomKeyStoresListEntry;GrantListEntry",
+    "from_operation": "ListAliases",
+    "id_fields_seen": "AliasArn;AliasName;TargetKeyId"
+  },
+  {
+    "service_code": "lakeformation",
+    "service_full_name": "AWS Lake Formation",
+    "main_resource_example": "DataCellsFilter",
+    "secondary_examples": "AuthorizedTarget;Column",
+    "from_operation": "ListDataCellsFilter",
+    "id_fields_seen": "DatabaseName;Name;TableCatalogId;TableName;VersionId"
+  },
+  {
+    "service_code": "lambda",
+    "service_full_name": "AWS Lambda",
+    "main_resource_example": "FunctionConfiguration",
+    "secondary_examples": "FunctionConfiguration;AliasConfiguration",
+    "from_operation": "ListFunctions",
+    "id_fields_seen": "FunctionArn;FunctionName;KMSKeyArn;MasterArn;RevisionId;SigningJobArn;SigningProfileVersionArn"
+  },
+  {
+    "service_code": "launch-wizard",
+    "service_full_name": "AWS Launch Wizard",
+    "main_resource_example": "DeploymentDataSummary",
+    "secondary_examples": "WorkloadDataSummary;WorkloadDeploymentPatternDataSummary",
+    "from_operation": "ListDeployments",
+    "id_fields_seen": "patternName;workloadName"
+  },
+  {
+    "service_code": "lex-models",
+    "service_full_name": "Amazon Lex Model Building Service",
+    "main_resource_example": "MigrationSummary",
+    "secondary_examples": "BotChannelAssociation;Intent",
+    "from_operation": "GetMigrations",
+    "id_fields_seen": "migrationId;v1BotName;v2BotId"
+  },
+  {
+    "service_code": "lex-runtime",
+    "service_full_name": "Amazon Lex Runtime Service",
+    "main_resource_example": "IntentSummary",
+    "secondary_examples": "PredictedIntent",
+    "from_operation": "GetSession",
+    "id_fields_seen": "intentName"
+  },
+  {
+    "service_code": "lexv2-models",
+    "service_full_name": "Amazon Lex Model Building V2",
+    "main_resource_example": "TestSetSummary",
+    "secondary_examples": "BotAliasSummary;BotLocaleSummary",
+    "from_operation": "ListTestSets",
+    "id_fields_seen": "roleArn;testSetId;testSetName"
+  },
+  {
+    "service_code": "license-manager",
+    "service_full_name": "AWS License Manager",
+    "main_resource_example": "LicenseConfiguration",
+    "secondary_examples": "LicenseOperationFailure;Grant",
+    "from_operation": "ListLicenseConfigurations",
+    "id_fields_seen": "LicenseConfigurationArn;LicenseConfigurationId;Name;OwnerAccountId"
+  },
+  {
+    "service_code": "license-manager-linux-subscriptions",
+    "service_full_name": "AWS License Manager Linux Subscriptions",
+    "main_resource_example": "Instance",
+    "secondary_examples": "ProductCode;RegisteredSubscriptionProvider",
+    "from_operation": "ListLinuxSubscriptionInstances",
+    "id_fields_seen": "AmiId;SubscriptionName"
+  },
+  {
+    "service_code": "license-manager-user-subscriptions",
+    "service_full_name": "AWS License Manager User Subscriptions",
+    "main_resource_example": "InstanceUserSummary",
+    "secondary_examples": "DomainIpv4List;DomainIpv4List",
+    "from_operation": "ListUserAssociations",
+    "id_fields_seen": "InstanceId;InstanceUserArn"
+  },
+  {
+    "service_code": "lightsail",
+    "service_full_name": "Amazon Lightsail",
+    "main_resource_example": "InstanceSnapshot",
+    "secondary_examples": "ContainerService;RelationalDatabaseSnapshot",
+    "from_operation": "GetInstanceSnapshots",
+    "id_fields_seen": "fromBlueprintId;fromBundleId;fromInstanceArn;fromInstanceName"
+  },
+  {
+    "service_code": "location",
+    "service_full_name": "Amazon Location Service",
+    "main_resource_example": "AllowAction",
+    "secondary_examples": "AllowAction;AllowReferer",
+    "from_operation": "DescribeKey",
+    "id_fields_seen": "AllowActionName"
+  },
+  {
+    "service_code": "logs",
+    "service_full_name": "Amazon CloudWatch Logs",
+    "main_resource_example": "AnomalyDetector",
+    "secondary_examples": "LogGroup;Anomaly",
+    "from_operation": "ListLogAnomalyDetectors",
+    "id_fields_seen": "anomalyDetectorArn;detectorName;kmsKeyId"
+  },
+  {
+    "service_code": "lookoutequipment",
+    "service_full_name": "Amazon Lookout for Equipment",
+    "main_resource_example": "DataIngestionJobSummary",
+    "secondary_examples": "LabelSummary;DatasetSummary",
+    "from_operation": "ListDataIngestionJobs",
+    "id_fields_seen": "DatasetArn;DatasetName;JobId"
+  },
+  {
+    "service_code": "lookoutmetrics",
+    "service_full_name": "Amazon Lookout for Metrics",
+    "main_resource_example": "AlertSummary",
+    "secondary_examples": "AnomalyDetectorSummary;AnomalyGroupSummary",
+    "from_operation": "ListAlerts",
+    "id_fields_seen": "AlertArn;AlertName;AnomalyDetectorArn"
+  },
+  {
+    "service_code": "lookoutvision",
+    "service_full_name": "Amazon Lookout for Vision",
+    "main_resource_example": "DatasetEntry",
+    "secondary_examples": "ProjectMetadata;Anomaly",
+    "from_operation": "ListDatasetEntries",
+    "id_fields_seen": "DatasetEntryName"
+  },
+  {
+    "service_code": "m2",
+    "service_full_name": "AWSMainframeModernization",
+    "main_resource_example": "ApplicationSummary",
+    "secondary_examples": "BatchJobExecutionSummary;EnvironmentSummary",
+    "from_operation": "ListApplications",
+    "id_fields_seen": "applicationArn;applicationId;environmentId;roleArn"
+  },
+  {
+    "service_code": "machinelearning",
+    "service_full_name": "Amazon Machine Learning",
+    "main_resource_example": "BatchPrediction",
+    "secondary_examples": "DataSource;Evaluation",
+    "from_operation": "DescribeBatchPredictions",
+    "id_fields_seen": "BatchPredictionDataSourceId;BatchPredictionId;MLModelId;Name"
+  },
+  {
+    "service_code": "macie2",
+    "service_full_name": "Amazon Macie 2",
+    "main_resource_example": "BucketMetadata",
+    "secondary_examples": "S3BucketDefinitionForJob;S3BucketDefinitionForJob",
+    "from_operation": "DescribeBuckets",
+    "id_fields_seen": "accountId;bucketArn;bucketName"
+  },
+  {
+    "service_code": "mailmanager",
+    "service_full_name": "MailManager",
+    "main_resource_example": "AddonInstance",
+    "secondary_examples": "AddonSubscription;AddressList",
+    "from_operation": "ListAddonInstances",
+    "id_fields_seen": "AddonInstanceArn;AddonInstanceId;AddonName;AddonSubscriptionId"
+  },
+  {
+    "service_code": "managedblockchain",
+    "service_full_name": "Amazon Managed Blockchain",
+    "main_resource_example": "MemberSummary",
+    "secondary_examples": "NetworkSummary;ProposalSummary",
+    "from_operation": "ListMembers",
+    "id_fields_seen": "Arn;Id;Name"
+  },
+  {
+    "service_code": "managedblockchain-query",
+    "service_full_name": "Amazon Managed Blockchain Query",
+    "main_resource_example": "TransactionEvent",
+    "secondary_examples": "TransactionEvent;TransactionOutputItem",
+    "from_operation": "ListFilteredTransactionEvents",
+    "id_fields_seen": "spentVoutTransactionId;tokenId;transactionId"
+  },
+  {
+    "service_code": "marketplace-agreement",
+    "service_full_name": "AWS Marketplace Agreement Service",
+    "main_resource_example": "AgreementViewSummary",
+    "secondary_examples": "Resource",
+    "from_operation": "SearchAgreements",
+    "id_fields_seen": "agreementId"
+  },
+  {
+    "service_code": "marketplace-catalog",
+    "service_full_name": "AWS Marketplace Catalog Service",
+    "main_resource_example": "ChangeSetSummaryListItem",
+    "secondary_examples": "EntitySummary;BuyerAccount",
+    "from_operation": "ListChangeSets",
+    "id_fields_seen": "ChangeSetArn;ChangeSetId;ChangeSetName"
+  },
+  {
+    "service_code": "marketplace-entitlement",
+    "service_full_name": "AWS Marketplace Entitlement Service",
+    "main_resource_example": "Entitlement",
+    "secondary_examples": "",
+    "from_operation": "GetEntitlements",
+    "id_fields_seen": "CustomerAWSAccountId"
+  },
+  {
+    "service_code": "marketplace-reporting",
+    "service_full_name": "AWS Marketplace Reporting Service",
+    "main_resource_example": "embeddingDomain",
+    "secondary_examples": "",
+    "from_operation": "GetBuyerDashboard",
+    "id_fields_seen": "embeddingDomainName"
+  },
+  {
+    "service_code": "mediaconnect",
+    "service_full_name": "AWS MediaConnect",
+    "main_resource_example": "VpcInterface",
+    "secondary_examples": "VpcInterface;VpcInterface",
+    "from_operation": "DescribeFlow",
+    "id_fields_seen": "Name;RoleArn;SubnetId"
+  },
+  {
+    "service_code": "mediaconvert",
+    "service_full_name": "AWS Elemental MediaConvert",
+    "main_resource_example": "Queue",
+    "secondary_examples": "Job;JobTemplate",
+    "from_operation": "ListQueues",
+    "id_fields_seen": "Arn;Name"
+  },
+  {
+    "service_code": "medialive",
+    "service_full_name": "AWS Elemental MediaLive",
+    "main_resource_example": "DescribeClusterSummary",
+    "secondary_examples": "ChannelSummary;CloudWatchAlarmTemplateGroupSummary",
+    "from_operation": "ListClusters",
+    "id_fields_seen": "Arn;Id;InstanceRoleArn;Name"
+  },
+  {
+    "service_code": "mediapackage",
+    "service_full_name": "AWS Elemental MediaPackage",
+    "main_resource_example": "Channel",
+    "secondary_examples": "HarvestJob;HlsManifest",
+    "from_operation": "ListChannels",
+    "id_fields_seen": "Arn;Id"
+  },
+  {
+    "service_code": "mediapackage-vod",
+    "service_full_name": "AWS Elemental MediaPackage VOD",
+    "main_resource_example": "PackagingGroup",
+    "secondary_examples": "AssetShallow;PackagingConfiguration",
+    "from_operation": "ListPackagingGroups",
+    "id_fields_seen": "Arn;DomainName;Id"
+  },
+  {
+    "service_code": "mediapackagev2",
+    "service_full_name": "AWS Elemental MediaPackage v2",
+    "main_resource_example": "ChannelGroupListConfiguration",
+    "secondary_examples": "ChannelListConfiguration;HarvestJob",
+    "from_operation": "ListChannelGroups",
+    "id_fields_seen": "Arn;ChannelGroupName"
+  },
+  {
+    "service_code": "mediastore",
+    "service_full_name": "AWS Elemental MediaStore",
+    "main_resource_example": "Container",
+    "secondary_examples": "AllowedHeader;AllowedMethod",
+    "from_operation": "ListContainers",
+    "id_fields_seen": "Name"
+  },
+  {
+    "service_code": "mediastore-data",
+    "service_full_name": "AWS Elemental MediaStore Data Plane",
+    "main_resource_example": "Item",
+    "secondary_examples": "",
+    "from_operation": "ListItems",
+    "id_fields_seen": "Name"
+  },
+  {
+    "service_code": "mediatailor",
+    "service_full_name": "AWS MediaTailor",
+    "main_resource_example": "PrefetchSchedule",
+    "secondary_examples": "Channel;LiveSource",
+    "from_operation": "ListPrefetchSchedules",
+    "id_fields_seen": "Arn;Name;PlaybackConfigurationName;StreamId"
+  },
+  {
+    "service_code": "medical-imaging",
+    "service_full_name": "AWS Health Imaging",
+    "main_resource_example": "DICOMImportJobSummary",
+    "secondary_examples": "DatastoreSummary;ImageSetProperty",
+    "from_operation": "ListDICOMImportJobs",
+    "id_fields_seen": "dataAccessRoleArn;datastoreId;jobId;jobName"
+  },
+  {
+    "service_code": "memorydb",
+    "service_full_name": "Amazon MemoryDB",
+    "main_resource_example": "Cluster",
+    "secondary_examples": "Cluster;Snapshot",
+    "from_operation": "DescribeClusters",
+    "id_fields_seen": "ACLName;KmsKeyId;MultiRegionClusterName;Name;ParameterGroupName;SnsTopicArn;SubnetGroupName"
+  },
+  {
+    "service_code": "meteringmarketplace",
+    "service_full_name": "AWSMarketplace Metering",
+    "main_resource_example": "UsageRecord",
+    "secondary_examples": "UsageRecordResult",
+    "from_operation": "BatchMeterUsage",
+    "id_fields_seen": "CustomerAWSAccountId"
+  },
+  {
+    "service_code": "mgh",
+    "service_full_name": "AWS Migration Hub",
+    "main_resource_example": "ProgressUpdateStreamSummary",
+    "secondary_examples": "ApplicationState;CreatedArtifact",
+    "from_operation": "ListProgressUpdateStreams",
+    "id_fields_seen": "ProgressUpdateStreamName"
+  },
+  {
+    "service_code": "mgn",
+    "service_full_name": "Application Migration Service",
+    "main_resource_example": "ReplicationConfigurationTemplate",
+    "secondary_examples": "CPU;DataReplicationInfoReplicatedDisk",
+    "from_operation": "DescribeReplicationConfigurationTemplates",
+    "id_fields_seen": "ebsEncryptionKeyArn;stagingAreaSubnetId"
+  },
+  {
+    "service_code": "migration-hub-refactor-spaces",
+    "service_full_name": "AWS Migration Hub Refactor Spaces",
+    "main_resource_example": "ApplicationSummary",
+    "secondary_examples": "EnvironmentSummary;ServiceSummary",
+    "from_operation": "ListApplications",
+    "id_fields_seen": "ApplicationId;Arn;CreatedByAccountId;EnvironmentId;Name;OwnerAccountId;VpcId"
+  },
+  {
+    "service_code": "migrationhub-config",
+    "service_full_name": "AWS Migration Hub Config",
+    "main_resource_example": "HomeRegionControl",
+    "secondary_examples": "",
+    "from_operation": "DescribeHomeRegionControls",
+    "id_fields_seen": "ControlId"
+  },
+  {
+    "service_code": "migrationhuborchestrator",
+    "service_full_name": "AWS Migration Hub Orchestrator",
+    "main_resource_example": "MigrationWorkflowSummary",
+    "secondary_examples": "PluginSummary;TemplateStepSummary",
+    "from_operation": "ListWorkflows",
+    "id_fields_seen": "adsApplicationConfigurationName;templateId"
+  },
+  {
+    "service_code": "migrationhubstrategy",
+    "service_full_name": "Migration Hub Strategy Recommendations",
+    "main_resource_example": "Collector",
+    "secondary_examples": "AnalyzableServerSummary;AntipatternReportResult",
+    "from_operation": "ListCollectors",
+    "id_fields_seen": "collectorId;hostName"
+  },
+  {
+    "service_code": "mpa",
+    "service_full_name": "AWS Multi-party Approval",
+    "main_resource_example": "ListSessionsResponseSession",
+    "secondary_examples": "ListApprovalTeamsResponseApprovalTeam;PolicyVersionSummary",
+    "from_operation": "ListSessions",
+    "id_fields_seen": "ActionName;ApprovalTeamArn;ApprovalTeamName;ProtectedResourceArn;RequesterAccountId;RequesterPrincipalArn;SessionArn"
+  },
+  {
+    "service_code": "mq",
+    "service_full_name": "AmazonMQ",
+    "main_resource_example": "BrokerSummary",
+    "secondary_examples": "Configuration;AvailabilityZone",
+    "from_operation": "ListBrokers",
+    "id_fields_seen": "BrokerArn;BrokerId;BrokerName"
+  },
+  {
+    "service_code": "mturk",
+    "service_full_name": "Amazon Mechanical Turk",
+    "main_resource_example": "QualificationType",
+    "secondary_examples": "ReviewActionDetail;ReviewActionDetail",
+    "from_operation": "ListQualificationTypes",
+    "id_fields_seen": "Name;QualificationTypeId"
+  },
+  {
+    "service_code": "mwaa",
+    "service_full_name": "AmazonMWAA",
+    "main_resource_example": "Environment",
+    "secondary_examples": "SecurityGroup;Subnet",
+    "from_operation": "ListEnvironments",
+    "id_fields_seen": "EnvironmentName"
+  },
+  {
+    "service_code": "neptune",
+    "service_full_name": "Amazon Neptune",
+    "main_resource_example": "DBCluster",
+    "secondary_examples": "DBInstance;DBSubnetGroup",
+    "from_operation": "DescribeDBClusters",
+    "id_fields_seen": "CharacterSetName;CloneGroupId;DBClusterArn;DatabaseName;DbClusterResourceId;HostedZoneId;KmsKeyId"
+  },
+  {
+    "service_code": "neptune-graph",
+    "service_full_name": "Amazon Neptune Graph",
+    "main_resource_example": "ExportTaskSummary",
+    "secondary_examples": "ImportTaskSummary;GraphSnapshotSummary",
+    "from_operation": "ListExportTasks",
+    "id_fields_seen": "graphId;roleArn;taskId"
+  },
+  {
+    "service_code": "neptunedata",
+    "service_full_name": "Amazon NeptuneData",
+    "main_resource_example": "GremlinQueryStatu",
+    "secondary_examples": "GremlinQueryStatu;id",
+    "from_operation": "ListGremlinQueries",
+    "id_fields_seen": "queryId"
+  },
+  {
+    "service_code": "network-firewall",
+    "service_full_name": "AWS Network Firewall",
+    "main_resource_example": "FirewallMetadata",
+    "secondary_examples": "Action;AnalysisReport",
+    "from_operation": "ListFirewalls",
+    "id_fields_seen": "FirewallArn;FirewallName;TransitGatewayAttachmentId"
+  },
+  {
+    "service_code": "networkflowmonitor",
+    "service_full_name": "Network Flow Monitor",
+    "main_resource_example": "TraversedComponent",
+    "secondary_examples": "MonitorSummary;ScopeSummary",
+    "from_operation": "GetQueryResultsMonitorTopContributors",
+    "id_fields_seen": "componentArn;componentId;serviceName"
+  },
+  {
+    "service_code": "networkmanager",
+    "service_full_name": "AWS Network Manager",
+    "main_resource_example": "Attachment",
+    "secondary_examples": "ConnectPeerSummary;CoreNetworkSummary",
+    "from_operation": "ListAttachments",
+    "id_fields_seen": "AttachmentId;CoreNetworkArn;CoreNetworkId;NetworkFunctionGroupName;OwnerAccountId;ResourceArn;SegmentName"
+  },
+  {
+    "service_code": "networkmonitor",
+    "service_full_name": "Amazon CloudWatch Network Monitor",
+    "main_resource_example": "MonitorSummary",
+    "secondary_examples": "Probe",
+    "from_operation": "ListMonitors",
+    "id_fields_seen": "monitorArn;monitorName"
+  },
+  {
+    "service_code": "notifications",
+    "service_full_name": "AWS User Notifications",
+    "main_resource_example": "ManagedNotificationChildEventOverview",
+    "secondary_examples": "ManagedNotificationEventOverview;EventRuleStructure",
+    "from_operation": "ListManagedNotificationChildEvents",
+    "id_fields_seen": "aggregateManagedNotificationEventArn;managedNotificationConfigurationArn;organizationalUnitId"
+  },
+  {
+    "service_code": "notificationscontacts",
+    "service_full_name": "AWS User Notifications Contacts",
+    "main_resource_example": "EmailContact",
+    "secondary_examples": "",
+    "from_operation": "ListEmailContacts",
+    "id_fields_seen": ""
+  },
+  {
+    "service_code": "oam",
+    "service_full_name": "CloudWatch Observability Access Manager",
+    "main_resource_example": "ListSinksItem",
+    "secondary_examples": "ListLinksItem;ListAttachedLinksItem",
+    "from_operation": "ListSinks",
+    "id_fields_seen": "Arn;Id;Name"
+  },
+  {
+    "service_code": "observabilityadmin",
+    "service_full_name": "CloudWatch Observability Admin Service",
+    "main_resource_example": "TelemetryRuleSummary",
+    "secondary_examples": "TelemetryRuleSummary;TelemetryConfiguration",
+    "from_operation": "ListTelemetryRules",
+    "id_fields_seen": "RuleArn;RuleName"
+  },
+  {
+    "service_code": "odb",
+    "service_full_name": "odb",
+    "main_resource_example": "CloudAutonomousVmClusterSummary",
+    "secondary_examples": "CloudVmClusterSummary;CloudExadataInfrastructureSummary",
+    "from_operation": "ListCloudAutonomousVmClusters",
+    "id_fields_seen": "cloudAutonomousVmClusterArn;cloudAutonomousVmClusterId;cloudExadataInfrastructureId;displayName;ociResourceAnchorName;odbNetworkId"
+  },
+  {
+    "service_code": "omics",
+    "service_full_name": "Amazon Omics",
+    "main_resource_example": "AnnotationStoreVersionItem",
+    "secondary_examples": "ShareDetail;AnnotationImportJobItem",
+    "from_operation": "ListAnnotationStoreVersions",
+    "id_fields_seen": "storeId;versionArn;versionName"
+  },
+  {
+    "service_code": "opensearch",
+    "service_full_name": "Amazon OpenSearch Service",
+    "main_resource_example": "DomainMaintenanceDetail",
+    "secondary_examples": "DomainStatu;ReservedInstance",
+    "from_operation": "ListDomainMaintenances",
+    "id_fields_seen": "DomainName;MaintenanceId;NodeId"
+  },
+  {
+    "service_code": "opensearchserverless",
+    "service_full_name": "OpenSearch Service Serverless",
+    "main_resource_example": "CollectionDetail",
+    "secondary_examples": "securityGroup;securityGroup",
+    "from_operation": "BatchGetCollection",
+    "id_fields_seen": "kmsKeyArn"
+  },
+  {
+    "service_code": "opsworks",
+    "service_full_name": "AWS OpsWorks",
+    "main_resource_example": "EcsCluster",
+    "secondary_examples": "Instance;Layer",
+    "from_operation": "DescribeEcsClusters",
+    "id_fields_seen": "EcsClusterArn;EcsClusterName;StackId"
+  },
+  {
+    "service_code": "opsworkscm",
+    "service_full_name": "AWS OpsWorks CM",
+    "main_resource_example": "Backup",
+    "secondary_examples": "Server;AccountAttribute",
+    "from_operation": "DescribeBackups",
+    "id_fields_seen": "BackupArn;BackupId;InstanceProfileArn;ServerName;ServiceRoleArn;UserArn"
+  },
+  {
+    "service_code": "organizations",
+    "service_full_name": "AWS Organizations",
+    "main_resource_example": "Account",
+    "secondary_examples": "Account;Account",
+    "from_operation": "ListAccounts",
+    "id_fields_seen": "Arn;Id;Name"
+  },
+  {
+    "service_code": "osis",
+    "service_full_name": "Amazon OpenSearch Ingestion",
+    "main_resource_example": "PipelineSummary",
+    "secondary_examples": "PipelineBlueprintSummary;PipelineDestination",
+    "from_operation": "ListPipelines",
+    "id_fields_seen": "PipelineArn;PipelineName"
+  },
+  {
+    "service_code": "outposts",
+    "service_full_name": "AWS Outposts",
+    "main_resource_example": "Outpost",
+    "secondary_examples": "Site;AssetInstance",
+    "from_operation": "ListOutposts",
+    "id_fields_seen": "AvailabilityZoneId;Name;OutpostArn;OutpostId;OwnerId;SiteArn;SiteId"
+  },
+  {
+    "service_code": "panorama",
+    "service_full_name": "AWS Panorama",
+    "main_resource_example": "ApplicationInstance",
+    "secondary_examples": "Node;PackageListItem",
+    "from_operation": "ListApplicationInstances",
+    "id_fields_seen": "ApplicationInstanceId;Arn;DefaultRuntimeContextDeviceName;Name"
+  },
+  {
+    "service_code": "partnercentral-selling",
+    "service_full_name": "Partner Central Selling API",
+    "main_resource_example": "EngagementInvitationSummary",
+    "secondary_examples": "ResourceSnapshotSummary;SolutionBase",
+    "from_operation": "ListEngagementInvitations",
+    "id_fields_seen": "Arn;EngagementId;Id;SenderAwsAccountId;SenderCompanyName"
+  },
+  {
+    "service_code": "payment-cryptography",
+    "service_full_name": "Payment Cryptography Control Plane",
+    "main_resource_example": "Alia",
+    "secondary_examples": "KeySummary",
+    "from_operation": "ListAliases",
+    "id_fields_seen": "AliasName;KeyArn"
+  },
+  {
+    "service_code": "pca-connector-ad",
+    "service_full_name": "PcaConnectorAd",
+    "main_resource_example": "AccessControlEntrySummary",
+    "secondary_examples": "ConnectorSummary;DirectoryRegistrationSummary",
+    "from_operation": "ListTemplateGroupAccessControlEntries",
+    "id_fields_seen": "GroupDisplayName;TemplateArn"
+  },
+  {
+    "service_code": "pca-connector-scep",
+    "service_full_name": "Private CA Connector for SCEP",
+    "main_resource_example": "ConnectorSummary",
+    "secondary_examples": "ChallengeMetadataSummary",
+    "from_operation": "ListConnectors",
+    "id_fields_seen": "Arn;CertificateAuthorityArn"
+  },
+  {
+    "service_code": "pcs",
+    "service_full_name": "AWS Parallel Computing Service",
+    "main_resource_example": "QueueSummary",
+    "secondary_examples": "ComputeNodeGroupSummary;ComputeNodeGroupConfiguration",
+    "from_operation": "ListQueues",
+    "id_fields_seen": "clusterId"
+  },
+  {
+    "service_code": "personalize",
+    "service_full_name": "Amazon Personalize",
+    "main_resource_example": "BatchInferenceJobSummary",
+    "secondary_examples": "BatchSegmentJobSummary;DataDeletionJobSummary",
+    "from_operation": "ListBatchInferenceJobs",
+    "id_fields_seen": "batchInferenceJobArn;jobName;solutionVersionArn"
+  },
+  {
+    "service_code": "personalize-runtime",
+    "service_full_name": "Amazon Personalize Runtime",
+    "main_resource_example": "PredictedItem",
+    "secondary_examples": "PredictedItem;PredictedAction",
+    "from_operation": "GetPersonalizedRanking",
+    "id_fields_seen": "itemId;promotionName"
+  },
+  {
+    "service_code": "pi",
+    "service_full_name": "AWS Performance Insights",
+    "main_resource_example": "AnalysisReportSummary",
+    "secondary_examples": "Partition;Insight",
+    "from_operation": "ListPerformanceAnalysisReports",
+    "id_fields_seen": "AnalysisReportId"
+  },
+  {
+    "service_code": "pinpoint",
+    "service_full_name": "Amazon Pinpoint",
+    "main_resource_example": "ApplicationResponse",
+    "secondary_examples": "CampaignResponse;CampaignResponse",
+    "from_operation": "GetApps",
+    "id_fields_seen": "Arn;Id;Name"
+  },
+  {
+    "service_code": "pinpoint-email",
+    "service_full_name": "Amazon Pinpoint Email Service",
+    "main_resource_example": "DeliverabilityTestReport",
+    "secondary_examples": "DomainDeliverabilityCampaign;ConfigurationSet",
+    "from_operation": "ListDeliverabilityTestReports",
+    "id_fields_seen": "ReportId;ReportName"
+  },
+  {
+    "service_code": "pinpoint-sms-voice",
+    "service_full_name": "Amazon Pinpoint SMS and Voice Service",
+    "main_resource_example": "EventDestination",
+    "secondary_examples": "MatchingEventType",
+    "from_operation": "GetConfigurationSetEventDestinations",
+    "id_fields_seen": "Name"
+  },
+  {
+    "service_code": "pinpoint-sms-voice-v2",
+    "service_full_name": "Amazon Pinpoint SMS Voice V2",
+    "main_resource_example": "ConfigurationSetInformation",
+    "secondary_examples": "PhoneNumberInformation;PoolInformation",
+    "from_operation": "DescribeConfigurationSets",
+    "id_fields_seen": "ConfigurationSetArn;ConfigurationSetName;DefaultSenderId;ProtectConfigurationId"
+  },
+  {
+    "service_code": "pipes",
+    "service_full_name": "Amazon EventBridge Pipes",
+    "main_resource_example": "Pipe",
+    "secondary_examples": "AdditionalBootstrapServer;BatchEnvironmentVariable",
+    "from_operation": "ListPipes",
+    "id_fields_seen": "Arn;Name"
+  },
+  {
+    "service_code": "polly",
+    "service_full_name": "Amazon Polly",
+    "main_resource_example": "SynthesisTask",
+    "secondary_examples": "Voice;AdditionalLanguageCode",
+    "from_operation": "ListSpeechSynthesisTasks",
+    "id_fields_seen": "SnsTopicArn;TaskId;VoiceId"
+  },
+  {
+    "service_code": "pricing",
+    "service_full_name": "AWS Price List Service",
+    "main_resource_example": "Attribute",
+    "secondary_examples": "FileFormat;PriceList",
+    "from_operation": "DescribeServices",
+    "id_fields_seen": "AttributeName"
+  },
+  {
+    "service_code": "proton",
+    "service_full_name": "AWS Proton",
+    "main_resource_example": "DeploymentSummary",
+    "secondary_examples": "EnvironmentAccountConnectionSummary;EnvironmentSummary",
+    "from_operation": "ListDeployments",
+    "id_fields_seen": "componentName;environmentName;lastAttemptedDeploymentId;lastSucceededDeploymentId;serviceInstanceName;serviceName;targetArn"
+  },
+  {
+    "service_code": "qapps",
+    "service_full_name": "QApps",
+    "main_resource_example": "UserAppItem",
+    "secondary_examples": "LibraryItemMember;QAppSessionData",
+    "from_operation": "ListQApps",
+    "id_fields_seen": "appArn;appId"
+  },
+  {
+    "service_code": "qbusiness",
+    "service_full_name": "QBusiness",
+    "main_resource_example": "ChatResponseConfiguration",
+    "secondary_examples": "DataAccessor;Application",
+    "from_operation": "ListChatResponseConfigurations",
+    "id_fields_seen": "chatResponseConfigurationArn;chatResponseConfigurationId;displayName"
+  },
+  {
+    "service_code": "qconnect",
+    "service_full_name": "Amazon Q Connect",
+    "main_resource_example": "AIAgentSummary",
+    "secondary_examples": "AIGuardrailSummary;AIPromptSummary",
+    "from_operation": "ListAIAgents",
+    "id_fields_seen": "aiAgentArn;aiAgentId;assistantArn;assistantId"
+  },
+  {
+    "service_code": "qldb",
+    "service_full_name": "Amazon QLDB",
+    "main_resource_example": "JournalKinesisStreamDescription",
+    "secondary_examples": "JournalS3ExportDescription;JournalS3ExportDescription",
+    "from_operation": "ListJournalKinesisStreamsForLedger",
+    "id_fields_seen": "Arn;LedgerName;RoleArn;StreamId;StreamName"
+  },
+  {
+    "service_code": "quicksight",
+    "service_full_name": "Amazon QuickSight",
+    "main_resource_example": "TopicRefreshScheduleSummary",
+    "secondary_examples": "TopicSummary;User",
+    "from_operation": "ListTopicRefreshSchedules",
+    "id_fields_seen": "DatasetArn;DatasetId;DatasetName"
+  },
+  {
+    "service_code": "ram",
+    "service_full_name": "AWS Resource Access Manager",
+    "main_resource_example": "ResourceShareInvitation",
+    "secondary_examples": "ResourceShare;ResourceShareAssociation",
+    "from_operation": "GetResourceShareInvitations",
+    "id_fields_seen": "receiverAccountId;receiverArn;resourceShareArn;resourceShareInvitationArn;resourceShareName;senderAccountId"
+  },
+  {
+    "service_code": "rbin",
+    "service_full_name": "Amazon Recycle Bin",
+    "main_resource_example": "RuleSummary",
+    "secondary_examples": "",
+    "from_operation": "ListRules",
+    "id_fields_seen": "RuleArn"
+  },
+  {
+    "service_code": "rds",
+    "service_full_name": "Amazon Relational Database Service",
+    "main_resource_example": "DBCluster",
+    "secondary_examples": "DBInstance;DBInstanceAutomatedBackup",
+    "from_operation": "DescribeDBClusters",
+    "id_fields_seen": "ActivityStreamKinesisStreamName;ActivityStreamKmsKeyId;AwsBackupRecoveryPointArn;CharacterSetName;CloneGroupId;DBClusterArn;DBSystemId;DatabaseName;DbClusterResourceId;HostedZoneId;KmsKeyId;MonitoringRoleArn;PerformanceInsightsKMSKeyId"
+  },
+  {
+    "service_code": "rds-data",
+    "service_full_name": "AWS RDS DataService",
+    "main_resource_example": "booleanValue",
+    "secondary_examples": "booleanValue;booleanValue",
+    "from_operation": "BatchExecuteStatement",
+    "id_fields_seen": "booleanValueName"
+  },
+  {
+    "service_code": "redshift",
+    "service_full_name": "Amazon Redshift",
+    "main_resource_example": "Cluster",
+    "secondary_examples": "Integration;Snapshot",
+    "from_operation": "DescribeClusters",
+    "id_fields_seen": "ClusterNamespaceArn;ClusterSubnetGroupName;CustomDomainCertificateArn;CustomDomainName;DBName;DefaultIamRoleArn;KmsKeyId;MaintenanceTrackName;MasterPasswordSecretArn;MasterPasswordSecretKmsKeyId;VpcId"
+  },
+  {
+    "service_code": "redshift-data",
+    "service_full_name": "Redshift Data API Service",
+    "main_resource_example": "StatementData",
+    "secondary_examples": "Databa;QueryString",
+    "from_operation": "ListStatements",
+    "id_fields_seen": "Id;SecretArn;SessionId;StatementName"
+  },
+  {
+    "service_code": "redshift-serverless",
+    "service_full_name": "Redshift Serverless",
+    "main_resource_example": "ManagedWorkgroupListItem",
+    "secondary_examples": "Namespace;RecoveryPoint",
+    "from_operation": "ListManagedWorkgroups",
+    "id_fields_seen": "managedWorkgroupId;managedWorkgroupName;sourceArn"
+  },
+  {
+    "service_code": "rekognition",
+    "service_full_name": "Amazon Rekognition",
+    "main_resource_example": "MediaAnalysisJobDescription",
+    "secondary_examples": "ProjectPolicy;ProjectVersionDescription",
+    "from_operation": "ListMediaAnalysisJobs",
+    "id_fields_seen": "JobId;JobName;KmsKeyId"
+  },
+  {
+    "service_code": "repostspace",
+    "service_full_name": "AWS re:Post Private",
+    "main_resource_example": "ChannelData",
+    "secondary_examples": "allowedDomain;SpaceData",
+    "from_operation": "ListChannels",
+    "id_fields_seen": "channelId;channelName;spaceId"
+  },
+  {
+    "service_code": "resiliencehub",
+    "service_full_name": "AWS Resilience Hub",
+    "main_resource_example": "AlarmRecommendation",
+    "secondary_examples": "AppAssessmentSummary;AppInputSource",
+    "from_operation": "ListAlarmRecommendations",
+    "id_fields_seen": "appComponentName;recommendationId;referenceId"
+  },
+  {
+    "service_code": "resource-explorer-2",
+    "service_full_name": "AWS Resource Explorer",
+    "main_resource_example": "MemberIndex",
+    "secondary_examples": "Resource;Resource",
+    "from_operation": "ListIndexesForMembers",
+    "id_fields_seen": "AccountId;Arn"
+  },
+  {
+    "service_code": "resource-groups",
+    "service_full_name": "AWS Resource Groups",
+    "main_resource_example": "Group",
+    "secondary_examples": "GroupIdentifier;GroupingStatusesItem",
+    "from_operation": "ListGroups",
+    "id_fields_seen": "DisplayName;GroupArn;Name"
+  },
+  {
+    "service_code": "resourcegroupstaggingapi",
+    "service_full_name": "AWS Resource Groups Tagging API",
+    "main_resource_example": "KeysWithNoncompliantValue",
+    "secondary_examples": "NoncompliantKey;Summary",
+    "from_operation": "GetResources",
+    "id_fields_seen": "KeysWithNoncompliantValueName"
+  },
+  {
+    "service_code": "robomaker",
+    "service_full_name": "AWS RoboMaker",
+    "main_resource_example": "Robot",
+    "secondary_examples": "Robot;command",
+    "from_operation": "DescribeFleet",
+    "id_fields_seen": "fleetArn;greenGrassGroupId"
+  },
+  {
+    "service_code": "rolesanywhere",
+    "service_full_name": "IAM Roles Anywhere",
+    "main_resource_example": "ProfileDetail",
+    "secondary_examples": "CrlDetail;SubjectSummary",
+    "from_operation": "ListProfiles",
+    "id_fields_seen": "acceptRoleSessionName;profileArn;profileId"
+  },
+  {
+    "service_code": "route53",
+    "service_full_name": "Amazon Route 53",
+    "main_resource_example": "CollectionSummary",
+    "secondary_examples": "HostedZone;HostedZone",
+    "from_operation": "ListCidrCollections",
+    "id_fields_seen": "Arn;Id;Name"
+  },
+  {
+    "service_code": "route53-recovery-cluster",
+    "service_full_name": "Route53 Recovery Cluster",
+    "main_resource_example": "RoutingControl",
+    "secondary_examples": "",
+    "from_operation": "ListRoutingControls",
+    "id_fields_seen": "ControlPanelArn;ControlPanelName;RoutingControlArn;RoutingControlName"
+  },
+  {
+    "service_code": "route53-recovery-control-config",
+    "service_full_name": "AWS Route53 Recovery Control Config",
+    "main_resource_example": "Cluster",
+    "secondary_examples": "ControlPanel;RoutingControl",
+    "from_operation": "ListClusters",
+    "id_fields_seen": "ClusterArn;Name"
+  },
+  {
+    "service_code": "route53-recovery-readiness",
+    "service_full_name": "AWS Route53 Recovery Readiness",
+    "main_resource_example": "CellOutput",
+    "secondary_examples": "ReadinessCheckOutput;RecoveryGroupOutput",
+    "from_operation": "ListCells",
+    "id_fields_seen": "CellArn;CellName"
+  },
+  {
+    "service_code": "route53domains",
+    "service_full_name": "Amazon Route 53 Domains",
+    "main_resource_example": "OperationSummary",
+    "secondary_examples": "BillingRecord;DomainPrice",
+    "from_operation": "ListOperations",
+    "id_fields_seen": "DomainName;OperationId"
+  },
+  {
+    "service_code": "route53profiles",
+    "service_full_name": "Route 53 Profiles",
+    "main_resource_example": "ProfileResourceAssociation",
+    "secondary_examples": "ProfileSummary;ProfileAssociation",
+    "from_operation": "ListProfileResourceAssociations",
+    "id_fields_seen": "Id;Name;OwnerId;ProfileId;ResourceArn"
+  },
+  {
+    "service_code": "route53resolver",
+    "service_full_name": "Amazon Route 53 Resolver",
+    "main_resource_example": "FirewallRuleGroupAssociation",
+    "secondary_examples": "OutpostResolver;ResolverQueryLogConfig",
+    "from_operation": "ListFirewallRuleGroupAssociations",
+    "id_fields_seen": "Arn;CreatorRequestId;FirewallRuleGroupId;Id;ManagedOwnerName;Name;VpcId"
+  },
+  {
+    "service_code": "rum",
+    "service_full_name": "CloudWatch RUM",
+    "main_resource_example": "AppMonitorSummary",
+    "secondary_examples": "MetricDefinition;MetricDefinition",
+    "from_operation": "ListAppMonitors",
+    "id_fields_seen": "Id;Name"
+  },
+  {
+    "service_code": "s3",
+    "service_full_name": "Amazon Simple Storage Service",
+    "main_resource_example": "Bucket",
+    "secondary_examples": "Bucket;LambdaFunctionConfiguration",
+    "from_operation": "ListBuckets",
+    "id_fields_seen": "BucketArn;Name"
+  },
+  {
+    "service_code": "s3control",
+    "service_full_name": "AWS S3 Control",
+    "main_resource_example": "AccessPoint",
+    "secondary_examples": "AccessPoint;ListAccessGrantsInstanceEntry",
+    "from_operation": "ListAccessPoints",
+    "id_fields_seen": "AccessPointArn;BucketAccountId;DataSourceId;Name"
+  },
+  {
+    "service_code": "s3outposts",
+    "service_full_name": "Amazon S3 on Outposts",
+    "main_resource_example": "Outpost",
+    "secondary_examples": "Endpoint;Endpoint",
+    "from_operation": "ListOutpostsWithS3",
+    "id_fields_seen": "OutpostArn;OutpostId;OwnerId;S3OutpostArn"
+  },
+  {
+    "service_code": "s3tables",
+    "service_full_name": "Amazon S3 Tables",
+    "main_resource_example": "TableBucketSummary",
+    "secondary_examples": "TableSummary;NamespaceSummary",
+    "from_operation": "ListTableBuckets",
+    "id_fields_seen": "ownerAccountId;tableBucketId"
+  },
+  {
+    "service_code": "s3vectors",
+    "service_full_name": "Amazon S3 Vectors",
+    "main_resource_example": "VectorBucketSummary",
+    "secondary_examples": "IndexSummary;float32",
+    "from_operation": "ListVectorBuckets",
+    "id_fields_seen": "vectorBucketArn;vectorBucketName"
+  },
+  {
+    "service_code": "sagemaker",
+    "service_full_name": "Amazon SageMaker Service",
+    "main_resource_example": "ClusterEventSummary",
+    "secondary_examples": "ClusterInstanceGroupDetail;ClusterSchedulerConfigSummary",
+    "from_operation": "ListClusterEvents",
+    "id_fields_seen": "ClusterArn;ClusterName;EventId;InstanceGroupName;InstanceId"
+  },
+  {
+    "service_code": "sagemaker-a2i-runtime",
+    "service_full_name": "Amazon Augmented AI Runtime",
+    "main_resource_example": "HumanLoopSummary",
+    "secondary_examples": "",
+    "from_operation": "ListHumanLoops",
+    "id_fields_seen": "FlowDefinitionArn;HumanLoopName"
+  },
+  {
+    "service_code": "sagemaker-edge",
+    "service_full_name": "Amazon Sagemaker Edge Manager",
+    "main_resource_example": "EdgeDeployment",
+    "secondary_examples": "",
+    "from_operation": "GetDeployments",
+    "id_fields_seen": "DeploymentName"
+  },
+  {
+    "service_code": "sagemaker-featurestore-runtime",
+    "service_full_name": "Amazon SageMaker Feature Store Runtime",
+    "main_resource_example": "BatchGetRecordIdentifier",
+    "secondary_examples": "BatchGetRecordResultDetail;Feature",
+    "from_operation": "BatchGetRecord",
+    "id_fields_seen": "FeatureGroupName"
+  },
+  {
+    "service_code": "sagemaker-geospatial",
+    "service_full_name": "Amazon SageMaker geospatial capabilities",
+    "main_resource_example": "ListEarthObservationJobOutputConfig",
+    "secondary_examples": "ListVectorEnrichmentJobOutputConfig;Filter",
+    "from_operation": "ListEarthObservationJobs",
+    "id_fields_seen": "Arn;Name"
+  },
+  {
+    "service_code": "sagemaker-metrics",
+    "service_full_name": "Amazon SageMaker Metrics Service",
+    "main_resource_example": "MetricValue",
+    "secondary_examples": "XAxisValue",
+    "from_operation": "BatchGetMetrics",
+    "id_fields_seen": "MetricValueName"
+  },
+  {
+    "service_code": "savingsplans",
+    "service_full_name": "AWS Savings Plans",
+    "main_resource_example": "SavingsPlan",
+    "secondary_examples": "SavingsPlanOffering;productType",
+    "from_operation": "DescribeSavingsPlans",
+    "id_fields_seen": "offeringId;savingsPlanArn;savingsPlanId"
+  },
+  {
+    "service_code": "scheduler",
+    "service_full_name": "Amazon EventBridge Scheduler",
+    "main_resource_example": "ScheduleGroupSummary",
+    "secondary_examples": "ScheduleSummary;SageMakerPipelineParameter",
+    "from_operation": "ListScheduleGroups",
+    "id_fields_seen": "Arn;Name"
+  },
+  {
+    "service_code": "schemas",
+    "service_full_name": "Schemas",
+    "main_resource_example": "DiscovererSummary",
+    "secondary_examples": "RegistrySummary;SchemaSummary",
+    "from_operation": "ListDiscoverers",
+    "id_fields_seen": "DiscovererArn;DiscovererId;SourceArn"
+  },
+  {
+    "service_code": "sdb",
+    "service_full_name": "Amazon SimpleDB",
+    "main_resource_example": "Domain",
+    "secondary_examples": "Attribute;Attribute",
+    "from_operation": "ListDomains",
+    "id_fields_seen": "DomainName"
+  },
+  {
+    "service_code": "secretsmanager",
+    "service_full_name": "AWS Secrets Manager",
+    "main_resource_example": "SecretListEntry",
+    "secondary_examples": "SecretValueEntry;KmsKey",
+    "from_operation": "ListSecrets",
+    "id_fields_seen": "KmsKeyId;Name"
+  },
+  {
+    "service_code": "security-ir",
+    "service_full_name": "Security Incident Response",
+    "main_resource_example": "ListCasesItem",
+    "secondary_examples": "ListMembershipItem;CaseAttachmentAttribute",
+    "from_operation": "ListCases",
+    "id_fields_seen": "caseArn;caseId"
+  },
+  {
+    "service_code": "securityhub",
+    "service_full_name": "AWS SecurityHub",
+    "main_resource_example": "AwsIamInstanceProfile",
+    "secondary_examples": "ConnectorSummary;AwsSecurityFinding",
+    "from_operation": "GetFindings",
+    "id_fields_seen": "Arn;InstanceProfileId;InstanceProfileName"
+  },
+  {
+    "service_code": "securitylake",
+    "service_full_name": "Amazon Security Lake",
+    "main_resource_example": "SubscriberResource",
+    "secondary_examples": "DataLakeResource;accessType",
+    "from_operation": "ListSubscribers",
+    "id_fields_seen": "resourceShareArn;resourceShareName;roleArn;s3BucketArn;subscriberArn;subscriberId;subscriberName"
+  },
+  {
+    "service_code": "serverlessrepo",
+    "service_full_name": "AWSServerlessApplicationRepository",
+    "main_resource_example": "ApplicationSummary",
+    "secondary_examples": "ApplicationDependencySummary;Label",
+    "from_operation": "ListApplications",
+    "id_fields_seen": "ApplicationId;Name;SpdxLicenseId"
+  },
+  {
+    "service_code": "service-quotas",
+    "service_full_name": "Service Quotas",
+    "main_resource_example": "RequestedServiceQuotaChange",
+    "secondary_examples": "RequestedServiceQuotaChange;ServiceInfo",
+    "from_operation": "ListRequestedServiceQuotaChangeHistory",
+    "id_fields_seen": "CaseId;Id;QuotaArn;QuotaName;ServiceName"
+  },
+  {
+    "service_code": "servicecatalog",
+    "service_full_name": "AWS Service Catalog",
+    "main_resource_example": "RecordDetail",
+    "secondary_examples": "ProvisionedProductAttribute;ProvisionedProductDetail",
+    "from_operation": "ListRecordHistory",
+    "id_fields_seen": "LaunchRoleArn;PathId;ProductId;ProvisionedProductId;ProvisionedProductName;ProvisioningArtifactId;RecordId"
+  },
+  {
+    "service_code": "servicecatalog-appregistry",
+    "service_full_name": "AWS Service Catalog App Registry",
+    "main_resource_example": "attributeGroup",
+    "secondary_examples": "option;ResourcesListItem",
+    "from_operation": "ListAssociatedAttributeGroups",
+    "id_fields_seen": "attributeGroupName"
+  },
+  {
+    "service_code": "servicediscovery",
+    "service_full_name": "AWS Cloud Map",
+    "main_resource_example": "NamespaceSummary",
+    "secondary_examples": "ServiceSummary;HttpInstanceSummary",
+    "from_operation": "ListNamespaces",
+    "id_fields_seen": "Arn;Id;Name"
+  },
+  {
+    "service_code": "ses",
+    "service_full_name": "Amazon Simple Email Service",
+    "main_resource_example": "CloudWatchDimensionConfiguration",
+    "secondary_examples": "ConfigurationSet;CustomVerificationEmailTemplate",
+    "from_operation": "DescribeConfigurationSet",
+    "id_fields_seen": "DimensionName"
+  },
+  {
+    "service_code": "sesv2",
+    "service_full_name": "Amazon Simple Email Service",
+    "main_resource_example": "TenantInfo",
+    "secondary_examples": "DeliverabilityTestReport;ResourceTenantMetadata",
+    "from_operation": "ListTenants",
+    "id_fields_seen": "TenantArn;TenantId;TenantName"
+  },
+  {
+    "service_code": "shield",
+    "service_full_name": "AWS Shield",
+    "main_resource_example": "Protection",
+    "secondary_examples": "AttackSummary;ProtectionGroup",
+    "from_operation": "ListProtections",
+    "id_fields_seen": "Id;Name;ProtectionArn;ResourceArn"
+  },
+  {
+    "service_code": "signer",
+    "service_full_name": "AWS Signer",
+    "main_resource_example": "SigningProfile",
+    "secondary_examples": "SigningJob;SigningPlatform",
+    "from_operation": "ListSigningProfiles",
+    "id_fields_seen": "platformDisplayName;platformId;profileName;profileVersionArn"
+  },
+  {
+    "service_code": "simspaceweaver",
+    "service_full_name": "AWS SimSpace Weaver",
+    "main_resource_example": "Domain",
+    "secondary_examples": "LaunchCommand;SimulationMetadata",
+    "from_operation": "DescribeSimulation",
+    "id_fields_seen": "Name"
+  },
+  {
+    "service_code": "sms",
+    "service_full_name": "AWS Server Migration Service",
+    "main_resource_example": "AppSummary",
+    "secondary_examples": "Connector;ReplicationJob",
+    "from_operation": "ListApps",
+    "id_fields_seen": "appId;importedAppId;roleName"
+  },
+  {
+    "service_code": "sms-voice",
+    "service_full_name": "Amazon Pinpoint SMS and Voice Service",
+    "main_resource_example": "ConfigurationSet",
+    "secondary_examples": "EventDestination;MatchingEventType",
+    "from_operation": "ListConfigurationSets",
+    "id_fields_seen": "ConfigurationSetName"
+  },
+  {
+    "service_code": "snow-device-management",
+    "service_full_name": "AWS Snow Device Management",
+    "main_resource_example": "DeviceSummary",
+    "secondary_examples": "SecurityGroupIdentifier;TaskSummary",
+    "from_operation": "ListDevices",
+    "id_fields_seen": "managedDeviceArn;managedDeviceId"
+  },
+  {
+    "service_code": "snowball",
+    "service_full_name": "Amazon Import/Export Snowball",
+    "main_resource_example": "Address",
+    "secondary_examples": "Address;CompatibleImage",
+    "from_operation": "DescribeAddresses",
+    "id_fields_seen": "AddressId;Name"
+  },
+  {
+    "service_code": "sns",
+    "service_full_name": "Amazon Simple Notification Service",
+    "main_resource_example": "Topic",
+    "secondary_examples": "NumberCapability;PlatformApplication",
+    "from_operation": "ListTopics",
+    "id_fields_seen": "TopicArn"
+  },
+  {
+    "service_code": "socialmessaging",
+    "service_full_name": "AWS End User Messaging Social",
+    "main_resource_example": "LinkedWhatsAppBusinessAccountSummary",
+    "secondary_examples": "MetaLibraryTemplateDefinition;TemplateSummary",
+    "from_operation": "ListLinkedWhatsAppBusinessAccounts",
+    "id_fields_seen": "wabaId;wabaName"
+  },
+  {
+    "service_code": "sqs",
+    "service_full_name": "Amazon Simple Queue Service",
+    "main_resource_example": "QueueUrl",
+    "secondary_examples": "queueUrl;ListMessageMoveTasksResultEntry",
+    "from_operation": "ListQueues",
+    "id_fields_seen": "QueueUrlName"
+  },
+  {
+    "service_code": "ssm",
+    "service_full_name": "Amazon Simple Systems Manager (SSM)",
+    "main_resource_example": "MaintenanceWindowTask",
+    "secondary_examples": "InstanceAssociationStatusInfo;InstanceInformation",
+    "from_operation": "DescribeMaintenanceWindowTasks",
+    "id_fields_seen": "Name;ServiceRoleArn;TaskArn;WindowId;WindowTaskId"
+  },
+  {
+    "service_code": "ssm-contacts",
+    "service_full_name": "AWS Systems Manager Incident Manager Contacts",
+    "main_resource_example": "Rotation",
+    "secondary_examples": "Contact;ContactChannel",
+    "from_operation": "ListRotations",
+    "id_fields_seen": "Name;RotationArn;TimeZoneId"
+  },
+  {
+    "service_code": "ssm-guiconnect",
+    "service_full_name": "AWS SSM-GUIConnect",
+    "main_resource_example": "S3Bucket",
+    "secondary_examples": "S3Bucket",
+    "from_operation": "GetConnectionRecordingPreferences",
+    "id_fields_seen": "BucketName"
+  },
+  {
+    "service_code": "ssm-incidents",
+    "service_full_name": "AWS Systems Manager Incident Manager",
+    "main_resource_example": "EventSummary",
+    "secondary_examples": "EventReference;RelatedItem",
+    "from_operation": "ListTimelineEvents",
+    "id_fields_seen": "eventId;incidentRecordArn"
+  },
+  {
+    "service_code": "ssm-quicksetup",
+    "service_full_name": "AWS Systems Manager QuickSetup",
+    "main_resource_example": "ConfigurationDefinition",
+    "secondary_examples": "ConfigurationManagerSummary;ConfigurationSummary",
+    "from_operation": "GetConfigurationManager",
+    "id_fields_seen": "Id;LocalDeploymentAdministrationRoleArn;LocalDeploymentExecutionRoleName"
+  },
+  {
+    "service_code": "ssm-sap",
+    "service_full_name": "AWS Systems Manager for SAP",
+    "main_resource_example": "ApplicationSummary",
+    "secondary_examples": "ComponentSummary;DatabaseSummary",
+    "from_operation": "ListApplications",
+    "id_fields_seen": "Arn;Id"
+  },
+  {
+    "service_code": "sso",
+    "service_full_name": "AWS Single Sign-On",
+    "main_resource_example": "RoleInfo",
+    "secondary_examples": "AccountInfo",
+    "from_operation": "ListAccountRoles",
+    "id_fields_seen": "accountId;roleName"
+  },
+  {
+    "service_code": "sso-admin",
+    "service_full_name": "AWS Single Sign-On Admin",
+    "main_resource_example": "InstanceMetadata",
+    "secondary_examples": "AccountAssignment;AccountAssignmentForPrincipal",
+    "from_operation": "ListInstances",
+    "id_fields_seen": "IdentityStoreId;InstanceArn;Name;OwnerAccountId"
+  },
+  {
+    "service_code": "sso-oidc",
+    "service_full_name": "AWS SSO OIDC",
+    "main_resource_example": "scope",
+    "secondary_examples": "",
+    "from_operation": "CreateTokenWithIAM",
+    "id_fields_seen": "scopeName"
+  },
+  {
+    "service_code": "stepfunctions",
+    "service_full_name": "AWS Step Functions",
+    "main_resource_example": "ActivityListItem",
+    "secondary_examples": "ExecutionListItem;MapRunListItem",
+    "from_operation": "ListActivities",
+    "id_fields_seen": "activityArn"
+  },
+  {
+    "service_code": "storagegateway",
+    "service_full_name": "AWS Storage Gateway",
+    "main_resource_example": "CachediSCSIVolume",
+    "secondary_examples": "GatewayInfo;NFSFileShareInfo",
+    "from_operation": "DescribeCachediSCSIVolumes",
+    "id_fields_seen": "SourceSnapshotId;TargetName;VolumeId"
+  },
+  {
+    "service_code": "supplychain",
+    "service_full_name": "AWS Supply Chain",
+    "main_resource_example": "Instance",
+    "secondary_examples": "DataIntegrationFlowExecution;DataIntegrationEvent",
+    "from_operation": "ListInstances",
+    "id_fields_seen": "awsAccountId;instanceId;instanceName;kmsKeyArn"
+  },
+  {
+    "service_code": "support",
+    "service_full_name": "AWS Support",
+    "main_resource_example": "AttachmentDetail",
+    "secondary_examples": "AttachmentDetail;CaseDetail",
+    "from_operation": "DescribeCases",
+    "id_fields_seen": "attachmentId;fileName"
+  },
+  {
+    "service_code": "support-app",
+    "service_full_name": "AWS Support App",
+    "main_resource_example": "SlackChannelConfiguration",
+    "secondary_examples": "SlackWorkspaceConfiguration",
+    "from_operation": "ListSlackChannelConfigurations",
+    "id_fields_seen": "channelId;channelName;channelRoleArn;teamId"
+  },
+  {
+    "service_code": "swf",
+    "service_full_name": "Amazon Simple Workflow Service",
+    "main_resource_example": "HistoryEvent",
+    "secondary_examples": "HistoryEvent;DomainInfo",
+    "from_operation": "GetWorkflowExecutionHistory",
+    "id_fields_seen": "eventId"
+  },
+  {
+    "service_code": "synthetics",
+    "service_full_name": "Synthetics",
+    "main_resource_example": "Canary",
+    "secondary_examples": "GroupSummary;GroupSummary",
+    "from_operation": "DescribeCanaries",
+    "id_fields_seen": "EngineArn;ExecutionRoleArn;Id;Name"
+  },
+  {
+    "service_code": "taxsettings",
+    "service_full_name": "Tax Settings",
+    "main_resource_example": "SupplementalTaxRegistration",
+    "secondary_examples": "AccountDetail;serviceTaxCode",
+    "from_operation": "ListSupplementalTaxRegistrations",
+    "id_fields_seen": "authorityId;legalName;registrationId"
+  },
+  {
+    "service_code": "textract",
+    "service_full_name": "Amazon Textract",
+    "main_resource_example": "AdapterOverview",
+    "secondary_examples": "AdapterVersionOverview;FeatureType",
+    "from_operation": "ListAdapters",
+    "id_fields_seen": "AdapterId;AdapterName"
+  },
+  {
+    "service_code": "timestream-influxdb",
+    "service_full_name": "Timestream InfluxDB",
+    "main_resource_example": "vpcSecurityGroup",
+    "secondary_examples": "vpcSecurityGroup;vpcSecurityGroup",
+    "from_operation": "CreateDbInstance",
+    "id_fields_seen": "vpcSecurityGroupName"
+  },
+  {
+    "service_code": "timestream-query",
+    "service_full_name": "Amazon Timestream Query",
+    "main_resource_example": "ScheduledQuery",
+    "secondary_examples": "DimensionMapping;MixedMeasureMapping",
+    "from_operation": "ListScheduledQueries",
+    "id_fields_seen": "Arn;Name"
+  },
+  {
+    "service_code": "timestream-write",
+    "service_full_name": "Amazon Timestream Write",
+    "main_resource_example": "Database",
+    "secondary_examples": "Table;BatchLoadTask",
+    "from_operation": "ListDatabases",
+    "id_fields_seen": "Arn;DatabaseName;KmsKeyId"
+  },
+  {
+    "service_code": "tnb",
+    "service_full_name": "AWS Telco Network Builder",
+    "main_resource_example": "ListSolFunctionInstanceInfo",
+    "secondary_examples": "ListSolFunctionPackageInfo;ListSolNetworkInstanceInfo",
+    "from_operation": "ListSolFunctionInstances",
+    "id_fields_seen": "nsInstanceId;vnfPkgId;vnfPkgName"
+  },
+  {
+    "service_code": "transcribe",
+    "service_full_name": "Amazon Transcribe Service",
+    "main_resource_example": "CallAnalyticsJobSummary",
+    "secondary_examples": "CategoryProperty;LanguageModel",
+    "from_operation": "ListCallAnalyticsJobs",
+    "id_fields_seen": "CallAnalyticsJobName"
+  },
+  {
+    "service_code": "transfer",
+    "service_full_name": "AWS Transfer Family",
+    "main_resource_example": "ListedUser",
+    "secondary_examples": "ListedAgreement;ListedCertificate",
+    "from_operation": "ListUsers",
+    "id_fields_seen": "Arn;UserName"
+  },
+  {
+    "service_code": "translate",
+    "service_full_name": "Amazon Translate",
+    "main_resource_example": "TextTranslationJobProperty",
+    "secondary_examples": "ParallelDataProperty;TerminologyProperty",
+    "from_operation": "ListTextTranslationJobs",
+    "id_fields_seen": "DataAccessRoleArn;JobId;JobName"
+  },
+  {
+    "service_code": "trustedadvisor",
+    "service_full_name": "TrustedAdvisor Public API",
+    "main_resource_example": "AccountRecommendationLifecycleSummary",
+    "secondary_examples": "OrganizationRecommendationResourceSummary;RecommendationResourceSummary",
+    "from_operation": "ListOrganizationRecommendationAccounts",
+    "id_fields_seen": "accountId;accountRecommendationArn"
+  },
+  {
+    "service_code": "verifiedpermissions",
+    "service_full_name": "Amazon Verified Permissions",
+    "main_resource_example": "ActionIdentifier",
+    "secondary_examples": "IdentitySourceItem;audience",
+    "from_operation": "ListPolicies",
+    "id_fields_seen": "actionId"
+  },
+  {
+    "service_code": "voice-id",
+    "service_full_name": "Amazon Voice ID",
+    "main_resource_example": "DomainSummary",
+    "secondary_examples": "FraudsterRegistrationJobSummary;SpeakerEnrollmentJobSummary",
+    "from_operation": "ListDomains",
+    "id_fields_seen": "Arn;DomainId;Name"
+  },
+  {
+    "service_code": "vpc-lattice",
+    "service_full_name": "Amazon VPC Lattice",
+    "main_resource_example": "ServiceNetworkResourceAssociationSummary",
+    "secondary_examples": "ServiceNetworkServiceAssociationSummary;ServiceNetworkVpcAssociationSummary",
+    "from_operation": "ListServiceNetworkResourceAssociations",
+    "id_fields_seen": "resourceConfigurationArn;resourceConfigurationId;resourceConfigurationName;serviceNetworkArn;serviceNetworkId;serviceNetworkName"
+  },
+  {
+    "service_code": "waf",
+    "service_full_name": "AWS WAF",
+    "main_resource_example": "ByteMatchSetSummary",
+    "secondary_examples": "GeoMatchSetSummary;IPSetSummary",
+    "from_operation": "ListByteMatchSets",
+    "id_fields_seen": "ByteMatchSetId;Name"
+  },
+  {
+    "service_code": "waf-regional",
+    "service_full_name": "AWS WAF Regional",
+    "main_resource_example": "ByteMatchSetSummary",
+    "secondary_examples": "GeoMatchSetSummary;IPSetSummary",
+    "from_operation": "ListByteMatchSets",
+    "id_fields_seen": "ByteMatchSetId;Name"
+  },
+  {
+    "service_code": "wafv2",
+    "service_full_name": "AWS WAFV2",
+    "main_resource_example": "ManagedProductDescriptor",
+    "secondary_examples": "ManagedProductDescriptor;IPSetSummary",
+    "from_operation": "DescribeAllManagedProducts",
+    "id_fields_seen": "ManagedRuleSetName;ProductId;SnsTopicArn;VendorName"
+  },
+  {
+    "service_code": "wellarchitected",
+    "service_full_name": "AWS Well-Architected Tool",
+    "main_resource_example": "CheckDetail",
+    "secondary_examples": "CheckSummary;ProfileNotificationSummary",
+    "from_operation": "ListCheckDetails",
+    "id_fields_seen": "AccountId;ChoiceId;Id;LensArn;Name;PillarId;QuestionId"
+  },
+  {
+    "service_code": "wisdom",
+    "service_full_name": "Amazon Connect Wisdom Service",
+    "main_resource_example": "AssistantAssociationSummary",
+    "secondary_examples": "AssistantSummary;ContentSummary",
+    "from_operation": "ListAssistantAssociations",
+    "id_fields_seen": "assistantArn;assistantAssociationArn;assistantAssociationId;assistantId"
+  },
+  {
+    "service_code": "workdocs",
+    "service_full_name": "Amazon WorkDocs",
+    "main_resource_example": "User",
+    "secondary_examples": "ResourcePathComponent;ResourcePathComponent",
+    "from_operation": "DescribeUsers",
+    "id_fields_seen": "GivenName;Id;OrganizationId;RecycleBinFolderId;RootFolderId;TimeZoneId"
+  },
+  {
+    "service_code": "workmail",
+    "service_full_name": "Amazon WorkMail",
+    "main_resource_example": "ImpersonationRole",
+    "secondary_examples": "User;Group",
+    "from_operation": "ListImpersonationRoles",
+    "id_fields_seen": "ImpersonationRoleId;Name"
+  },
+  {
+    "service_code": "workspaces",
+    "service_full_name": "Amazon WorkSpaces",
+    "main_resource_example": "WorkspacesPool",
+    "secondary_examples": "ConnectClientAddIn;WorkSpaceApplication",
+    "from_operation": "DescribeWorkspacesPools",
+    "id_fields_seen": "BundleId;DirectoryId;PoolArn;PoolId;PoolName"
+  },
+  {
+    "service_code": "workspaces-instances",
+    "service_full_name": "Amazon Workspaces Instances",
+    "main_resource_example": "WorkspaceInstance",
+    "secondary_examples": "Region;InstanceTypeInfo",
+    "from_operation": "ListWorkspaceInstances",
+    "id_fields_seen": "WorkspaceInstanceId"
+  },
+  {
+    "service_code": "workspaces-thin-client",
+    "service_full_name": "Amazon WorkSpaces Thin Client",
+    "main_resource_example": "EnvironmentSummary",
+    "secondary_examples": "DeviceSummary;daysOfTheWeek",
+    "from_operation": "ListEnvironments",
+    "id_fields_seen": "desiredSoftwareSetId;desktopArn;pendingSoftwareSetId"
+  },
+  {
+    "service_code": "workspaces-web",
+    "service_full_name": "Amazon WorkSpaces Web",
+    "main_resource_example": "DataProtectionSettingsSummary",
+    "secondary_examples": "IdentityProviderSummary;IpAccessSettingsSummary",
+    "from_operation": "ListDataProtectionSettings",
+    "id_fields_seen": "dataProtectionSettingsArn;displayName"
+  },
+  {
+    "service_code": "xray",
+    "service_full_name": "AWS X-Ray",
+    "main_resource_example": "FaultRootCauseService",
+    "secondary_examples": "InsightImpactGraphService;InsightSummary",
+    "from_operation": "GetTraceSummaries",
+    "id_fields_seen": "AccountId;Name"
+  }
+]
