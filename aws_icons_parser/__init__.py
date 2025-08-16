@@ -1,0 +1,1 @@
+"""AWS icons parser package."""

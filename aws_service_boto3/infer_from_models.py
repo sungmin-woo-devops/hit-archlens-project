@@ -8,13 +8,17 @@ infer_from_models.py
 """
 
 from collections import deque
-import re, csv, json, sys, os
-import boto3, botocore.session
+import csv
+import json
+import os
+import re
+import sys
 
-# ---- 세션/메타 ----
-sess = boto3.session.Session()
-bcs  = botocore.session.get_session()
-service_codes = sorted(sess.get_available_services())
+import boto3
+import botocore.session
+
+
+# 세션/메타는 함수 내부에서 생성하여 재사용성 향상
 
 # ---- 설정/휴리스틱 ----
 MAX_DEPTH = 8
@@ -123,80 +127,106 @@ def iter_walk_output_shape(output_shape):
 
         # map/기타 타입은 리소스 후보로 쓰지 않음
 
-# ---- 메인 로직 ----
-rows = []
-for code in service_codes:
-    try:
-        model = bcs.get_service_model(code)
-    except Exception:
-        continue
-    md = model.metadata or {}
-    full_name = md.get("serviceFullName") or code
-    ops = model.operation_names
-    cand = []
-    for op_name in ops:
+def infer_from_models(
+    out_csv: str = "out/aws_resources_models.csv",
+    out_json: str = "out/aws_resources_models.json",
+) -> None:
+    """Infer representative resources for AWS services using botocore models."""
+
+    sess = boto3.session.Session()
+    bcs = botocore.session.get_session()
+    service_codes = sorted(sess.get_available_services())
+
+    rows = []
+    for code in service_codes:
         try:
-            op = model.operation_model(op_name)
-            outshape = op.output_shape
+            model = bcs.get_service_model(code)
         except Exception:
             continue
-        if outshape is None:
-            continue
-        for path, list_name, elem_label, id_fields in iter_walk_output_shape(outshape):
-            # 후보 라벨 만들기
-            label = normalize_resource_label(elem_label or list_name)
-            sc = score_candidate(op_name, list_name, label, id_fields)
-            if sc <= 0:
+        md = model.metadata or {}
+        full_name = md.get("serviceFullName") or code
+        ops = model.operation_names
+        cand = []
+        for op_name in ops:
+            try:
+                op = model.operation_model(op_name)
+                outshape = op.output_shape
+            except Exception:
                 continue
-            cand.append({
+            if outshape is None:
+                continue
+            for path, list_name, elem_label, id_fields in iter_walk_output_shape(outshape):
+                # 후보 라벨 만들기
+                label = normalize_resource_label(elem_label or list_name)
+                sc = score_candidate(op_name, list_name, label, id_fields)
+                if sc <= 0:
+                    continue
+                cand.append(
+                    {
+                        "service_code": code,
+                        "service_full_name": full_name,
+                        "operation": op_name,
+                        "list_name": list_name,
+                        "element_label": elem_label,
+                        "representative_resource_guess": label,
+                        "id_fields": ";".join(sorted(id_fields)),
+                        "score": sc,
+                    }
+                )
+        # 상위 3개만 남김
+        cand.sort(key=lambda x: (-x["score"], x["representative_resource_guess"]))
+        top = cand[:3] if cand else []
+        rows.extend(top)
+
+    # 서비스당 1~3개 대표 리소스로 집계
+    agg: dict[tuple[str, str], list[dict[str, str]]] = {}
+    for r in rows:
+        key = (r["service_code"], r["service_full_name"])
+        agg.setdefault(key, []).append(r)
+
+    final = []
+    for (code, name), lst in agg.items():
+        lst = sorted(lst, key=lambda x: -x["score"])
+        main = lst[0]
+        secs = [x["representative_resource_guess"] for x in lst[1:]]
+        final.append(
+            {
                 "service_code": code,
-                "service_full_name": full_name,
-                "operation": op_name,
-                "list_name": list_name,
-                "element_label": elem_label,
-                "representative_resource_guess": label,
-                "id_fields": ";".join(sorted(id_fields)),
-                "score": sc,
-            })
-    # 상위 3개만 남김
-    cand.sort(key=lambda x: (-x["score"], x["representative_resource_guess"]))
-    top = cand[:3] if cand else []
-    rows.extend(top)
+                "service_full_name": name,
+                "main_resource_example": main["representative_resource_guess"],
+                "secondary_examples": ";".join(secs),
+                "from_operation": main["operation"],
+                "id_fields_seen": main["id_fields"],
+            }
+        )
 
-# 서비스당 1~3개 대표 리소스로 집계
-agg = {}
-for r in rows:
-    key = (r["service_code"], r["service_full_name"])
-    agg.setdefault(key, []).append(r)
+    final.sort(key=lambda x: x["service_code"])
 
-final = []
-for (code, name), lst in agg.items():
-    lst = sorted(lst, key=lambda x: -x["score"])
-    main = lst[0]
-    secs = [x["representative_resource_guess"] for x in lst[1:]]
-    final.append({
-        "service_code": code,
-        "service_full_name": name,
-        "main_resource_example": main["representative_resource_guess"],
-        "secondary_examples": ";".join(secs),
-        "from_operation": main["operation"],
-        "id_fields_seen": main["id_fields"],
-    })
+    # ---- 출력 ----
+    os.makedirs(os.path.dirname(out_csv) or ".", exist_ok=True)
+    os.makedirs(os.path.dirname(out_json) or ".", exist_ok=True)
+    with open(out_json, "w", encoding="utf-8") as f:
+        json.dump(final, f, ensure_ascii=False, indent=2)
 
-final.sort(key=lambda x: x["service_code"])
+    fieldnames = [
+        "service_code",
+        "service_full_name",
+        "main_resource_example",
+        "secondary_examples",
+        "from_operation",
+        "id_fields_seen",
+    ]
+    with open(out_csv, "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=fieldnames)
+        w.writeheader()
+        for r in final:
+            w.writerow(r)
 
-# ---- 출력 ----
-os.makedirs("out", exist_ok=True)
-with open("out/aws_resources_models.json", "w", encoding="utf-8") as f:
-    json.dump(final, f, ensure_ascii=False, indent=2)
+    print(
+        f"OK (models): {len(final)} services → {out_csv} / {out_json}",
+        file=sys.stderr,
+    )
 
-# 빈 결과 대비 안전 처리
-fieldnames = ["service_code","service_full_name","main_resource_example",
-              "secondary_examples","from_operation","id_fields_seen"]
-with open("out/aws_resources_models.csv", "w", newline="", encoding="utf-8") as f:
-    w = csv.DictWriter(f, fieldnames=fieldnames)
-    w.writeheader()
-    for r in final:
-        w.writerow(r)
 
-print(f"OK (models): {len(final)} services → out/aws_resources_models.csv / .json", file=sys.stderr)
+if __name__ == "__main__":
+    infer_from_models()
