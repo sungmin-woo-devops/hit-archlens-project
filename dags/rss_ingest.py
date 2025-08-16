@@ -1,3 +1,4 @@
+# 사전설치: pip install apache-airflow[celery,postgres,redis]
 from airflow import DAG
 from airflow.models import Variable
 from airflow.decorators import task
