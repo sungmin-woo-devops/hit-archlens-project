@@ -1,188 +1,242 @@
-# AWS Architecture Lens
+# Hit ArchLens
 
-AWS 서비스 및 리소스 분석을 위한 종합적인 도구 모음입니다. 이 프로젝트는 AWS 서비스 정보 수집, 아이콘 매핑, 서비스 코드 추출 및 데이터 파이프라인을 포함합니다.
+멀티 클라우드 아키텍처 다이어그램 자동 분석을 위한 통합 프레임워크입니다. Computer Vision과 Large Language Model을 결합하여 클라우드 서비스 아이콘을 자동으로 인식하고 분류합니다.
 
-## 📁 프로젝트 구조
+## 🎯 주요 기능
+
+- **Computer Vision 기반 분석**: CLIP 모델을 사용한 이미지 유사도 검색
+- **LLM 기반 분석**: GPT-4 Vision을 활용한 텍스트 기반 분석
+- **하이브리드 분석**: CV와 LLM 결과를 융합한 고정확도 분석
+- **AWS 데이터 수집**: 아이콘, 서비스 정보, 제품 정보 자동 수집
+- **실시간 모니터링**: 데이터 수집 및 분석 과정 실시간 추적
+- **성능 시각화**: 분석 결과 및 통계 데이터 시각화
+
+## 🏗️ 아키텍처
 
 ```
-hit_archlens/
-├── aws_icons_parser/          # AWS 아이콘 패키지 파싱 및 매핑
-├── aws_products_scraper/      # AWS 제품 정보 스크래핑
-├── aws_service_boto3/         # Boto3를 통한 AWS 서비스 코드 추출
-├── aws_services/              # Scrapy 기반 AWS 서비스 크롤링
-├── aws-service-mapper/        # AWS 서비스 매핑 라이브러리
-├── dags/                      # Apache Airflow DAG (RSS 수집)
-└── out/                       # 출력 디렉토리
+Hit ArchLens/
+├── core/                     # 핵심 프레임워크
+│   ├── auto_labeler/        # 오토라벨링 추상 클래스
+│   ├── data_collectors/     # 데이터 수집 프레임워크
+│   ├── models.py           # 통합 데이터 모델
+│   ├── taxonomy/           # 서비스 분류 시스템
+│   └── utils/              # 유틸리티 함수
+├── core/providers/aws/     # AWS 전용 구현체
+│   ├── cv/                 # CV 기반 오토라벨러
+│   ├── llm/                # LLM 기반 오토라벨러
+│   └── hybrid/             # 하이브리드 오토라벨러
+├── tools/                  # CLI 도구
+├── configs/                # 설정 파일
+├── out/                    # 모든 결과물 저장소
+└── images/                 # 테스트 이미지
+```
+<code_block_to_apply_changes_from>
+out/
+├── aws/                      # AWS 데이터 수집 결과
+│   ├── icons/               # 아이콘 매핑 파일
+│   ├── services/            # 서비스 정보
+│   ├── products/            # 제품 정보
+│   └── taxonomy/            # 분류 정보
+├── experiments/             # 실험 결과
+│   ├── cv_results/          # CV 분석 결과
+│   ├── llm_results/         # LLM 분석 결과
+│   ├── hybrid_results/      # 하이브리드 분석 결과
+│   └── batch_results/       # 배치 분석 결과
+├── visualizations/          # 시각화 결과
+│   ├── charts/              # 차트 및 그래프
+│   ├── reports/             # 분석 리포트
+│   └── dashboards/          # 대시보드
+├── evaluation/              # 성능 평가
+│   ├── metrics/             # 평가 지표
+│   ├── comparisons/         # 방법론 비교
+│   └── benchmarks/          # 벤치마크 결과
+└── statistics/              # 통계 데이터
+    ├── collection_stats/    # 수집 통계
+    ├── analysis_stats/      # 분석 통계
+    └── performance_stats/   # 성능 통계
 ```
 
-## 🚀 주요 기능
+## ⚙️ 설정
 
-### 1. AWS 아이콘 파서 (`aws_icons_parser/`)
-AWS 공식 아이콘 패키지를 파싱하여 서비스별 아이콘 매핑을 생성합니다.
+### 기본 설정 파일: `configs/default.yaml`
+
+```yaml
+# 데이터 설정
+data:
+  icons_dir: "out/aws/icons"
+  taxonomy_csv: "out/aws_resources_models.csv"
+  output_dir: "out"
+
+# CV 설정
+cv:
+  clip_name: "ViT-B-32"
+  clip_pretrained: "laion2b_s34b_b79k"
+  device: "auto"
+
+# LLM 설정
+llm:
+  provider: "openai"
+  api_key: "${OPENAI_API_KEY}"
+  vision_model: "gpt-4-vision-preview"
+
+# 분석 설정
+detection:
+  max_size: 1600
+  min_area: 900
+  max_area: 90000
+
+# 성능 설정
+performance:
+  parallel_processing: true
+  max_workers: 4
+```
+
+## 🚀 빠른 시작
+
+### 1. 환경 설정
 
 ```bash
-cd aws_icons_parser
-python aws_icons_zip_to_mapping.py Asset-Package.zip
-```
+# 저장소 클론
+git clone <repository-url>
+cd hit_archlens
 
-**출력 파일:**
-- `aws_icons_mapping.csv` - CSV 형식의 아이콘 매핑
-- `aws_icons_mapping.json` - JSON 형식의 아이콘 매핑
-
-### 2. AWS 서비스 코드 추출기 (`aws_service_boto3/`)
-Boto3를 사용하여 AWS 서비스 메타데이터를 추출합니다.
-
-```bash
-cd aws_service_boto3
-python export_service_codes.py
-```
-
-**출력 파일:**
-- `aws_service_codes.csv` - 서비스 코드 및 메타데이터
-- `aws_service_codes.json` - JSON 형식의 서비스 정보
-
-### 3. AWS 제품 스크래퍼 (`aws_products_scraper/`)
-AWS 제품 정보를 수집하고 정리합니다.
-
-```bash
-cd aws_products_scraper
-# Scrapy 스파이더 실행
-scrapy crawl products
-```
-
-### 4. RSS 수집 파이프라인 (`dags/`)
-Apache Airflow를 사용한 RSS 피드 수집 및 처리 파이프라인입니다.
-
-```bash
-# Airflow 환경 설정
-pip install apache-airflow[celery,postgres,redis]
-
-# DAG 실행
-airflow dags trigger rss_ingest_fast
-```
-
-## 🛠️ 설치 및 설정
-
-### 필수 요구사항
-- Python 3.10+
-- Apache Airflow (RSS 파이프라인용)
-- AWS CLI 및 Boto3 (서비스 코드 추출용)
-
-### 가상환경 설정
-```bash
-# 가상환경 생성
-python -m venv venv
-
-# 가상환경 활성화 (Windows)
-venv\Scripts\activate
-
-# 가상환경 활성화 (Linux/Mac)
-source venv/bin/activate
+# 가상환경 생성 및 활성화
+python3 -m venv venv
+source venv/bin/activate  # Linux/Mac
+# 또는 venv\Scripts\activate  # Windows
 
 # 의존성 설치
 pip install -r requirements.txt
 ```
 
-### AWS 설정
-```bash
-# AWS 자격 증명 설정
-aws configure
+### 2. AWS 아이콘 다운로드
 
-# 또는 환경 변수 설정
-export AWS_ACCESS_KEY_ID=your_access_key
-export AWS_SECRET_ACCESS_KEY=your_secret_key
-export AWS_DEFAULT_REGION=us-east-1
+```bash
+# AWS 공식 아키텍처 아이콘 다운로드
+wget https://d1.awsstatic.com/webteam/architecture-icons/q1-2024/Asset-Package_01242024.7c4f8b8b.zip -O Asset-Package.zip
+
+# 또는 AWS 공식 사이트에서 수동 다운로드:
+# https://aws.amazon.com/ko/architecture/icons/
 ```
 
-## 📊 데이터 파일
+### 3. 데이터 수집
 
-### 생성되는 주요 데이터 파일들:
-- `aws_service_codes.json` - AWS 서비스 코드 및 메타데이터
-- `aws_icons_mapping.json` - 서비스별 아이콘 매핑
-- `aws_products.json` - AWS 제품 정보
-- `aws_services.csv` - 정리된 서비스 목록
-
-## 🔧 사용법
-
-### 1. AWS 서비스 정보 수집
 ```bash
-# 서비스 코드 추출
-cd aws_service_boto3
-python export_service_codes.py
+# 모든 AWS 데이터 수집 (아이콘, 서비스, 제품 정보)
+python tools/cli.py collect-data --data-type all --monitor --verbose
 
-# 제품 정보 스크래핑
-cd aws_products_scraper
-scrapy crawl products
+# 특정 데이터만 수집
+python tools/cli.py collect-data --data-type icons --verbose
+python tools/cli.py collect-data --data-type services --verbose
+python tools/cli.py collect-data --data-type products --verbose
 ```
 
-### 2. 아이콘 매핑 생성
+### 4. 오토라벨링 분석
+
 ```bash
-cd aws_icons_parser
-python aws_icons_zip_to_mapping.py Asset-Package.zip
+# CV 기반 분석 (API 키 불필요)
+python tools/cli.py analyze --input images/test_diagram.png --method cv --output out/experiments/cv_results --verbose
+
+# LLM 기반 분석 (OpenAI API 키 필요)
+export OPENAI_API_KEY="your-api-key-here"
+python tools/cli.py analyze --input images/test_diagram.png --method llm --output out/experiments/llm_results --verbose
+
+# 하이브리드 분석 (CV + LLM 결합)
+python tools/cli.py analyze --input images/test_diagram.png --method hybrid --output out/experiments/hybrid_results --verbose
 ```
 
-### 3. RSS 파이프라인 실행
+### 5. 배치 분석
+
 ```bash
-# Airflow 웹서버 시작
-airflow webserver --port 8080
-
-# Airflow 스케줄러 시작
-airflow scheduler
-
-# DAG 수동 실행
-airflow dags trigger rss_ingest_fast
+# 여러 이미지 동시 분석
+python tools/cli.py analyze --input images/ --method hybrid --output out/experiments/batch_results --verbose
 ```
 
-## 📈 데이터 파이프라인
+### 6. 결과 시각화
 
-### RSS 수집 파이프라인 (`dags/rss_ingest.py`)
-- **스케줄**: 15분마다 실행
-- **기능**: RSS 피드 수집, 요약 생성, 데이터 정규화
-- **태그**: `rss`, `news`, `ai`
-
-### 워크플로우:
-1. **fetch**: RSS 피드에서 데이터 수집
-2. **normalize**: 스키마 정규화 및 해시 생성
-3. **sink**: S3/Kafka/DB에 데이터 적재
-
-## 🔍 데이터 분석
-
-### 서비스 코드 분석
 ```bash
-cd aws_service_boto3
-python infer_from_models.py
+# 분석 결과 시각화
+python tools/cli.py visualize --input out/experiments/hybrid_results --output out/visualizations --verbose
 ```
 
-### 아이콘 매핑 쿼리
+## 📊 순차적 사용 가이드
+
+### Phase 1: 초기 설정 및 데이터 수집
+
 ```bash
-cd aws_services
-./test_query.sh
+# 1. 환경 설정
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
+# 2. AWS 아이콘 다운로드
+wget https://d1.awsstatic.com/webteam/architecture-icons/q1-2024/Asset-Package_01242024.7c4f8b8b.zip -O Asset-Package.zip
+
+# 3. 데이터 수집 (실시간 모니터링 포함)
+python tools/cli.py collect-data --data-type all --monitor --verbose
 ```
 
-## 📝 개발 가이드라인
+**예상 시간**: 5-10분 (네트워크 속도에 따라 다름)
 
-### 코드 스타일
-- Python 3.10+ 타입 힌트 사용
-- POSIX 호환 Bash 스크립트
-- 함수형 컴포넌트 및 훅 사용 (React)
+### Phase 2: CV 기반 분석 테스트
 
-### 파일 구조
-- 모듈화된 디렉토리 구조
-- 명확한 네이밍 컨벤션
-- 설정 파일 분리
+```bash
+# 1. 테스트 이미지 준비
+mkdir -p images
+# AWS 아키텍처 다이어그램을 images/ 디렉터리에 복사
 
-### 테스트
-- `pytest` 사용
-- `shellcheck`로 스크립트 검증
-- 정상 및 예외 케이스 커버
+# 2. CV 기반 분석 실행
+python tools/cli.py analyze --input images/test_diagram.png --method cv --output out/experiments/cv_results --verbose
 
-## 🤝 기여하기
+# 3. 결과 확인
+ls -la out/experiments/cv_results/
+cat out/experiments/cv_results/analysis_results.json
+```
 
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
+**예상 시간**: 2-5분 (첫 실행 시 모델 다운로드 포함)
+
+### Phase 3: LLM 기반 분석 (선택사항)
+
+```bash
+# 1. OpenAI API 키 설정
+export OPENAI_API_KEY="your-api-key-here"
+
+# 2. LLM 기반 분석 실행
+python tools/cli.py analyze --input images/test_diagram.png --method llm --output out/experiments/llm_results --verbose
+
+# 3. 결과 확인
+ls -la out/experiments/llm_results/
+cat out/experiments/llm_results/analysis_results.json
+```
+
+**예상 시간**: 1-3분 (API 응답 시간에 따라 다름)
+
+### Phase 4: 하이브리드 분석
+
+```bash
+# 1. 하이브리드 분석 실행 (CV + LLM 결합)
+python tools/cli.py analyze --input images/test_diagram.png --method hybrid --output out/experiments/hybrid_results --verbose
+
+# 2. 결과 비교
+ls -la out/experiments/
+```
+
+**예상 시간**: 3-8분 (CV + LLM 처리 시간)
+
+### Phase 5: 성능 평가 및 시각화
+
+```bash
+# 1. 분석 결과 시각화
+python tools/cli.py visualize --input out/experiments/hybrid_results --output out/visualizations --verbose
+
+# 2. 성능 통계 확인
+python tools/cli.py status --method hybrid --verbose
+
+# 3. 결과 파일 확인
+tree out/ -L 3
+```
+
+## 📁 출력 구조
 
 ## 📄 라이선스
 
@@ -191,9 +245,15 @@ cd aws_services
 ## 🔗 관련 링크
 
 - [AWS 공식 아이콘](https://aws.amazon.com/ko/architecture/icons/)
-- [Boto3 문서](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
-- [Apache Airflow 문서](https://airflow.apache.org/docs/)
+- [OpenAI API 문서](https://platform.openai.com/docs/)
+- [CLIP 모델](https://github.com/openai/CLIP)
+- [OpenCLIP](https://github.com/mlfoundations/open_clip)
 
 ## 📞 지원
 
 문제가 발생하거나 질문이 있으시면 이슈를 생성해 주세요.
+
+---
+
+**Hit ArchLens** - 멀티 클라우드 아키텍처 분석의 새로운 표준
+

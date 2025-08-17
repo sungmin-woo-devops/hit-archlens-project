@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-08-17T22:16:37.482773",
+  "input_data": {
+    "icons": 2107,
+    "services": 415,
+    "products": 0,
+    "taxonomy": 786
+  },
+  "output_data": {
+    "unified_entries": 2517
+  },
+  "processing": {
+    "total_input": 3308,
+    "deduplication_rate": 0.2391172914147521
+  }
+}

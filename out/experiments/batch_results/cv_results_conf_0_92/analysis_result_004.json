@@ -1,0 +1,3284 @@
+{
+  "image_path": "images/aws_diagram_sample_001.png",
+  "width": 1827,
+  "height": 1219,
+  "detections": [
+    {
+      "bbox": [
+        423,
+        870,
+        125,
+        125
+      ],
+      "label": "lambda",
+      "confidence": 0.7729552841186522,
+      "service_code": null,
+      "canonical_name": "lambda",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1108,
+        551,
+        125,
+        126
+      ],
+      "label": "lambda",
+      "confidence": 0.7728337192535399,
+      "service_code": null,
+      "canonical_name": "lambda",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1481,
+        551,
+        126,
+        126
+      ],
+      "label": "lambda",
+      "confidence": 0.7707752776145935,
+      "service_code": null,
+      "canonical_name": "lambda",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1145,
+        573,
+        66,
+        83
+      ],
+      "label": "lambda",
+      "confidence": 0.76559943318367,
+      "service_code": null,
+      "canonical_name": "lambda",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1517,
+        573,
+        66,
+        83
+      ],
+      "label": "lambda",
+      "confidence": 0.7633643269538879,
+      "service_code": null,
+      "canonical_name": "lambda",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        460,
+        891,
+        66,
+        82
+      ],
+      "label": "lambda",
+      "confidence": 0.7632717013359069,
+      "service_code": null,
+      "canonical_name": "lambda",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1425,
+        548,
+        146,
+        146
+      ],
+      "label": "lambda",
+      "confidence": 0.7577045261859894,
+      "service_code": null,
+      "canonical_name": "lambda",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1329,
+        69,
+        119,
+        115
+      ],
+      "label": "dynamodb",
+      "confidence": 0.7518713653087615,
+      "service_code": null,
+      "canonical_name": "dynamodb",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        832,
+        715,
+        119,
+        122
+      ],
+      "label": "dynamodb",
+      "confidence": 0.7510966145992278,
+      "service_code": null,
+      "canonical_name": "dynamodb",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        830,
+        363,
+        117,
+        116
+      ],
+      "label": "dynamodb",
+      "confidence": 0.750839866399765,
+      "service_code": null,
+      "canonical_name": "dynamodb",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        887,
+        125,
+        45,
+        37
+      ],
+      "label": "forecast",
+      "confidence": 0.750104694366455,
+      "service_code": null,
+      "canonical_name": "forecast",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        832,
+        1047,
+        116,
+        122
+      ],
+      "label": "dynamodb",
+      "confidence": 0.749980626106262,
+      "service_code": null,
+      "canonical_name": "dynamodb",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        859,
+        731,
+        71,
+        84
+      ],
+      "label": "dynamodb",
+      "confidence": 0.748759444952011,
+      "service_code": null,
+      "canonical_name": "dynamodb",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        415,
+        525,
+        141,
+        141
+      ],
+      "label": "panorama",
+      "confidence": 0.7482740366458892,
+      "service_code": null,
+      "canonical_name": "panorama",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1534,
+        548,
+        146,
+        146
+      ],
+      "label": "lambda",
+      "confidence": 0.7479818153381347,
+      "service_code": null,
+      "canonical_name": "lambda",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        859,
+        1063,
+        71,
+        84
+      ],
+      "label": "dynamodb",
+      "confidence": 0.7461995232105254,
+      "service_code": null,
+      "canonical_name": "dynamodb",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1356,
+        81,
+        71,
+        83
+      ],
+      "label": "dynamodb",
+      "confidence": 0.744568611383438,
+      "service_code": null,
+      "canonical_name": "dynamodb",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1131,
+        605,
+        37,
+        51
+      ],
+      "label": "lambda",
+      "confidence": 0.7445568203926086,
+      "service_code": null,
+      "canonical_name": "lambda",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        375,
+        719,
+        221,
+        311
+      ],
+      "label": "lambda",
+      "confidence": 0.744473156929016,
+      "service_code": null,
+      "canonical_name": "lambda",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1503,
+        605,
+        37,
+        51
+      ],
+      "label": "lambda",
+      "confidence": 0.7442946898937224,
+      "service_code": null,
+      "canonical_name": "lambda",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        857,
+        374,
+        71,
+        83
+      ],
+      "label": "dynamodb",
+      "confidence": 0.7437845480442047,
+      "service_code": null,
+      "canonical_name": "dynamodb",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        710,
+        400,
+        35,
+        35
+      ],
+      "label": "lambda",
+      "confidence": 0.741337980031967,
+      "service_code": null,
+      "canonical_name": "lambda",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        710,
+        757,
+        35,
+        35
+      ],
+      "label": "lambda",
+      "confidence": 0.7411939346790313,
+      "service_code": null,
+      "canonical_name": "lambda",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        447,
+        923,
+        35,
+        50
+      ],
+      "label": "lambda",
+      "confidence": 0.7410869395732879,
+      "service_code": null,
+      "canonical_name": "lambda",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        876,
+        767,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.740551288127899,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        693,
+        102,
+        36,
+        36
+      ],
+      "label": "lambda",
+      "confidence": 0.7397376346588134,
+      "service_code": null,
+      "canonical_name": "lambda",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1733,
+        582,
+        41,
+        61
+      ],
+      "label": "panorama",
+      "confidence": 0.7390653228759765,
+      "service_code": null,
+      "canonical_name": "panorama",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        693,
+        1069,
+        37,
+        37
+      ],
+      "label": "lambda",
+      "confidence": 0.7390227150917053,
+      "service_code": null,
+      "canonical_name": "lambda",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        328,
+        219,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7382455360889435,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1315,
+        0,
+        146,
+        146
+      ],
+      "label": "dynamodb",
+      "confidence": 0.7382130670547484,
+      "service_code": null,
+      "canonical_name": "dynamodb",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        328,
+        328,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7377470099925993,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        219,
+        438,
+        146,
+        146
+      ],
+      "label": "rekognition",
+      "confidence": 0.7369127535820006,
+      "service_code": null,
+      "canonical_name": "rekognition",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1233,
+        103,
+        35,
+        36
+      ],
+      "label": "lambda",
+      "confidence": 0.7366692733764648,
+      "service_code": null,
+      "canonical_name": "lambda",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        767,
+        438,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7364110231399537,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        876,
+        109,
+        146,
+        146
+      ],
+      "label": "forecast",
+      "confidence": 0.7363394761085509,
+      "service_code": null,
+      "canonical_name": "forecast",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        439,
+        549,
+        94,
+        93
+      ],
+      "label": "panorama",
+      "confidence": 0.7355953669548034,
+      "service_code": null,
+      "canonical_name": "panorama",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1205,
+        0,
+        146,
+        146
+      ],
+      "label": "lightsail",
+      "confidence": 0.7355539608001709,
+      "service_code": null,
+      "canonical_name": "lightsail",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        657,
+        657,
+        146,
+        146
+      ],
+      "label": "lambda",
+      "confidence": 0.7354000771045683,
+      "service_code": null,
+      "canonical_name": "lambda",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        328,
+        876,
+        146,
+        146
+      ],
+      "label": "lightsail",
+      "confidence": 0.7345073163509368,
+      "service_code": null,
+      "canonical_name": "lightsail",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1109,
+        58,
+        214,
+        87
+      ],
+      "label": "lambda",
+      "confidence": 0.733085913658142,
+      "service_code": null,
+      "canonical_name": "lambda",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        876,
+        438,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7330577754974364,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        767,
+        986,
+        146,
+        146
+      ],
+      "label": "keyspaces",
+      "confidence": 0.7324133014678954,
+      "service_code": null,
+      "canonical_name": "keyspaces",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        192,
+        554,
+        83,
+        83
+      ],
+      "label": "iotevents",
+      "confidence": 0.7317294138356258,
+      "service_code": null,
+      "canonical_name": "iotevents",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1425,
+        0,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7310030138492584,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1073,
+        130,
+        38,
+        34
+      ],
+      "label": "kinesis",
+      "confidence": 0.7308215928077697,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1073,
+        79,
+        84,
+        37
+      ],
+      "label": "kinesis",
+      "confidence": 0.7307957327365875,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        109,
+        438,
+        146,
+        146
+      ],
+      "label": "rekognition",
+      "confidence": 0.730754051208496,
+      "service_code": null,
+      "canonical_name": "rekognition",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        849,
+        131,
+        35,
+        34
+      ],
+      "label": "kinesis",
+      "confidence": 0.7307536005973816,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        767,
+        328,
+        146,
+        146
+      ],
+      "label": "dynamodb",
+      "confidence": 0.7305674481391906,
+      "service_code": null,
+      "canonical_name": "dynamodb",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        438,
+        328,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7305545556545257,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        375,
+        0,
+        221,
+        238
+      ],
+      "label": "redshift",
+      "confidence": 0.7304141151905059,
+      "service_code": null,
+      "canonical_name": "redshift",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        491,
+        517,
+        76,
+        60
+      ],
+      "label": "kinesis",
+      "confidence": 0.7301371145248412,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1644,
+        548,
+        146,
+        146
+      ],
+      "label": "panorama",
+      "confidence": 0.7294075500965118,
+      "service_code": null,
+      "canonical_name": "panorama",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1074,
+        106,
+        44,
+        30
+      ],
+      "label": "kinesis",
+      "confidence": 0.7287074506282807,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        829,
+        110,
+        73,
+        74
+      ],
+      "label": "kinesis",
+      "confidence": 0.7286878740787506,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        328,
+        109,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7283682405948639,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        657,
+        328,
+        146,
+        146
+      ],
+      "label": "lambda",
+      "confidence": 0.7280315589904784,
+      "service_code": null,
+      "canonical_name": "lambda",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1425,
+        109,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7278723430633545,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        767,
+        657,
+        146,
+        146
+      ],
+      "label": "keyspaces",
+      "confidence": 0.7276343953609465,
+      "service_code": null,
+      "canonical_name": "keyspaces",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        200,
+        562,
+        55,
+        55
+      ],
+      "label": "rekognition",
+      "confidence": 0.7273014438152312,
+      "service_code": null,
+      "canonical_name": "rekognition",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        986,
+        438,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7271954250335693,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        456,
+        566,
+        27,
+        63
+      ],
+      "label": "kinesis",
+      "confidence": 0.7271719932556152,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        868,
+        81,
+        63,
+        30
+      ],
+      "label": "kinesis",
+      "confidence": 0.7271107852458953,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        219,
+        548,
+        146,
+        146
+      ],
+      "label": "budgets",
+      "confidence": 0.7269098377227783,
+      "service_code": null,
+      "canonical_name": "budgets",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        438,
+        767,
+        146,
+        146
+      ],
+      "label": "lightsail",
+      "confidence": 0.726818664073944,
+      "service_code": null,
+      "canonical_name": "lightsail",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        986,
+        328,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7267132711410522,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        438,
+        0,
+        146,
+        146
+      ],
+      "label": "redshift",
+      "confidence": 0.7266908657550811,
+      "service_code": null,
+      "canonical_name": "redshift",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        328,
+        767,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7264181458950042,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        986,
+        657,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7260043096542358,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        109,
+        548,
+        146,
+        146
+      ],
+      "label": "quicksight",
+      "confidence": 0.7259704136848448,
+      "service_code": null,
+      "canonical_name": "quicksight",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        767,
+        548,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7258381843566895,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        657,
+        0,
+        146,
+        146
+      ],
+      "label": "managedblockchain",
+      "confidence": 0.7252334100859505,
+      "service_code": null,
+      "canonical_name": "managedblockchain",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        876,
+        0,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7251359069347381,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1205,
+        548,
+        146,
+        146
+      ],
+      "label": "batch",
+      "confidence": 0.7251165056228637,
+      "service_code": null,
+      "canonical_name": "batch",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        876,
+        876,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.724891675710678,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1425,
+        657,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7248149967193602,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        894,
+        1075,
+        29,
+        43
+      ],
+      "label": "kinesis",
+      "confidence": 0.7246672964096068,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1391,
+        92,
+        29,
+        44
+      ],
+      "label": "kinesis",
+      "confidence": 0.7244985675811767,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        328,
+        438,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7244011104106902,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1644,
+        438,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7243794059753417,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1315,
+        548,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7243053805828095,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        657,
+        876,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.724283275604248,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        864,
+        752,
+        34,
+        46
+      ],
+      "label": "kinesis",
+      "confidence": 0.724059271812439,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        894,
+        744,
+        30,
+        44
+      ],
+      "label": "kinesis",
+      "confidence": 0.7238346922397613,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1361,
+        100,
+        35,
+        41
+      ],
+      "label": "kinesis",
+      "confidence": 0.7238324642181396,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        986,
+        219,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7238275575637816,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        862,
+        397,
+        34,
+        37
+      ],
+      "label": "kinesis",
+      "confidence": 0.723772382736206,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        876,
+        328,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7237498021125792,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1205,
+        109,
+        146,
+        146
+      ],
+      "label": "lightsail",
+      "confidence": 0.7235704839229584,
+      "service_code": null,
+      "canonical_name": "lightsail",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        559,
+        417,
+        600,
+        192
+      ],
+      "label": "keyspaces",
+      "confidence": 0.7235630238056182,
+      "service_code": null,
+      "canonical_name": "keyspaces",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        657,
+        548,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7235406935214996,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1052,
+        111,
+        73,
+        73
+      ],
+      "label": "kinesis",
+      "confidence": 0.7234320211410521,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        657,
+        767,
+        146,
+        146
+      ],
+      "label": "lightsail",
+      "confidence": 0.7233214211463928,
+      "service_code": null,
+      "canonical_name": "lightsail",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        876,
+        657,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7232528281211852,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1644,
+        657,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7232149267196655,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        446,
+        78,
+        81,
+        83
+      ],
+      "label": "redshift",
+      "confidence": 0.7231903934478758,
+      "service_code": null,
+      "canonical_name": "redshift",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        548,
+        657,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7229232561588287,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        60,
+        657,
+        67,
+        30
+      ],
+      "label": "kinesis",
+      "confidence": 0.7229094123840332,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        876,
+        548,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7227715003490447,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1073,
+        79,
+        84,
+        83
+      ],
+      "label": "kinesis",
+      "confidence": 0.7227509725093841,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1205,
+        657,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7227128458023071,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        438,
+        219,
+        146,
+        146
+      ],
+      "label": "budgets",
+      "confidence": 0.7222571277618408,
+      "service_code": null,
+      "canonical_name": "budgets",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1664,
+        607,
+        68,
+        68
+      ],
+      "label": "panorama",
+      "confidence": 0.722009642124176,
+      "service_code": null,
+      "canonical_name": "panorama",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        986,
+        876,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7219135117530822,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        892,
+        387,
+        29,
+        42
+      ],
+      "label": "kinesis",
+      "confidence": 0.7219013953208923,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1096,
+        657,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.721715793609619,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1425,
+        438,
+        146,
+        146
+      ],
+      "label": "workmail",
+      "confidence": 0.7215735757350921,
+      "service_code": null,
+      "canonical_name": "workmail",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        548,
+        219,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7215272128582,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1205,
+        438,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7214230465888976,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        767,
+        767,
+        146,
+        146
+      ],
+      "label": "lightsail",
+      "confidence": 0.7212467074394227,
+      "service_code": null,
+      "canonical_name": "lightsail",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        328,
+        0,
+        146,
+        146
+      ],
+      "label": "rekognition",
+      "confidence": 0.7212207221984863,
+      "service_code": null,
+      "canonical_name": "rekognition",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        986,
+        548,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7211727070808409,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        876,
+        986,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7211262691020965,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        4,
+        582,
+        67,
+        29
+      ],
+      "label": "kinesis",
+      "confidence": 0.7209610199928282,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1205,
+        328,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7208273136615753,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1315,
+        657,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.720527832508087,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        767,
+        876,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.720435231924057,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1684,
+        573,
+        67,
+        79
+      ],
+      "label": "textract",
+      "confidence": 0.7203802323341368,
+      "service_code": null,
+      "canonical_name": "textract",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1534,
+        657,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7203135418891906,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        657,
+        986,
+        146,
+        146
+      ],
+      "label": "managedblockchain",
+      "confidence": 0.7202008349554878,
+      "service_code": null,
+      "canonical_name": "managedblockchain",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1096,
+        328,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7201162743568419,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        657,
+        109,
+        146,
+        146
+      ],
+      "label": "lightsail",
+      "confidence": 0.7200566434860229,
+      "service_code": null,
+      "canonical_name": "lightsail",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        438,
+        109,
+        146,
+        146
+      ],
+      "label": "rekognition",
+      "confidence": 0.7200523376464844,
+      "service_code": null,
+      "canonical_name": "rekognition",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        767,
+        219,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7200464296340942,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        109,
+        657,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7200334620475768,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        657,
+        219,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7195526850223541,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1315,
+        438,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7189913737773895,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        60,
+        506,
+        67,
+        28
+      ],
+      "label": "kinesis",
+      "confidence": 0.7189861416816712,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        986,
+        767,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7187228095531464,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1096,
+        438,
+        146,
+        146
+      ],
+      "label": "managedblockchain",
+      "confidence": 0.7187176234381539,
+      "service_code": null,
+      "canonical_name": "managedblockchain",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        876,
+        219,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7186061763763427,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        438,
+        986,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7184865891933441,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        328,
+        986,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.718297107219696,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1205,
+        219,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7179287827014922,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        548,
+        0,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.717775775194168,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        438,
+        438,
+        146,
+        146
+      ],
+      "label": "personalize",
+      "confidence": 0.7177622067928314,
+      "service_code": null,
+      "canonical_name": "personalize",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        657,
+        438,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7177196741104126,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        219,
+        657,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7176883816719055,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        548,
+        328,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7175971579551697,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1315,
+        109,
+        146,
+        146
+      ],
+      "label": "elasticache",
+      "confidence": 0.717392280101776,
+      "service_code": null,
+      "canonical_name": "elasticache",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        548,
+        767,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7171992683410644,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1003,
+        409,
+        173,
+        111
+      ],
+      "label": "kinesis",
+      "confidence": 0.7171327531337738,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        0,
+        438,
+        146,
+        146
+      ],
+      "label": "batch",
+      "confidence": 0.716976591348648,
+      "service_code": null,
+      "canonical_name": "batch",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        488,
+        566,
+        28,
+        63
+      ],
+      "label": "kinesis",
+      "confidence": 0.7165450811386108,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        986,
+        986,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7164792919158935,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1534,
+        438,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7163690423965453,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        986,
+        0,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7162861800193786,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        548,
+        438,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7159268927574157,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        767,
+        0,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7159075665473937,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        0,
+        657,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7155064725875854,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1096,
+        0,
+        146,
+        146
+      ],
+      "label": "textract",
+      "confidence": 0.7153076028823852,
+      "service_code": null,
+      "canonical_name": "textract",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        438,
+        657,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7152544808387755,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1315,
+        219,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7147973608970641,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        548,
+        548,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.714772652387619,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1096,
+        109,
+        146,
+        146
+      ],
+      "label": "lightsail",
+      "confidence": 0.7145909810066222,
+      "service_code": null,
+      "canonical_name": "lightsail",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        0,
+        548,
+        146,
+        146
+      ],
+      "label": "batch",
+      "confidence": 0.7145718050003051,
+      "service_code": null,
+      "canonical_name": "batch",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        548,
+        986,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7144030761718749,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1425,
+        219,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7144029510021209,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1425,
+        328,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7143465495109558,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        548,
+        109,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7142741012573242,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1096,
+        219,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7142673170566558,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        328,
+        548,
+        146,
+        146
+      ],
+      "label": "codecommit",
+      "confidence": 0.712881863117218,
+      "service_code": null,
+      "canonical_name": "codecommit",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1534,
+        328,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.71280766248703,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        986,
+        109,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7126631164550781,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1315,
+        328,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7118574738502502,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        864,
+        1085,
+        34,
+        44
+      ],
+      "label": "kinesis",
+      "confidence": 0.7115910625457763,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        548,
+        876,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.7113198447227478,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1112,
+        118,
+        44,
+        44
+      ],
+      "label": "iotevents",
+      "confidence": 0.7101574331208278,
+      "service_code": null,
+      "canonical_name": "iotevents",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1705,
+        596,
+        30,
+        38
+      ],
+      "label": "panorama",
+      "confidence": 0.7083408546447754,
+      "service_code": null,
+      "canonical_name": "panorama",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        767,
+        109,
+        146,
+        146
+      ],
+      "label": "managedblockchain",
+      "confidence": 0.7077000815527779,
+      "service_code": null,
+      "canonical_name": "managedblockchain",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        328,
+        657,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.704161787033081,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        451,
+        82,
+        66,
+        18
+      ],
+      "label": "kinesis",
+      "confidence": 0.7028895115852355,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        0,
+        0,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        109,
+        0,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        219,
+        0,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1534,
+        0,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1644,
+        0,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        0,
+        109,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        109,
+        109,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        219,
+        109,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1534,
+        109,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1644,
+        109,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        0,
+        219,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        109,
+        219,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        219,
+        219,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1534,
+        219,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1644,
+        219,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        0,
+        328,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        109,
+        328,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        219,
+        328,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1644,
+        328,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        0,
+        767,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        109,
+        767,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        219,
+        767,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1096,
+        767,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1205,
+        767,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1315,
+        767,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1425,
+        767,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1534,
+        767,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1644,
+        767,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        0,
+        876,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        109,
+        876,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        219,
+        876,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1096,
+        876,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1205,
+        876,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1315,
+        876,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1425,
+        876,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1534,
+        876,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1644,
+        876,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        0,
+        986,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        109,
+        986,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        219,
+        986,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1096,
+        986,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1205,
+        986,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1315,
+        986,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1425,
+        986,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1534,
+        986,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1644,
+        986,
+        146,
+        146
+      ],
+      "label": "kinesis",
+      "confidence": 0.6880914425849913,
+      "service_code": null,
+      "canonical_name": "kinesis",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    }
+  ],
+  "processing_time": 70.59552073478699,
+  "cloud_provider": "aws",
+  "analysis_method": "cv",
+  "timestamp": "2025-08-18T00:10:26.038811",
+  "metadata": {},
+  "success": true,
+  "errors": []
+}

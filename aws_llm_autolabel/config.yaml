@@ -1,0 +1,18 @@
+project_name: aws_llm_autolabel
+provider: ${PROVIDER}         # openai | deepseek (env-var expanded at runtime)
+mode: ${MODE}                  # full_image_llm | patch_llm
+openai:
+  vision_model: ${OPENAI_MODEL_VISION}
+  embed_model: ${OPENAI_MODEL_EMBED}
+deepseek:
+  vision_model: ${DEEPSEEK_MODEL_VISION}
+data:
+  images_dir: ./images
+  url_list: ./images.txt       # optional
+  taxonomy_csv: ./aws_resources_models.csv
+runtime:
+  max_workers: ${MAX_WORKERS}
+  conf_threshold: ${CONF_THRESHOLD}
+output:
+  dir: ./out
+  format: ${OUT_FORMAT}        # yolo | coco | labelstudio

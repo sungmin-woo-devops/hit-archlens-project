@@ -1,0 +1,3614 @@
+{
+  "image_path": "images/aws_diagram_sample_002.png",
+  "width": 1920,
+  "height": 1080,
+  "detections": [
+    {
+      "bbox": [
+        1004,
+        133,
+        63,
+        62
+      ],
+      "label": "lambda",
+      "confidence": 0.8048485481739044,
+      "service_code": null,
+      "canonical_name": "lambda",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        723,
+        117,
+        63,
+        63
+      ],
+      "label": "lambda",
+      "confidence": 0.8032110983133316,
+      "service_code": null,
+      "canonical_name": "lambda",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1105,
+        463,
+        63,
+        63
+      ],
+      "label": "lambda",
+      "confidence": 0.8004766607284546,
+      "service_code": null,
+      "canonical_name": "lambda",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1105,
+        604,
+        61,
+        63
+      ],
+      "label": "lambda",
+      "confidence": 0.7987820541858672,
+      "service_code": null,
+      "canonical_name": "lambda",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        960,
+        298,
+        43,
+        42
+      ],
+      "label": "support",
+      "confidence": 0.798342558145523,
+      "service_code": null,
+      "canonical_name": "support",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1314,
+        465,
+        36,
+        51
+      ],
+      "label": "rds",
+      "confidence": 0.7924455773830413,
+      "service_code": null,
+      "canonical_name": "rds",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1302,
+        453,
+        75,
+        74
+      ],
+      "label": "rds",
+      "confidence": 0.78931545317173,
+      "service_code": null,
+      "canonical_name": "rds",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1192,
+        138,
+        50,
+        54
+      ],
+      "label": "opensearch",
+      "confidence": 0.7865010195970535,
+      "service_code": null,
+      "canonical_name": "opensearch",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1630,
+        528,
+        73,
+        73
+      ],
+      "label": "glacier",
+      "confidence": 0.7813587290048598,
+      "service_code": null,
+      "canonical_name": "glacier",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        470,
+        794,
+        73,
+        72
+      ],
+      "label": "glacier",
+      "confidence": 0.7812528854608536,
+      "service_code": null,
+      "canonical_name": "glacier",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1725,
+        126,
+        76,
+        76
+      ],
+      "label": "glacier",
+      "confidence": 0.7806808221340179,
+      "service_code": null,
+      "canonical_name": "glacier",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        253,
+        486,
+        51,
+        50
+      ],
+      "label": "cloudfront",
+      "confidence": 0.7801362419128418,
+      "service_code": null,
+      "canonical_name": "cloudfront",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1362,
+        126,
+        75,
+        75
+      ],
+      "label": "glacier",
+      "confidence": 0.7799840772151947,
+      "service_code": null,
+      "canonical_name": "glacier",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        452,
+        120,
+        46,
+        54
+      ],
+      "label": "dynamodb",
+      "confidence": 0.7793499505519866,
+      "service_code": null,
+      "canonical_name": "dynamodb",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1176,
+        126,
+        78,
+        78
+      ],
+      "label": "opensearch",
+      "confidence": 0.7773651796579361,
+      "service_code": null,
+      "canonical_name": "opensearch",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        984,
+        354,
+        42,
+        42
+      ],
+      "label": "support",
+      "confidence": 0.7745810621976852,
+      "service_code": null,
+      "canonical_name": "support",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        436,
+        109,
+        78,
+        75
+      ],
+      "label": "dynamodb",
+      "confidence": 0.774398785829544,
+      "service_code": null,
+      "canonical_name": "dynamodb",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1302,
+        600,
+        73,
+        73
+      ],
+      "label": "opensearch",
+      "confidence": 0.7738943934440612,
+      "service_code": null,
+      "canonical_name": "opensearch",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1188,
+        144,
+        42,
+        33
+      ],
+      "label": "logs",
+      "confidence": 0.7720223295688629,
+      "service_code": null,
+      "canonical_name": "logs",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        728,
+        487,
+        37,
+        38
+      ],
+      "label": "account",
+      "confidence": 0.7715494215488433,
+      "service_code": null,
+      "canonical_name": "account",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        732,
+        801,
+        45,
+        54
+      ],
+      "label": "workspaces",
+      "confidence": 0.7710367637872695,
+      "service_code": null,
+      "canonical_name": "workspaces",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        717,
+        790,
+        74,
+        75
+      ],
+      "label": "workspaces",
+      "confidence": 0.7706790745258331,
+      "service_code": null,
+      "canonical_name": "workspaces",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        742,
+        495,
+        37,
+        39
+      ],
+      "label": "account",
+      "confidence": 0.7698147732019424,
+      "service_code": null,
+      "canonical_name": "account",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        25,
+        475,
+        73,
+        72
+      ],
+      "label": "datazone",
+      "confidence": 0.769470168352127,
+      "service_code": null,
+      "canonical_name": "datazone",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1641,
+        741,
+        55,
+        54
+      ],
+      "label": "artifact",
+      "confidence": 0.7672539085149764,
+      "service_code": null,
+      "canonical_name": "artifact",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        745,
+        946,
+        34,
+        46
+      ],
+      "label": "account",
+      "confidence": 0.7661364179849623,
+      "service_code": null,
+      "canonical_name": "account",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1123,
+        471,
+        33,
+        43
+      ],
+      "label": "lambda",
+      "confidence": 0.7648832350969315,
+      "service_code": null,
+      "canonical_name": "lambda",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1557,
+        140,
+        38,
+        48
+      ],
+      "label": "greengrass",
+      "confidence": 0.7648539412021637,
+      "service_code": null,
+      "canonical_name": "greengrass",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1215,
+        829,
+        40,
+        48
+      ],
+      "label": "connect",
+      "confidence": 0.7646844571828841,
+      "service_code": null,
+      "canonical_name": "connect",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1353,
+        897,
+        40,
+        49
+      ],
+      "label": "ec2",
+      "confidence": 0.7636321842670439,
+      "service_code": null,
+      "canonical_name": "ec2",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1544,
+        126,
+        76,
+        76
+      ],
+      "label": "textract",
+      "confidence": 0.7635161185264587,
+      "service_code": null,
+      "canonical_name": "textract",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1123,
+        613,
+        32,
+        42
+      ],
+      "label": "lambda",
+      "confidence": 0.7627776670455932,
+      "service_code": null,
+      "canonical_name": "lambda",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        740,
+        124,
+        36,
+        44
+      ],
+      "label": "lambda",
+      "confidence": 0.7623462903499603,
+      "service_code": null,
+      "canonical_name": "lambda",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1022,
+        140,
+        34,
+        43
+      ],
+      "label": "lambda",
+      "confidence": 0.7616463327407836,
+      "service_code": null,
+      "canonical_name": "lambda",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1728,
+        460,
+        153,
+        153
+      ],
+      "label": "location",
+      "confidence": 0.7600465881824493,
+      "service_code": null,
+      "canonical_name": "location",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1646,
+        552,
+        38,
+        34
+      ],
+      "label": "outposts",
+      "confidence": 0.759495232105255,
+      "service_code": null,
+      "canonical_name": "outposts",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        446,
+        276,
+        48,
+        34
+      ],
+      "label": "textract",
+      "confidence": 0.7594338113069534,
+      "service_code": null,
+      "canonical_name": "textract",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        115,
+        230,
+        153,
+        153
+      ],
+      "label": "location",
+      "confidence": 0.7593124884366989,
+      "service_code": null,
+      "canonical_name": "location",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        691,
+        691,
+        153,
+        153
+      ],
+      "label": "workspaces",
+      "confidence": 0.7583456146717071,
+      "service_code": null,
+      "canonical_name": "workspaces",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        450,
+        498,
+        39,
+        36
+      ],
+      "label": "outposts",
+      "confidence": 0.7578505098819732,
+      "service_code": null,
+      "canonical_name": "outposts",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1378,
+        151,
+        39,
+        36
+      ],
+      "label": "outposts",
+      "confidence": 0.7578505098819732,
+      "service_code": null,
+      "canonical_name": "outposts",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        728,
+        943,
+        44,
+        39
+      ],
+      "label": "cloudwatch",
+      "confidence": 0.7575446909666061,
+      "service_code": null,
+      "canonical_name": "cloudwatch",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        115,
+        345,
+        153,
+        153
+      ],
+      "label": "location",
+      "confidence": 0.7569595140218734,
+      "service_code": null,
+      "canonical_name": "location",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1728,
+        691,
+        153,
+        153
+      ],
+      "label": "location",
+      "confidence": 0.7560458832979202,
+      "service_code": null,
+      "canonical_name": "location",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        574,
+        472,
+        74,
+        75
+      ],
+      "label": "network-firewall",
+      "confidence": 0.7544901299476623,
+      "service_code": null,
+      "canonical_name": "network-firewall",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1742,
+        150,
+        39,
+        37
+      ],
+      "label": "outposts",
+      "confidence": 0.7541873127222061,
+      "service_code": null,
+      "canonical_name": "outposts",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1638,
+        891,
+        61,
+        60
+      ],
+      "label": "ec2",
+      "confidence": 0.7539802694320679,
+      "service_code": null,
+      "canonical_name": "ec2",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        115,
+        576,
+        153,
+        153
+      ],
+      "label": "location",
+      "confidence": 0.7533260196447371,
+      "service_code": null,
+      "canonical_name": "location",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        115,
+        115,
+        153,
+        153
+      ],
+      "label": "location",
+      "confidence": 0.7530519771575928,
+      "service_code": null,
+      "canonical_name": "location",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        115,
+        691,
+        153,
+        153
+      ],
+      "label": "location",
+      "confidence": 0.7528429770469665,
+      "service_code": null,
+      "canonical_name": "location",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        434,
+        261,
+        75,
+        75
+      ],
+      "label": "sagemaker",
+      "confidence": 0.7525773167610168,
+      "service_code": null,
+      "canonical_name": "sagemaker",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1728,
+        806,
+        153,
+        153
+      ],
+      "label": "location",
+      "confidence": 0.7523871254920959,
+      "service_code": null,
+      "canonical_name": "location",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        483,
+        806,
+        46,
+        48
+      ],
+      "label": "location",
+      "confidence": 0.752231352329254,
+      "service_code": null,
+      "canonical_name": "location",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        576,
+        576,
+        153,
+        153
+      ],
+      "label": "location",
+      "confidence": 0.7520139569044113,
+      "service_code": null,
+      "canonical_name": "location",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        514,
+        260,
+        241,
+        213
+      ],
+      "label": "location",
+      "confidence": 0.7516129255294799,
+      "service_code": null,
+      "canonical_name": "location",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        279,
+        812,
+        49,
+        37
+      ],
+      "label": "lambda",
+      "confidence": 0.7489873397350311,
+      "service_code": null,
+      "canonical_name": "lambda",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        460,
+        0,
+        153,
+        153
+      ],
+      "label": "opensearch",
+      "confidence": 0.7489368712902069,
+      "service_code": null,
+      "canonical_name": "opensearch",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        576,
+        691,
+        153,
+        153
+      ],
+      "label": "cloudwatch",
+      "confidence": 0.748574947118759,
+      "service_code": null,
+      "canonical_name": "cloudwatch",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1267,
+        345,
+        153,
+        153
+      ],
+      "label": "cloudwatch",
+      "confidence": 0.7484844368696212,
+      "service_code": null,
+      "canonical_name": "cloudwatch",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1728,
+        921,
+        153,
+        153
+      ],
+      "label": "location",
+      "confidence": 0.7482743269205092,
+      "service_code": null,
+      "canonical_name": "location",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        715,
+        930,
+        76,
+        76
+      ],
+      "label": "waf",
+      "confidence": 0.747502726316452,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        806,
+        0,
+        153,
+        153
+      ],
+      "label": "location",
+      "confidence": 0.7466804820299148,
+      "service_code": null,
+      "canonical_name": "location",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        241,
+        474,
+        190,
+        74
+      ],
+      "label": "opensearch",
+      "confidence": 0.7466047209501265,
+      "service_code": null,
+      "canonical_name": "opensearch",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1728,
+        345,
+        153,
+        153
+      ],
+      "label": "greengrass",
+      "confidence": 0.7456209367513655,
+      "service_code": null,
+      "canonical_name": "greengrass",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        806,
+        460,
+        153,
+        153
+      ],
+      "label": "waf",
+      "confidence": 0.745416492819786,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        115,
+        806,
+        153,
+        153
+      ],
+      "label": "location",
+      "confidence": 0.7451951676607131,
+      "service_code": null,
+      "canonical_name": "location",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        288,
+        416,
+        40,
+        40
+      ],
+      "label": "backup",
+      "confidence": 0.745121859908104,
+      "service_code": null,
+      "canonical_name": "backup",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1382,
+        576,
+        153,
+        153
+      ],
+      "label": "textract",
+      "confidence": 0.7447365123033522,
+      "service_code": null,
+      "canonical_name": "textract",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        266,
+        793,
+        75,
+        75
+      ],
+      "label": "connect",
+      "confidence": 0.7445433127880096,
+      "service_code": null,
+      "canonical_name": "connect",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        806,
+        230,
+        153,
+        153
+      ],
+      "label": "location",
+      "confidence": 0.7443379926681518,
+      "service_code": null,
+      "canonical_name": "location",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1152,
+        0,
+        153,
+        153
+      ],
+      "label": "opensearch",
+      "confidence": 0.7435485178232193,
+      "service_code": null,
+      "canonical_name": "opensearch",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        806,
+        576,
+        153,
+        153
+      ],
+      "label": "location",
+      "confidence": 0.7433508205413818,
+      "service_code": null,
+      "canonical_name": "location",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        576,
+        921,
+        153,
+        153
+      ],
+      "label": "cloudwatch",
+      "confidence": 0.7430292302370072,
+      "service_code": null,
+      "canonical_name": "cloudwatch",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1382,
+        345,
+        153,
+        153
+      ],
+      "label": "greengrass",
+      "confidence": 0.7427576410770416,
+      "service_code": null,
+      "canonical_name": "greengrass",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        115,
+        921,
+        153,
+        153
+      ],
+      "label": "location",
+      "confidence": 0.7425739920139312,
+      "service_code": null,
+      "canonical_name": "location",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        921,
+        345,
+        153,
+        153
+      ],
+      "label": "support",
+      "confidence": 0.7425194054841995,
+      "service_code": null,
+      "canonical_name": "support",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        806,
+        345,
+        153,
+        153
+      ],
+      "label": "location",
+      "confidence": 0.742011946439743,
+      "service_code": null,
+      "canonical_name": "location",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        691,
+        0,
+        153,
+        153
+      ],
+      "label": "waf",
+      "confidence": 0.7415717786550522,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        230,
+        576,
+        153,
+        153
+      ],
+      "label": "location",
+      "confidence": 0.7414291644096374,
+      "service_code": null,
+      "canonical_name": "location",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        576,
+        345,
+        153,
+        153
+      ],
+      "label": "waf",
+      "confidence": 0.7410892617702483,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1287,
+        115,
+        42,
+        43
+      ],
+      "label": "backup",
+      "confidence": 0.740908066034317,
+      "service_code": null,
+      "canonical_name": "backup",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        230,
+        345,
+        153,
+        153
+      ],
+      "label": "iot",
+      "confidence": 0.7403752851486205,
+      "service_code": null,
+      "canonical_name": "iot",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        0,
+        345,
+        153,
+        153
+      ],
+      "label": "waf",
+      "confidence": 0.7402356499433518,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1612,
+        0,
+        153,
+        153
+      ],
+      "label": "location",
+      "confidence": 0.7401234102249145,
+      "service_code": null,
+      "canonical_name": "location",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        921,
+        460,
+        153,
+        153
+      ],
+      "label": "greengrass",
+      "confidence": 0.7397528117895126,
+      "service_code": null,
+      "canonical_name": "greengrass",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        399,
+        606,
+        73,
+        120
+      ],
+      "label": "sagemaker",
+      "confidence": 0.7389453750848769,
+      "service_code": null,
+      "canonical_name": "sagemaker",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1497,
+        0,
+        153,
+        153
+      ],
+      "label": "greengrass",
+      "confidence": 0.7386885350942611,
+      "service_code": null,
+      "canonical_name": "greengrass",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        691,
+        230,
+        153,
+        153
+      ],
+      "label": "waf",
+      "confidence": 0.7378799301385879,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        460,
+        921,
+        153,
+        153
+      ],
+      "label": "waf",
+      "confidence": 0.7377761894464492,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1728,
+        0,
+        153,
+        153
+      ],
+      "label": "location",
+      "confidence": 0.7377347457408905,
+      "service_code": null,
+      "canonical_name": "location",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        344,
+        824,
+        118,
+        16
+      ],
+      "label": "waf",
+      "confidence": 0.7375656414031981,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        694,
+        414,
+        43,
+        45
+      ],
+      "label": "iot",
+      "confidence": 0.7374253636598587,
+      "service_code": null,
+      "canonical_name": "iot",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        516,
+        140,
+        199,
+        16
+      ],
+      "label": "waf",
+      "confidence": 0.7371653693914413,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        921,
+        806,
+        153,
+        153
+      ],
+      "label": "waf",
+      "confidence": 0.7369921469688415,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        921,
+        576,
+        153,
+        153
+      ],
+      "label": "waf",
+      "confidence": 0.7369892847537993,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        241,
+        392,
+        328,
+        157
+      ],
+      "label": "opensearch",
+      "confidence": 0.7367209374904632,
+      "service_code": null,
+      "canonical_name": "opensearch",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        576,
+        0,
+        153,
+        153
+      ],
+      "label": "waf",
+      "confidence": 0.7362457221746443,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1172,
+        486,
+        120,
+        16
+      ],
+      "label": "waf",
+      "confidence": 0.7361957210302352,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        576,
+        230,
+        153,
+        153
+      ],
+      "label": "waf",
+      "confidence": 0.7361317300796508,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1210,
+        583,
+        40,
+        40
+      ],
+      "label": "waf",
+      "confidence": 0.736113154888153,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1497,
+        921,
+        153,
+        153
+      ],
+      "label": "location",
+      "confidence": 0.7359730815887451,
+      "service_code": null,
+      "canonical_name": "location",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1032,
+        252,
+        741,
+        18
+      ],
+      "label": "waf",
+      "confidence": 0.7355825352668761,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        345,
+        0,
+        153,
+        153
+      ],
+      "label": "quicksight",
+      "confidence": 0.7353829395771025,
+      "service_code": null,
+      "canonical_name": "quicksight",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        488,
+        417,
+        40,
+        39
+      ],
+      "label": "iot",
+      "confidence": 0.7352393615245818,
+      "service_code": null,
+      "canonical_name": "iot",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        594,
+        416,
+        39,
+        39
+      ],
+      "label": "backup",
+      "confidence": 0.7350741708278656,
+      "service_code": null,
+      "canonical_name": "backup",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1102,
+        222,
+        39,
+        39
+      ],
+      "label": "backup",
+      "confidence": 0.7342820674180983,
+      "service_code": null,
+      "canonical_name": "backup",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        691,
+        345,
+        153,
+        153
+      ],
+      "label": "cloudwatch",
+      "confidence": 0.7340661162137985,
+      "service_code": null,
+      "canonical_name": "cloudwatch",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1092,
+        852,
+        106,
+        30
+      ],
+      "label": "waf",
+      "confidence": 0.7336571991443633,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1382,
+        691,
+        153,
+        153
+      ],
+      "label": "waf",
+      "confidence": 0.7334406638145446,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        806,
+        115,
+        153,
+        153
+      ],
+      "label": "location",
+      "confidence": 0.7333638513088225,
+      "service_code": null,
+      "canonical_name": "location",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1275,
+        852,
+        104,
+        31
+      ],
+      "label": "waf",
+      "confidence": 0.733301904797554,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        0,
+        460,
+        153,
+        153
+      ],
+      "label": "account",
+      "confidence": 0.7332438135147095,
+      "service_code": null,
+      "canonical_name": "account",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1497,
+        345,
+        153,
+        153
+      ],
+      "label": "textract",
+      "confidence": 0.7330311334133148,
+      "service_code": null,
+      "canonical_name": "textract",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        601,
+        248,
+        43,
+        43
+      ],
+      "label": "ec2",
+      "confidence": 0.7328891617059707,
+      "service_code": null,
+      "canonical_name": "ec2",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1382,
+        0,
+        153,
+        153
+      ],
+      "label": "greengrass",
+      "confidence": 0.732836502790451,
+      "service_code": null,
+      "canonical_name": "greengrass",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1210,
+        444,
+        42,
+        42
+      ],
+      "label": "dynamodb",
+      "confidence": 0.7327226567268371,
+      "service_code": null,
+      "canonical_name": "dynamodb",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1173,
+        626,
+        118,
+        16
+      ],
+      "label": "waf",
+      "confidence": 0.7320205962657929,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1641,
+        919,
+        54,
+        30
+      ],
+      "label": "elasticbeanstalk",
+      "confidence": 0.7318958628177642,
+      "service_code": null,
+      "canonical_name": "elasticbeanstalk",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1497,
+        691,
+        153,
+        153
+      ],
+      "label": "iot",
+      "confidence": 0.731123729944229,
+      "service_code": null,
+      "canonical_name": "iot",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        384,
+        775,
+        42,
+        42
+      ],
+      "label": "ec2",
+      "confidence": 0.7307129436731339,
+      "service_code": null,
+      "canonical_name": "ec2",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        230,
+        460,
+        153,
+        153
+      ],
+      "label": "support",
+      "confidence": 0.7301263940334319,
+      "service_code": null,
+      "canonical_name": "support",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        230,
+        921,
+        153,
+        153
+      ],
+      "label": "location",
+      "confidence": 0.7301061248779297,
+      "service_code": null,
+      "canonical_name": "location",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        806,
+        921,
+        153,
+        153
+      ],
+      "label": "waf",
+      "confidence": 0.7300381618738174,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1255,
+        156,
+        99,
+        18
+      ],
+      "label": "location",
+      "confidence": 0.7296630364656447,
+      "service_code": null,
+      "canonical_name": "location",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        601,
+        102,
+        42,
+        43
+      ],
+      "label": "dynamodb",
+      "confidence": 0.7291068905591964,
+      "service_code": null,
+      "canonical_name": "dynamodb",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        345,
+        921,
+        153,
+        153
+      ],
+      "label": "waf",
+      "confidence": 0.7291032689809799,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1267,
+        0,
+        153,
+        153
+      ],
+      "label": "greengrass",
+      "confidence": 0.7290731281042098,
+      "service_code": null,
+      "canonical_name": "greengrass",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        874,
+        920,
+        43,
+        42
+      ],
+      "label": "backup",
+      "confidence": 0.7290329110622404,
+      "service_code": null,
+      "canonical_name": "backup",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        921,
+        230,
+        153,
+        153
+      ],
+      "label": "support",
+      "confidence": 0.7289662623405456,
+      "service_code": null,
+      "canonical_name": "support",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1152,
+        345,
+        153,
+        153
+      ],
+      "label": "location",
+      "confidence": 0.7285282266139983,
+      "service_code": null,
+      "canonical_name": "location",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        921,
+        691,
+        153,
+        153
+      ],
+      "label": "greengrass",
+      "confidence": 0.7277421104907988,
+      "service_code": null,
+      "canonical_name": "greengrass",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1443,
+        156,
+        96,
+        15
+      ],
+      "label": "location",
+      "confidence": 0.727680251598358,
+      "service_code": null,
+      "canonical_name": "location",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1382,
+        460,
+        153,
+        153
+      ],
+      "label": "greengrass",
+      "confidence": 0.7274489963054657,
+      "service_code": null,
+      "canonical_name": "greengrass",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1474,
+        116,
+        39,
+        39
+      ],
+      "label": "backup",
+      "confidence": 0.7273430943489074,
+      "service_code": null,
+      "canonical_name": "backup",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        230,
+        0,
+        153,
+        153
+      ],
+      "label": "iot",
+      "confidence": 0.7267090260982513,
+      "service_code": null,
+      "canonical_name": "iot",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1686,
+        676,
+        42,
+        39
+      ],
+      "label": "backup",
+      "confidence": 0.7265808397531509,
+      "service_code": null,
+      "canonical_name": "backup",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1614,
+        633,
+        76,
+        19
+      ],
+      "label": "cloudwatch",
+      "confidence": 0.7263166689872742,
+      "service_code": null,
+      "canonical_name": "cloudwatch",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        806,
+        806,
+        153,
+        153
+      ],
+      "label": "waf",
+      "confidence": 0.7259555625915527,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1382,
+        806,
+        153,
+        153
+      ],
+      "label": "ec2",
+      "confidence": 0.7258732885122299,
+      "service_code": null,
+      "canonical_name": "ec2",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1612,
+        345,
+        153,
+        153
+      ],
+      "label": "location",
+      "confidence": 0.7255438417196274,
+      "service_code": null,
+      "canonical_name": "location",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1102,
+        115,
+        40,
+        40
+      ],
+      "label": "backup",
+      "confidence": 0.7255019891262053,
+      "service_code": null,
+      "canonical_name": "backup",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        921,
+        921,
+        153,
+        153
+      ],
+      "label": "iot",
+      "confidence": 0.7250436550378798,
+      "service_code": null,
+      "canonical_name": "iot",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        115,
+        460,
+        153,
+        153
+      ],
+      "label": "iot",
+      "confidence": 0.7248073470592498,
+      "service_code": null,
+      "canonical_name": "iot",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1497,
+        806,
+        153,
+        153
+      ],
+      "label": "iot",
+      "confidence": 0.7243870103359222,
+      "service_code": null,
+      "canonical_name": "iot",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        876,
+        729,
+        39,
+        39
+      ],
+      "label": "backup",
+      "confidence": 0.7236029094457626,
+      "service_code": null,
+      "canonical_name": "backup",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1728,
+        576,
+        153,
+        153
+      ],
+      "label": "greengrass",
+      "confidence": 0.7235984408855438,
+      "service_code": null,
+      "canonical_name": "greengrass",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        463,
+        193,
+        91,
+        18
+      ],
+      "label": "cloudwatch",
+      "confidence": 0.7224659383296965,
+      "service_code": null,
+      "canonical_name": "cloudwatch",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1323,
+        681,
+        100,
+        19
+      ],
+      "label": "rekognition",
+      "confidence": 0.7218174129724502,
+      "service_code": null,
+      "canonical_name": "rekognition",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        576,
+        115,
+        153,
+        153
+      ],
+      "label": "waf",
+      "confidence": 0.7216657155752182,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        460,
+        691,
+        153,
+        153
+      ],
+      "label": "outposts",
+      "confidence": 0.7206046223640441,
+      "service_code": null,
+      "canonical_name": "outposts",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        752,
+        604,
+        297,
+        369
+      ],
+      "label": "opensearch",
+      "confidence": 0.7200158822536468,
+      "service_code": null,
+      "canonical_name": "opensearch",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        230,
+        691,
+        153,
+        153
+      ],
+      "label": "waf",
+      "confidence": 0.7194732588529587,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        806,
+        691,
+        153,
+        153
+      ],
+      "label": "waf",
+      "confidence": 0.7191906881332397,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1071,
+        156,
+        98,
+        16
+      ],
+      "label": "location",
+      "confidence": 0.7190756154060363,
+      "service_code": null,
+      "canonical_name": "location",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1108,
+        807,
+        39,
+        40
+      ],
+      "label": "textract",
+      "confidence": 0.7186104762554169,
+      "service_code": null,
+      "canonical_name": "textract",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        115,
+        0,
+        153,
+        153
+      ],
+      "label": "iot",
+      "confidence": 0.7174052208662032,
+      "service_code": null,
+      "canonical_name": "iot",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1418,
+        856,
+        39,
+        39
+      ],
+      "label": "ec2",
+      "confidence": 0.7173547816276549,
+      "service_code": null,
+      "canonical_name": "ec2",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        460,
+        576,
+        153,
+        153
+      ],
+      "label": "location",
+      "confidence": 0.7172822916507721,
+      "service_code": null,
+      "canonical_name": "location",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        691,
+        460,
+        153,
+        153
+      ],
+      "label": "iot",
+      "confidence": 0.7169149351119994,
+      "service_code": null,
+      "canonical_name": "iot",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        345,
+        576,
+        153,
+        153
+      ],
+      "label": "location",
+      "confidence": 0.7158615523576737,
+      "service_code": null,
+      "canonical_name": "location",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1497,
+        230,
+        153,
+        153
+      ],
+      "label": "textract",
+      "confidence": 0.7147920477390288,
+      "service_code": null,
+      "canonical_name": "textract",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1152,
+        921,
+        153,
+        153
+      ],
+      "label": "iot",
+      "confidence": 0.7134583723545074,
+      "service_code": null,
+      "canonical_name": "iot",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        458,
+        897,
+        92,
+        19
+      ],
+      "label": "textract",
+      "confidence": 0.7134311521053314,
+      "service_code": null,
+      "canonical_name": "textract",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        576,
+        806,
+        153,
+        153
+      ],
+      "label": "cloudwatch",
+      "confidence": 0.7133789312839507,
+      "service_code": null,
+      "canonical_name": "cloudwatch",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        691,
+        921,
+        153,
+        153
+      ],
+      "label": "iot",
+      "confidence": 0.7126016354560851,
+      "service_code": null,
+      "canonical_name": "iot",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1680,
+        232,
+        174,
+        15
+      ],
+      "label": "discovery",
+      "confidence": 0.7124749386310577,
+      "service_code": null,
+      "canonical_name": "discovery",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        230,
+        806,
+        153,
+        153
+      ],
+      "label": "iot",
+      "confidence": 0.7120962500572203,
+      "service_code": null,
+      "canonical_name": "iot",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1267,
+        691,
+        153,
+        153
+      ],
+      "label": "support",
+      "confidence": 0.7116542714834213,
+      "service_code": null,
+      "canonical_name": "support",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        460,
+        345,
+        153,
+        153
+      ],
+      "label": "iot",
+      "confidence": 0.7103499484062195,
+      "service_code": null,
+      "canonical_name": "iot",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1036,
+        0,
+        153,
+        153
+      ],
+      "label": "waf",
+      "confidence": 0.7101756453514099,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1152,
+        806,
+        153,
+        153
+      ],
+      "label": "workspaces",
+      "confidence": 0.7100589954853058,
+      "service_code": null,
+      "canonical_name": "workspaces",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1152,
+        691,
+        153,
+        153
+      ],
+      "label": "waf",
+      "confidence": 0.7099747645854949,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1065,
+        424,
+        99,
+        19
+      ],
+      "label": "waf",
+      "confidence": 0.7099546122550964,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        691,
+        576,
+        153,
+        153
+      ],
+      "label": "ec2",
+      "confidence": 0.7096685659885406,
+      "service_code": null,
+      "canonical_name": "ec2",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1612,
+        230,
+        153,
+        153
+      ],
+      "label": "location",
+      "confidence": 0.7091226422786712,
+      "service_code": null,
+      "canonical_name": "location",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1152,
+        115,
+        153,
+        153
+      ],
+      "label": "opensearch",
+      "confidence": 0.7087884640693665,
+      "service_code": null,
+      "canonical_name": "opensearch",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1267,
+        576,
+        153,
+        153
+      ],
+      "label": "cloudwatch",
+      "confidence": 0.7082555371522903,
+      "service_code": null,
+      "canonical_name": "cloudwatch",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        961,
+        639,
+        22,
+        282
+      ],
+      "label": "waf",
+      "confidence": 0.708120458126068,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        961,
+        495,
+        22,
+        140
+      ],
+      "label": "waf",
+      "confidence": 0.708120458126068,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        0,
+        0,
+        153,
+        153
+      ],
+      "label": "waf",
+      "confidence": 0.708120458126068,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        0,
+        115,
+        153,
+        153
+      ],
+      "label": "waf",
+      "confidence": 0.708120458126068,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        230,
+        115,
+        153,
+        153
+      ],
+      "label": "waf",
+      "confidence": 0.708120458126068,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        0,
+        230,
+        153,
+        153
+      ],
+      "label": "waf",
+      "confidence": 0.708120458126068,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        230,
+        230,
+        153,
+        153
+      ],
+      "label": "waf",
+      "confidence": 0.708120458126068,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        0,
+        576,
+        153,
+        153
+      ],
+      "label": "waf",
+      "confidence": 0.708120458126068,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        0,
+        691,
+        153,
+        153
+      ],
+      "label": "waf",
+      "confidence": 0.708120458126068,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        0,
+        806,
+        153,
+        153
+      ],
+      "label": "waf",
+      "confidence": 0.708120458126068,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        0,
+        921,
+        153,
+        153
+      ],
+      "label": "waf",
+      "confidence": 0.708120458126068,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        345,
+        345,
+        153,
+        153
+      ],
+      "label": "iot",
+      "confidence": 0.7079165399074554,
+      "service_code": null,
+      "canonical_name": "iot",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        961,
+        924,
+        547,
+        129
+      ],
+      "label": "waf",
+      "confidence": 0.7059342515468597,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        345,
+        691,
+        153,
+        153
+      ],
+      "label": "waf",
+      "confidence": 0.7056318789720535,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1728,
+        230,
+        153,
+        153
+      ],
+      "label": "location",
+      "confidence": 0.7055579286813736,
+      "service_code": null,
+      "canonical_name": "location",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1267,
+        921,
+        153,
+        153
+      ],
+      "label": "workspaces",
+      "confidence": 0.7052828347682952,
+      "service_code": null,
+      "canonical_name": "workspaces",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1020,
+        92,
+        98,
+        19
+      ],
+      "label": "textract",
+      "confidence": 0.7052036273479461,
+      "service_code": null,
+      "canonical_name": "textract",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        718,
+        577,
+        73,
+        19
+      ],
+      "label": "iot",
+      "confidence": 0.7045756632089615,
+      "service_code": null,
+      "canonical_name": "iot",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        921,
+        0,
+        153,
+        153
+      ],
+      "label": "waf",
+      "confidence": 0.7043820548057556,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1036,
+        921,
+        153,
+        153
+      ],
+      "label": "iot",
+      "confidence": 0.704291398525238,
+      "service_code": null,
+      "canonical_name": "iot",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        345,
+        230,
+        153,
+        153
+      ],
+      "label": "waf",
+      "confidence": 0.7033911150693893,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1036,
+        576,
+        153,
+        153
+      ],
+      "label": "cloudwatch",
+      "confidence": 0.7027314913272857,
+      "service_code": null,
+      "canonical_name": "cloudwatch",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        345,
+        460,
+        153,
+        153
+      ],
+      "label": "iot",
+      "confidence": 0.702643814086914,
+      "service_code": null,
+      "canonical_name": "iot",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1267,
+        230,
+        153,
+        153
+      ],
+      "label": "waf",
+      "confidence": 0.7024771922826767,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1612,
+        806,
+        153,
+        153
+      ],
+      "label": "braket",
+      "confidence": 0.7022974568605422,
+      "service_code": null,
+      "canonical_name": "braket",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1382,
+        230,
+        153,
+        153
+      ],
+      "label": "sagemaker",
+      "confidence": 0.7011969935894012,
+      "service_code": null,
+      "canonical_name": "sagemaker",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        460,
+        460,
+        153,
+        153
+      ],
+      "label": "support",
+      "confidence": 0.7011651003360748,
+      "service_code": null,
+      "canonical_name": "support",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1152,
+        576,
+        153,
+        153
+      ],
+      "label": "iot",
+      "confidence": 0.7004744887351989,
+      "service_code": null,
+      "canonical_name": "iot",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1267,
+        460,
+        153,
+        153
+      ],
+      "label": "lakeformation",
+      "confidence": 0.700465312554286,
+      "service_code": null,
+      "canonical_name": "lakeformation",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1497,
+        460,
+        153,
+        153
+      ],
+      "label": "textract",
+      "confidence": 0.6985993582010268,
+      "service_code": null,
+      "canonical_name": "textract",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        345,
+        806,
+        153,
+        153
+      ],
+      "label": "iot",
+      "confidence": 0.6984841978549957,
+      "service_code": null,
+      "canonical_name": "iot",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1561,
+        496,
+        99,
+        19
+      ],
+      "label": "discovery",
+      "confidence": 0.6982552498579024,
+      "service_code": null,
+      "canonical_name": "discovery",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1267,
+        806,
+        153,
+        153
+      ],
+      "label": "workspaces",
+      "confidence": 0.6982503432035445,
+      "service_code": null,
+      "canonical_name": "workspaces",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1036,
+        806,
+        153,
+        153
+      ],
+      "label": "braket",
+      "confidence": 0.6979706931114196,
+      "service_code": null,
+      "canonical_name": "braket",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1382,
+        921,
+        153,
+        153
+      ],
+      "label": "waf",
+      "confidence": 0.6979337471723557,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1497,
+        576,
+        153,
+        153
+      ],
+      "label": "iot",
+      "confidence": 0.6970283526182175,
+      "service_code": null,
+      "canonical_name": "iot",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1612,
+        460,
+        153,
+        153
+      ],
+      "label": "outposts",
+      "confidence": 0.6969733572006225,
+      "service_code": null,
+      "canonical_name": "outposts",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        691,
+        806,
+        153,
+        153
+      ],
+      "label": "accessanalyzer",
+      "confidence": 0.6967363557645252,
+      "service_code": null,
+      "canonical_name": "accessanalyzer",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1612,
+        921,
+        153,
+        153
+      ],
+      "label": "storagegateway",
+      "confidence": 0.6962750134297779,
+      "service_code": null,
+      "canonical_name": "storagegateway",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1036,
+        345,
+        153,
+        153
+      ],
+      "label": "iot",
+      "confidence": 0.6959357750415802,
+      "service_code": null,
+      "canonical_name": "iot",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        460,
+        230,
+        153,
+        153
+      ],
+      "label": "robomaker",
+      "confidence": 0.6957332295179367,
+      "service_code": null,
+      "canonical_name": "robomaker",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        352,
+        744,
+        99,
+        20
+      ],
+      "label": "discovery",
+      "confidence": 0.694653035402298,
+      "service_code": null,
+      "canonical_name": "discovery",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        756,
+        160,
+        244,
+        216
+      ],
+      "label": "connect",
+      "confidence": 0.6939932656288147,
+      "service_code": null,
+      "canonical_name": "connect",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1612,
+        691,
+        153,
+        153
+      ],
+      "label": "workspaces",
+      "confidence": 0.6938429117202758,
+      "service_code": null,
+      "canonical_name": "workspaces",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1036,
+        230,
+        153,
+        153
+      ],
+      "label": "iot",
+      "confidence": 0.693326398730278,
+      "service_code": null,
+      "canonical_name": "iot",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1152,
+        230,
+        153,
+        153
+      ],
+      "label": "waf",
+      "confidence": 0.6913309383392334,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1152,
+        460,
+        153,
+        153
+      ],
+      "label": "opensearch",
+      "confidence": 0.6893133980035782,
+      "service_code": null,
+      "canonical_name": "opensearch",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1497,
+        115,
+        153,
+        153
+      ],
+      "label": "backup",
+      "confidence": 0.6869140148162842,
+      "service_code": null,
+      "canonical_name": "backup",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1036,
+        460,
+        153,
+        153
+      ],
+      "label": "iot",
+      "confidence": 0.6862330704927444,
+      "service_code": null,
+      "canonical_name": "iot",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        260,
+        744,
+        69,
+        20
+      ],
+      "label": "textract",
+      "confidence": 0.6858438676595687,
+      "service_code": null,
+      "canonical_name": "textract",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        460,
+        806,
+        153,
+        153
+      ],
+      "label": "support",
+      "confidence": 0.6850027853250503,
+      "service_code": null,
+      "canonical_name": "support",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1382,
+        115,
+        153,
+        153
+      ],
+      "label": "transfer",
+      "confidence": 0.6849937605857849,
+      "service_code": null,
+      "canonical_name": "transfer",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        576,
+        460,
+        153,
+        153
+      ],
+      "label": "waf",
+      "confidence": 0.6848344403505324,
+      "service_code": null,
+      "canonical_name": "waf",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        460,
+        115,
+        153,
+        153
+      ],
+      "label": "redshift",
+      "confidence": 0.6829728031158446,
+      "service_code": null,
+      "canonical_name": "redshift",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        345,
+        115,
+        153,
+        153
+      ],
+      "label": "lakeformation",
+      "confidence": 0.6822336452740888,
+      "service_code": null,
+      "canonical_name": "lakeformation",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        921,
+        115,
+        153,
+        153
+      ],
+      "label": "lambda",
+      "confidence": 0.6810170340538024,
+      "service_code": null,
+      "canonical_name": "lambda",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1036,
+        115,
+        153,
+        153
+      ],
+      "label": "ec2",
+      "confidence": 0.6781833243370057,
+      "service_code": null,
+      "canonical_name": "ec2",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        691,
+        115,
+        153,
+        153
+      ],
+      "label": "iot",
+      "confidence": 0.6778895092010497,
+      "service_code": null,
+      "canonical_name": "iot",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1728,
+        115,
+        153,
+        153
+      ],
+      "label": "transfer",
+      "confidence": 0.6774464499950409,
+      "service_code": null,
+      "canonical_name": "transfer",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1612,
+        115,
+        153,
+        153
+      ],
+      "label": "storagegateway",
+      "confidence": 0.6725461993047168,
+      "service_code": null,
+      "canonical_name": "storagegateway",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1036,
+        691,
+        153,
+        153
+      ],
+      "label": "inspector",
+      "confidence": 0.6675463110208512,
+      "service_code": null,
+      "canonical_name": "inspector",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1612,
+        576,
+        153,
+        153
+      ],
+      "label": "transfer",
+      "confidence": 0.66124835729599,
+      "service_code": null,
+      "canonical_name": "transfer",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    },
+    {
+      "bbox": [
+        1267,
+        115,
+        153,
+        153
+      ],
+      "label": "s3tables",
+      "confidence": 0.6451742875576019,
+      "service_code": null,
+      "canonical_name": "s3tables",
+      "cloud_provider": "aws",
+      "status": "detected",
+      "metadata": {}
+    }
+  ],
+  "processing_time": 124.31123876571655,
+  "cloud_provider": "aws",
+  "analysis_method": "cv",
+  "timestamp": "2025-08-18T00:17:02.858129",
+  "metadata": {},
+  "success": true,
+  "errors": []
+}

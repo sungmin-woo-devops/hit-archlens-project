@@ -1,0 +1,38 @@
+[
+  {
+    "image_path": "/home/user/workspace/hit_archlens/aws_cv_clip/images/aws_diagram_sample_001.png",
+    "width": 1827,
+    "height": 1219,
+    "objects": []
+  },
+  {
+    "image_path": "/home/user/workspace/hit_archlens/aws_cv_clip/images/aws_diagram_sample_002.png",
+    "width": 1920,
+    "height": 1080,
+    "objects": []
+  },
+  {
+    "image_path": "/home/user/workspace/hit_archlens/aws_cv_clip/images/aws_diagram_sample_003.png",
+    "width": 860,
+    "height": 1116,
+    "objects": []
+  },
+  {
+    "image_path": "/home/user/workspace/hit_archlens/aws_cv_clip/images/aws_diagram_sample_004.png",
+    "width": 1024,
+    "height": 954,
+    "objects": []
+  },
+  {
+    "image_path": "/home/user/workspace/hit_archlens/aws_cv_clip/images/aws_diagram_sample_005.png",
+    "width": 1024,
+    "height": 942,
+    "objects": []
+  },
+  {
+    "image_path": "/home/user/workspace/hit_archlens/aws_cv_clip/images/cf3ed5f25c.png",
+    "width": 924,
+    "height": 607,
+    "objects": []
+  }
+]

@@ -1,0 +1,58 @@
+# AWS 다이어그램 오토라벨러 설정 파일
+
+# CLIP 모델 설정
+model:
+  clip_name: "ViT-B-32"
+  clip_pretrained: "openai"
+
+# 데이터 경로 설정
+data:
+  icons_dir: "data/aws_icons"
+  taxonomy_csv: "data/aws_taxonomy.csv"
+  images_dir: "data/diagrams"
+  output_dir: "output"
+
+# 객체 탐지 설정
+detect:
+  max_size: 1600          # 이미지 최대 크기
+  canny_low: 60           # Canny 엣지 검출 하한값
+  canny_high: 160         # Canny 엣지 검출 상한값
+  mser_delta: 5           # MSER 델타 값
+  min_area: 900           # 최소 객체 면적
+  max_area: 90000         # 최대 객체 면적
+  win: 128                # 슬라이딩 윈도우 크기
+  stride: 96              # 슬라이딩 윈도우 스트라이드
+  iou_nms: 0.45           # NMS IoU 임계값
+
+# 유사도 검색 설정
+retrieval:
+  topk: 5                 # 검색할 상위 k개 아이콘
+  orb_nfeatures: 500      # ORB 특징점 개수
+  score_clip_w: 0.6       # CLIP 점수 가중치
+  score_orb_w: 0.3        # ORB 점수 가중치
+  score_ocr_w: 0.1        # OCR 점수 가중치
+  accept_score: 0.5       # 수용 임계값
+
+# OCR 설정
+ocr:
+  enabled: true           # OCR 사용 여부
+  lang: ["en"]            # OCR 언어 리스트
+
+# 출력 설정
+output:
+  format: "json"          # 출력 형식 (json, yolo, labelstudio)
+  save_visualization: true # 시각화 결과 저장 여부
+  confidence_threshold: 0.3 # 시각화용 신뢰도 임계값
+
+# 성능 설정
+performance:
+  use_gpu: true           # GPU 사용 여부
+  batch_size: 1           # 배치 크기
+  num_workers: 4          # 워커 수
+  cache_embeddings: true  # 임베딩 캐싱 여부
+
+# 로깅 설정
+logging:
+  level: "INFO"           # 로그 레벨
+  save_logs: true         # 로그 파일 저장 여부
+  log_dir: "logs"         # 로그 디렉터리

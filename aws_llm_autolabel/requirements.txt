@@ -1,0 +1,26 @@
+# AWS LLM 오토라벨러 의존성
+
+# 핵심 라이브러리
+Pillow>=9.0.0
+numpy>=1.21.0
+opencv-python>=4.5.0
+tqdm>=4.62.0
+
+# 설정 및 데이터 처리
+PyYAML>=6.0
+pandas>=1.3.0
+
+# LLM API 클라이언트
+openai>=1.0.0
+requests>=2.28.0
+
+# 환경변수 관리
+python-dotenv>=0.19.0
+
+# 이미지 처리 (선택적)
+easyocr>=1.6.0
+
+# 개발 도구 (선택적)
+pytest>=7.0.0
+black>=22.0.0
+flake8>=4.0.0

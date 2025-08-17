@@ -1,0 +1,34 @@
+data:
+  images_dir: ./images
+  # icons_dir: ./icons           # 각 아이콘 PNG (가능하면 흰 배경/정중앙)
+  icons_zip: ../aws_icons_parser/Asset-Package_02072025.dee42cd0a6eaacc3da1ad9519579357fb546f803.zip
+  icons_mapping_csv: ../aws_icons_parser/aws_icons_mapping.csv
+  taxonomy_csv: ../aws_llm_autolabel/aws_resources_models.csv
+model:
+  clip_name: ViT-B-32           # open_clip 모델명 (경량/빠름)
+  clip_pretrained: laion2b_s34b_b79k
+detect:
+  # 후보 탐색 파라미터 (과하면 느림 → 정확도↑ / 줄이면 빠름)
+  max_size: 1600         # 긴 변 리사이즈 상한
+  canny_low: 60
+  canny_high: 160
+  mser_delta: 5
+  min_area: 900
+  max_area: 90000
+  win: 128               # 슬라이딩 윈도우 크기
+  stride: 96
+  iou_nms: 0.45
+retrieval:
+  topk: 5                # CLIP k-NN 후보 수
+  orb_refine: true       # ORB 정합 재채점
+  orb_nfeatures: 500
+  score_clip_w: 0.7      # 가중합: clip 0.7 + orb 0.3 + ocr 0.1
+  score_orb_w: 0.3
+  score_ocr_w: 0.1
+  accept_score: 0.35     # 최종 수락 임계값
+ocr:
+  enabled: true          # easyocr 설치되면 자동 켜짐
+  lang: ["en"]           # "S3", "EC2", "RDS" 등 약어 픽업 용
+output:
+  dir: ./out
+  format: labelstudio    # yolo | coco | labelstudio

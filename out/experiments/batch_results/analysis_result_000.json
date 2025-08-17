@@ -1,0 +1,13 @@
+{
+  "image_path": "images/cf3ed5f25c.png",
+  "width": 924,
+  "height": 607,
+  "detections": [],
+  "processing_time": 15.38214659690857,
+  "cloud_provider": "aws",
+  "analysis_method": "hybrid",
+  "timestamp": "2025-08-17T23:43:28.526819",
+  "metadata": {},
+  "success": true,
+  "errors": []
+}

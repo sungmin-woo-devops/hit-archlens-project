@@ -1,0 +1,17 @@
+--- Analysis Summary Report ---
+Timestamp: 2025-08-18T00:09:15.443138
+Cloud Provider: aws
+Analysis Method: cv
+
+Total Images Analyzed: 6
+Successful Analyses: 6
+Failed Analyses: 0
+Success Rate: 100.00%
+Total Detections: 970
+Average Detections per Image: 161.67
+Average Processing Time: 59.56 seconds
+Average Confidence: 0.710
+Average Normalization Success Rate: 0.00%
+
+Detailed Errors:
+- No errors reported.

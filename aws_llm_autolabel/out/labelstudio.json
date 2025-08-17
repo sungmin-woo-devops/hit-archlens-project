@@ -1,0 +1,62 @@
+[
+  {
+    "data": {
+      "image": "aws_diagram_sample_001.png"
+    },
+    "annotations": [
+      {
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "aws_diagram_sample_002.png"
+    },
+    "annotations": [
+      {
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "aws_diagram_sample_003.png"
+    },
+    "annotations": [
+      {
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "aws_diagram_sample_004.png"
+    },
+    "annotations": [
+      {
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "aws_diagram_sample_005.png"
+    },
+    "annotations": [
+      {
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "cf3ed5f25c.png"
+    },
+    "annotations": [
+      {
+        "result": []
+      }
+    ]
+  }
+]

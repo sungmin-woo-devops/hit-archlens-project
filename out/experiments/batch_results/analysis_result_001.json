@@ -1,0 +1,13 @@
+{
+  "image_path": "images/aws_diagram_sample_003.png",
+  "width": 860,
+  "height": 1116,
+  "detections": [],
+  "processing_time": 32.566975593566895,
+  "cloud_provider": "aws",
+  "analysis_method": "hybrid",
+  "timestamp": "2025-08-17T23:43:45.712265",
+  "metadata": {},
+  "success": true,
+  "errors": []
+}

@@ -1,0 +1,2 @@
+threshold,method,total_images,successful_images,failed_images,success_rate,total_detections,average_detections_per_image,average_processing_time,average_confidence,average_normalization_success_rate
+0.93,cv,6,6,0,1.0,974,162.33333333333334,75.32707699139912,0.7303575649366422,0.0

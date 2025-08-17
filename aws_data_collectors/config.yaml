@@ -1,0 +1,50 @@
+# AWS 데이터 수집기 설정 파일
+
+# 수집기 설정
+collectors:
+  # 아이콘 수집기 설정
+  icons:
+    zip_path: "Asset-Package.zip"  # AWS 아이콘 ZIP 파일 경로
+    output_dir: "data/icons"       # 출력 디렉터리
+    
+  # 제품 정보 수집기 설정
+  products:
+    api_url: "https://aws.amazon.com/api/dirs/items/search?item.directoryId=aws-products&sort_by=item.additionalFields.productNameLowercase&size=1000&language=en&item.locale=en_US"
+    output_dir: "data/products"    # 출력 디렉터리
+    timeout: 30                    # API 요청 타임아웃 (초)
+    
+  # 서비스 정보 수집기 설정
+  services:
+    output_dir: "data/services"    # 출력 디렉터리
+    max_depth: 8                   # 최대 탐색 깊이
+    id_keys_priority: ["Arn", "Id", "Name"]  # 식별자 우선순위
+
+# 내보내기 설정
+exporters:
+  formats: ["csv", "json"]         # 출력 형식
+  unified_output: "data/unified"   # 통합 출력 디렉터리
+
+# 성능 설정
+performance:
+  parallel_processing: true        # 병렬 처리 사용 여부
+  max_workers: 4                   # 최대 워커 수
+  batch_size: 100                  # 배치 크기
+
+# 로깅 설정
+logging:
+  level: "INFO"                    # 로그 레벨 (DEBUG, INFO, WARNING, ERROR)
+  save_logs: true                  # 로그 파일 저장 여부
+  log_dir: "logs"                  # 로그 디렉터리
+  log_format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+# 에러 처리 설정
+error_handling:
+  retry_count: 3                   # 재시도 횟수
+  retry_delay: 1                   # 재시도 간격 (초)
+  continue_on_error: true          # 에러 발생 시 계속 진행 여부
+
+# 데이터 검증 설정
+validation:
+  validate_required_fields: true   # 필수 필드 검증
+  validate_data_types: true        # 데이터 타입 검증
+  remove_duplicates: true          # 중복 제거
