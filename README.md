@@ -13,7 +13,7 @@
 
 ## 🏗️ 아키텍처
 
-```
+```bash
 Hit ArchLens/
 ├── core/                     # 핵심 프레임워크
 │   ├── auto_labeler/        # 오토라벨링 추상 클래스
@@ -30,7 +30,8 @@ Hit ArchLens/
 ├── out/                    # 모든 결과물 저장소
 └── images/                 # 테스트 이미지
 ```
-<code_block_to_apply_changes_from>
+
+```bash
 out/
 ├── aws/                      # AWS 데이터 수집 결과
 │   ├── icons/               # 아이콘 매핑 파일
